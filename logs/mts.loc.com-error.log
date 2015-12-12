@@ -1,0 +1,222 @@
+[Sat Dec 12 17:28:59.229297 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52596] PHP Fatal error:  Class 'Base' not found in D:\\www\\mts\\system\\Controller.php on line 5
+[Sat Dec 12 17:28:59.236297 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52596] PHP Stack trace:
+[Sat Dec 12 17:28:59.241298 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52596] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:28:59.241298 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52596] PHP   2. require_once() D:\\www\\mts\\bootstrap.php:8
+[Sat Dec 12 17:29:26.156837 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52603] PHP Fatal error:  Class 'Base' not found in D:\\www\\mts\\system\\Controller.php on line 5
+[Sat Dec 12 17:29:26.156837 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52603] PHP Stack trace:
+[Sat Dec 12 17:29:26.156837 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52603] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:29:26.156837 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52603] PHP   2. require_once() D:\\www\\mts\\bootstrap.php:8
+[Sat Dec 12 17:29:26.752871 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52604] PHP Fatal error:  Class 'Base' not found in D:\\www\\mts\\system\\Controller.php on line 5
+[Sat Dec 12 17:29:26.752871 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52604] PHP Stack trace:
+[Sat Dec 12 17:29:26.752871 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52604] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:29:26.752871 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52604] PHP   2. require_once() D:\\www\\mts\\bootstrap.php:8
+[Sat Dec 12 17:29:26.939882 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52606] PHP Fatal error:  Class 'Base' not found in D:\\www\\mts\\system\\Controller.php on line 5
+[Sat Dec 12 17:29:26.939882 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52606] PHP Stack trace:
+[Sat Dec 12 17:29:26.939882 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52606] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:29:26.939882 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52606] PHP   2. require_once() D:\\www\\mts\\bootstrap.php:8
+[Sat Dec 12 17:29:27.188896 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52607] PHP Fatal error:  Class 'Base' not found in D:\\www\\mts\\system\\Controller.php on line 5
+[Sat Dec 12 17:29:27.189896 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52607] PHP Stack trace:
+[Sat Dec 12 17:29:27.189896 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52607] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:29:27.189896 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52607] PHP   2. require_once() D:\\www\\mts\\bootstrap.php:8
+[Sat Dec 12 17:29:27.319904 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52608] PHP Fatal error:  Class 'Base' not found in D:\\www\\mts\\system\\Controller.php on line 5
+[Sat Dec 12 17:29:27.319904 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52608] PHP Stack trace:
+[Sat Dec 12 17:29:27.319904 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52608] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:29:27.319904 2015] [:error] [pid 640:tid 776] [client 127.0.0.1:52608] PHP   2. require_once() D:\\www\\mts\\bootstrap.php:8
+[Sat Dec 12 17:29:45.721956 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52613] PHP Fatal error:  Class 'Base' not found in D:\\www\\mts\\system\\Controller.php on line 5
+[Sat Dec 12 17:29:45.721956 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52613] PHP Stack trace:
+[Sat Dec 12 17:29:45.721956 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52613] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:29:45.721956 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52613] PHP   2. require_once() D:\\www\\mts\\bootstrap.php:8
+[Sat Dec 12 17:30:17.294762 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52627] PHP Notice:  Undefined property: MainController::$_controller in D:\\www\\mts\\application\\controllers\\MainController.php on line 13
+[Sat Dec 12 17:30:17.294762 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52627] PHP Stack trace:
+[Sat Dec 12 17:30:17.294762 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52627] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:30:17.294762 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52627] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sat Dec 12 17:30:17.294762 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52627] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:30:17.294762 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52627] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:30:17.294762 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52627] PHP Fatal error:  Call to a member function setPage() on null in D:\\www\\mts\\application\\controllers\\MainController.php on line 13
+[Sat Dec 12 17:30:17.294762 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52627] PHP Stack trace:
+[Sat Dec 12 17:30:17.294762 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52627] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:30:17.294762 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52627] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sat Dec 12 17:30:17.294762 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52627] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:30:17.294762 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52627] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:30:56.167985 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52636] PHP Notice:  Undefined property: MainController::$_controller in D:\\www\\mts\\application\\controllers\\MainController.php on line 13
+[Sat Dec 12 17:30:56.167985 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52636] PHP Stack trace:
+[Sat Dec 12 17:30:56.167985 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52636] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:30:56.167985 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52636] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sat Dec 12 17:30:56.167985 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52636] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:30:56.167985 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52636] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:30:56.167985 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52636] PHP Fatal error:  Call to a member function setPage() on null in D:\\www\\mts\\application\\controllers\\MainController.php on line 13
+[Sat Dec 12 17:30:56.167985 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52636] PHP Stack trace:
+[Sat Dec 12 17:30:56.167985 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52636] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:30:56.167985 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52636] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sat Dec 12 17:30:56.167985 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52636] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:30:56.167985 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52636] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:09.985776 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52638] PHP Notice:  Undefined property: MainController::$_controller in D:\\www\\mts\\application\\controllers\\MainController.php on line 13
+[Sat Dec 12 17:31:09.986776 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52638] PHP Stack trace:
+[Sat Dec 12 17:31:09.986776 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52638] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:31:09.986776 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52638] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sat Dec 12 17:31:09.986776 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52638] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:09.986776 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52638] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:09.986776 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52638] PHP Fatal error:  Call to a member function setPage() on null in D:\\www\\mts\\application\\controllers\\MainController.php on line 13
+[Sat Dec 12 17:31:09.986776 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52638] PHP Stack trace:
+[Sat Dec 12 17:31:09.986776 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52638] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:31:09.986776 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52638] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sat Dec 12 17:31:09.986776 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52638] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:09.986776 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52638] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:20.691388 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52641] PHP Notice:  Undefined property: MainController::$_controller in D:\\www\\mts\\application\\controllers\\MainController.php on line 13
+[Sat Dec 12 17:31:20.691388 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52641] PHP Stack trace:
+[Sat Dec 12 17:31:20.691388 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52641] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:31:20.691388 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52641] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sat Dec 12 17:31:20.691388 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52641] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:20.691388 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52641] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:20.691388 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52641] PHP Fatal error:  Call to a member function setPage() on null in D:\\www\\mts\\application\\controllers\\MainController.php on line 13
+[Sat Dec 12 17:31:20.691388 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52641] PHP Stack trace:
+[Sat Dec 12 17:31:20.691388 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52641] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:31:20.691388 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52641] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sat Dec 12 17:31:20.691388 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52641] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:20.693388 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52641] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:21.471433 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52642] PHP Notice:  Undefined property: MainController::$_controller in D:\\www\\mts\\application\\controllers\\MainController.php on line 13
+[Sat Dec 12 17:31:21.471433 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52642] PHP Stack trace:
+[Sat Dec 12 17:31:21.471433 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52642] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:31:21.472433 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52642] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sat Dec 12 17:31:21.472433 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52642] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:21.472433 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52642] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:21.472433 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52642] PHP Fatal error:  Call to a member function setPage() on null in D:\\www\\mts\\application\\controllers\\MainController.php on line 13
+[Sat Dec 12 17:31:21.472433 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52642] PHP Stack trace:
+[Sat Dec 12 17:31:21.472433 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52642] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:31:21.472433 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52642] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sat Dec 12 17:31:21.472433 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52642] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:21.472433 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52642] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:21.865455 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52643] PHP Notice:  Undefined property: MainController::$_controller in D:\\www\\mts\\application\\controllers\\MainController.php on line 13
+[Sat Dec 12 17:31:21.865455 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52643] PHP Stack trace:
+[Sat Dec 12 17:31:21.865455 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52643] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:31:21.865455 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52643] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sat Dec 12 17:31:21.865455 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52643] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:21.865455 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52643] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:21.865455 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52643] PHP Fatal error:  Call to a member function setPage() on null in D:\\www\\mts\\application\\controllers\\MainController.php on line 13
+[Sat Dec 12 17:31:21.865455 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52643] PHP Stack trace:
+[Sat Dec 12 17:31:21.865455 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52643] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:31:21.865455 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52643] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sat Dec 12 17:31:21.865455 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52643] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:21.865455 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52643] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:22.067467 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52644] PHP Notice:  Undefined property: MainController::$_controller in D:\\www\\mts\\application\\controllers\\MainController.php on line 13
+[Sat Dec 12 17:31:22.067467 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52644] PHP Stack trace:
+[Sat Dec 12 17:31:22.067467 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52644] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:31:22.067467 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52644] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sat Dec 12 17:31:22.067467 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52644] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:22.067467 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52644] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:22.067467 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52644] PHP Fatal error:  Call to a member function setPage() on null in D:\\www\\mts\\application\\controllers\\MainController.php on line 13
+[Sat Dec 12 17:31:22.067467 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52644] PHP Stack trace:
+[Sat Dec 12 17:31:22.068467 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52644] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:31:22.068467 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52644] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sat Dec 12 17:31:22.068467 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52644] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:22.068467 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52644] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:22.176473 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52645] PHP Notice:  Undefined property: MainController::$_controller in D:\\www\\mts\\application\\controllers\\MainController.php on line 13
+[Sat Dec 12 17:31:22.176473 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52645] PHP Stack trace:
+[Sat Dec 12 17:31:22.176473 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52645] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:31:22.176473 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52645] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sat Dec 12 17:31:22.176473 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52645] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:22.176473 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52645] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:22.176473 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52645] PHP Fatal error:  Call to a member function setPage() on null in D:\\www\\mts\\application\\controllers\\MainController.php on line 13
+[Sat Dec 12 17:31:22.176473 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52645] PHP Stack trace:
+[Sat Dec 12 17:31:22.176473 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52645] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:31:22.176473 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52645] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sat Dec 12 17:31:22.176473 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52645] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:22.176473 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52645] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:34.438174 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52648] PHP Notice:  Undefined property: MainController::$_controller in D:\\www\\mts\\application\\controllers\\MainController.php on line 13
+[Sat Dec 12 17:31:34.438174 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52648] PHP Stack trace:
+[Sat Dec 12 17:31:34.438174 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52648] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:31:34.438174 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52648] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sat Dec 12 17:31:34.438174 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52648] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:34.438174 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52648] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:34.438174 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52648] PHP Fatal error:  Call to a member function setPage() on null in D:\\www\\mts\\application\\controllers\\MainController.php on line 13
+[Sat Dec 12 17:31:34.438174 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52648] PHP Stack trace:
+[Sat Dec 12 17:31:34.438174 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52648] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:31:34.438174 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52648] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sat Dec 12 17:31:34.438174 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52648] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:31:34.438174 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52648] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:33:06.356432 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52723] PHP Notice:  Undefined property: MainController::$_controller in D:\\www\\mts\\application\\controllers\\MainController.php on line 13
+[Sat Dec 12 17:33:06.356432 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52723] PHP Stack trace:
+[Sat Dec 12 17:33:06.356432 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52723] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:33:06.356432 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52723] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sat Dec 12 17:33:06.356432 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52723] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:33:06.356432 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52723] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:33:06.356432 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52723] PHP Fatal error:  Call to a member function setPage() on null in D:\\www\\mts\\application\\controllers\\MainController.php on line 13
+[Sat Dec 12 17:33:06.356432 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52723] PHP Stack trace:
+[Sat Dec 12 17:33:06.356432 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52723] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:33:06.356432 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52723] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sat Dec 12 17:33:06.356432 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52723] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:33:06.356432 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52723] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463
+[Sat Dec 12 17:33:25.495526 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52739] PHP Fatal error:  Class 'Base' not found in D:\\www\\mts\\system\\Controller.php on line 5
+[Sat Dec 12 17:33:25.495526 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52739] PHP Stack trace:
+[Sat Dec 12 17:33:25.496526 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52739] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sat Dec 12 17:33:25.496526 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:52739] PHP   2. require_once() D:\\www\\mts\\bootstrap.php:8
+[Sat Dec 12 18:15:00.236217 2015] [core:error] [pid 6544:tid 828] [client 127.0.0.1:53339] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace., referer: http://mts.loc/
+[Sat Dec 12 18:15:00.254218 2015] [core:error] [pid 6544:tid 812] [client 127.0.0.1:53340] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace., referer: http://mts.loc/
+[Sat Dec 12 18:15:00.275220 2015] [core:error] [pid 6544:tid 824] [client 127.0.0.1:53341] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace., referer: http://mts.loc/
+[Sat Dec 12 18:26:47.529672 2015] [core:error] [pid 6544:tid 828] [client 127.0.0.1:53585] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace., referer: http://mts.loc/
+[Sat Dec 12 18:26:47.601676 2015] [core:error] [pid 6544:tid 828] [client 127.0.0.1:53586] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace., referer: http://mts.loc/
+[Sat Dec 12 18:26:47.619677 2015] [core:error] [pid 6544:tid 824] [client 127.0.0.1:53587] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace., referer: http://mts.loc/
+[Sat Dec 12 18:26:47.653679 2015] [core:error] [pid 6544:tid 812] [client 127.0.0.1:53588] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace., referer: http://mts.loc/
+[Sat Dec 12 18:26:47.659680 2015] [core:error] [pid 6544:tid 828] [client 127.0.0.1:53589] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace., referer: http://mts.loc/
+[Sat Dec 12 18:26:47.675681 2015] [core:error] [pid 6544:tid 828] [client 127.0.0.1:53594] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace., referer: http://mts.loc/
+[Sat Dec 12 21:16:08.161827 2015] [:error] [pid 6544:tid 816] [client 127.0.0.1:56547] PHP Notice:  Undefined variable: isMain in D:\\www\\mts\\application\\templates\\views\\partials\\_menu.php on line 1, referer: http://mts.loc/
+[Sat Dec 12 21:16:08.191829 2015] [:error] [pid 6544:tid 816] [client 127.0.0.1:56547] PHP Stack trace:, referer: http://mts.loc/
+[Sat Dec 12 21:16:08.211830 2015] [:error] [pid 6544:tid 816] [client 127.0.0.1:56547] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/
+[Sat Dec 12 21:16:08.211830 2015] [:error] [pid 6544:tid 816] [client 127.0.0.1:56547] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31, referer: http://mts.loc/
+[Sat Dec 12 21:16:08.211830 2015] [:error] [pid 6544:tid 816] [client 127.0.0.1:56547] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sat Dec 12 21:16:08.211830 2015] [:error] [pid 6544:tid 816] [client 127.0.0.1:56547] PHP   4. MainController->membersAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sat Dec 12 21:16:08.211830 2015] [:error] [pid 6544:tid 816] [client 127.0.0.1:56547] PHP   5. MainView->showMembers() D:\\www\\mts\\application\\controllers\\MainController.php:24, referer: http://mts.loc/
+[Sat Dec 12 21:16:08.211830 2015] [:error] [pid 6544:tid 816] [client 127.0.0.1:56547] PHP   6. View->createWithTemplate() D:\\www\\mts\\application\\views\\MainView.php:20, referer: http://mts.loc/
+[Sat Dec 12 21:16:08.211830 2015] [:error] [pid 6544:tid 816] [client 127.0.0.1:56547] PHP   7. FrontController->createHTML() D:\\www\\mts\\system\\View.php:64, referer: http://mts.loc/
+[Sat Dec 12 21:16:08.211830 2015] [:error] [pid 6544:tid 816] [client 127.0.0.1:56547] PHP   8. include() D:\\www\\mts\\system\\FrontController.php:524, referer: http://mts.loc/
+[Sat Dec 12 21:16:13.745147 2015] [core:error] [pid 6544:tid 820] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:56550] AH00127: Cannot map GET /%3C:urlMenu:%3E HTTP/1.1 to file, referer: http://mts.loc/members
+[Sat Dec 12 21:16:37.785522 2015] [:error] [pid 6544:tid 820] [client 127.0.0.1:56561] PHP Notice:  Undefined variable: isMain in D:\\www\\mts\\application\\templates\\views\\partials\\_menu.php on line 1, referer: http://mts.loc/
+[Sat Dec 12 21:16:37.785522 2015] [:error] [pid 6544:tid 820] [client 127.0.0.1:56561] PHP Stack trace:, referer: http://mts.loc/
+[Sat Dec 12 21:16:37.785522 2015] [:error] [pid 6544:tid 820] [client 127.0.0.1:56561] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/
+[Sat Dec 12 21:16:37.785522 2015] [:error] [pid 6544:tid 820] [client 127.0.0.1:56561] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31, referer: http://mts.loc/
+[Sat Dec 12 21:16:37.785522 2015] [:error] [pid 6544:tid 820] [client 127.0.0.1:56561] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sat Dec 12 21:16:37.785522 2015] [:error] [pid 6544:tid 820] [client 127.0.0.1:56561] PHP   4. MainController->membersAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sat Dec 12 21:16:37.785522 2015] [:error] [pid 6544:tid 820] [client 127.0.0.1:56561] PHP   5. MainView->showMembers() D:\\www\\mts\\application\\controllers\\MainController.php:24, referer: http://mts.loc/
+[Sat Dec 12 21:16:37.785522 2015] [:error] [pid 6544:tid 820] [client 127.0.0.1:56561] PHP   6. View->createWithTemplate() D:\\www\\mts\\application\\views\\MainView.php:20, referer: http://mts.loc/
+[Sat Dec 12 21:16:37.785522 2015] [:error] [pid 6544:tid 820] [client 127.0.0.1:56561] PHP   7. FrontController->createHTML() D:\\www\\mts\\system\\View.php:64, referer: http://mts.loc/
+[Sat Dec 12 21:16:37.785522 2015] [:error] [pid 6544:tid 820] [client 127.0.0.1:56561] PHP   8. include() D:\\www\\mts\\system\\FrontController.php:524, referer: http://mts.loc/
+[Sat Dec 12 21:16:37.785522 2015] [:error] [pid 6544:tid 820] [client 127.0.0.1:56561] PHP Notice:  Undefined variable: urlMenu in D:\\www\\mts\\application\\templates\\views\\partials\\_menu.php on line 7, referer: http://mts.loc/
+[Sat Dec 12 21:16:37.786522 2015] [:error] [pid 6544:tid 820] [client 127.0.0.1:56561] PHP Stack trace:, referer: http://mts.loc/
+[Sat Dec 12 21:16:37.786522 2015] [:error] [pid 6544:tid 820] [client 127.0.0.1:56561] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/
+[Sat Dec 12 21:16:37.786522 2015] [:error] [pid 6544:tid 820] [client 127.0.0.1:56561] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31, referer: http://mts.loc/
+[Sat Dec 12 21:16:37.786522 2015] [:error] [pid 6544:tid 820] [client 127.0.0.1:56561] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sat Dec 12 21:16:37.786522 2015] [:error] [pid 6544:tid 820] [client 127.0.0.1:56561] PHP   4. MainController->membersAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sat Dec 12 21:16:37.786522 2015] [:error] [pid 6544:tid 820] [client 127.0.0.1:56561] PHP   5. MainView->showMembers() D:\\www\\mts\\application\\controllers\\MainController.php:24, referer: http://mts.loc/
+[Sat Dec 12 21:16:37.786522 2015] [:error] [pid 6544:tid 820] [client 127.0.0.1:56561] PHP   6. View->createWithTemplate() D:\\www\\mts\\application\\views\\MainView.php:20, referer: http://mts.loc/
+[Sat Dec 12 21:16:37.786522 2015] [:error] [pid 6544:tid 820] [client 127.0.0.1:56561] PHP   7. FrontController->createHTML() D:\\www\\mts\\system\\View.php:64, referer: http://mts.loc/
+[Sat Dec 12 21:16:37.786522 2015] [:error] [pid 6544:tid 820] [client 127.0.0.1:56561] PHP   8. include() D:\\www\\mts\\system\\FrontController.php:524, referer: http://mts.loc/
+[Sat Dec 12 21:16:54.463475 2015] [:error] [pid 6544:tid 816] [client 127.0.0.1:56568] PHP Notice:  Undefined variable: isMain in D:\\www\\mts\\application\\templates\\views\\partials\\_menu.php on line 1, referer: http://mts.loc/
+[Sat Dec 12 21:16:54.463475 2015] [:error] [pid 6544:tid 816] [client 127.0.0.1:56568] PHP Stack trace:, referer: http://mts.loc/
+[Sat Dec 12 21:16:54.463475 2015] [:error] [pid 6544:tid 816] [client 127.0.0.1:56568] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/
+[Sat Dec 12 21:16:54.463475 2015] [:error] [pid 6544:tid 816] [client 127.0.0.1:56568] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31, referer: http://mts.loc/
+[Sat Dec 12 21:16:54.463475 2015] [:error] [pid 6544:tid 816] [client 127.0.0.1:56568] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sat Dec 12 21:16:54.463475 2015] [:error] [pid 6544:tid 816] [client 127.0.0.1:56568] PHP   4. MainController->membersAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sat Dec 12 21:16:54.464476 2015] [:error] [pid 6544:tid 816] [client 127.0.0.1:56568] PHP   5. MainView->showMembers() D:\\www\\mts\\application\\controllers\\MainController.php:24, referer: http://mts.loc/
+[Sat Dec 12 21:16:54.464476 2015] [:error] [pid 6544:tid 816] [client 127.0.0.1:56568] PHP   6. View->createWithTemplate() D:\\www\\mts\\application\\views\\MainView.php:20, referer: http://mts.loc/
+[Sat Dec 12 21:16:54.464476 2015] [:error] [pid 6544:tid 816] [client 127.0.0.1:56568] PHP   7. FrontController->createHTML() D:\\www\\mts\\system\\View.php:64, referer: http://mts.loc/
+[Sat Dec 12 21:16:54.464476 2015] [:error] [pid 6544:tid 816] [client 127.0.0.1:56568] PHP   8. include() D:\\www\\mts\\system\\FrontController.php:524, referer: http://mts.loc/
+[Sat Dec 12 21:16:57.904672 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:56572] PHP Notice:  Undefined variable: isMain in D:\\www\\mts\\application\\templates\\views\\partials\\_menu.php on line 1, referer: http://mts.loc/members
+[Sat Dec 12 21:16:57.904672 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:56572] PHP Stack trace:, referer: http://mts.loc/members
+[Sat Dec 12 21:16:57.904672 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:56572] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/members
+[Sat Dec 12 21:16:57.904672 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:56572] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31, referer: http://mts.loc/members
+[Sat Dec 12 21:16:57.904672 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:56572] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/members
+[Sat Dec 12 21:16:57.904672 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:56572] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/members
+[Sat Dec 12 21:16:57.904672 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:56572] PHP   5. MainView->showMain() D:\\www\\mts\\application\\controllers\\MainController.php:13, referer: http://mts.loc/members
+[Sat Dec 12 21:16:57.904672 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:56572] PHP   6. View->createWithTemplate() D:\\www\\mts\\application\\views\\MainView.php:10, referer: http://mts.loc/members
+[Sat Dec 12 21:16:57.904672 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:56572] PHP   7. FrontController->createHTML() D:\\www\\mts\\system\\View.php:64, referer: http://mts.loc/members
+[Sat Dec 12 21:16:57.904672 2015] [:error] [pid 6544:tid 828] [client 127.0.0.1:56572] PHP   8. include() D:\\www\\mts\\system\\FrontController.php:524, referer: http://mts.loc/members
+[Sat Dec 12 21:17:31.004566 2015] [:error] [pid 6544:tid 852] [client 127.0.0.1:56584] PHP Notice:  Undefined variable: isMain in D:\\www\\mts\\application\\templates\\views\\partials\\_menu.php on line 1, referer: http://mts.loc/members
+[Sat Dec 12 21:17:31.015566 2015] [:error] [pid 6544:tid 852] [client 127.0.0.1:56584] PHP Stack trace:, referer: http://mts.loc/members
+[Sat Dec 12 21:17:31.015566 2015] [:error] [pid 6544:tid 852] [client 127.0.0.1:56584] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/members
+[Sat Dec 12 21:17:31.015566 2015] [:error] [pid 6544:tid 852] [client 127.0.0.1:56584] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31, referer: http://mts.loc/members
+[Sat Dec 12 21:17:31.015566 2015] [:error] [pid 6544:tid 852] [client 127.0.0.1:56584] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/members
+[Sat Dec 12 21:17:31.015566 2015] [:error] [pid 6544:tid 852] [client 127.0.0.1:56584] PHP   4. MainController->indexAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/members
+[Sat Dec 12 21:17:31.015566 2015] [:error] [pid 6544:tid 852] [client 127.0.0.1:56584] PHP   5. MainView->showMain() D:\\www\\mts\\application\\controllers\\MainController.php:13, referer: http://mts.loc/members
+[Sat Dec 12 21:17:31.015566 2015] [:error] [pid 6544:tid 852] [client 127.0.0.1:56584] PHP   6. View->createWithTemplate() D:\\www\\mts\\application\\views\\MainView.php:10, referer: http://mts.loc/members
+[Sat Dec 12 21:17:31.015566 2015] [:error] [pid 6544:tid 852] [client 127.0.0.1:56584] PHP   7. FrontController->createHTML() D:\\www\\mts\\system\\View.php:64, referer: http://mts.loc/members
+[Sat Dec 12 21:17:31.015566 2015] [:error] [pid 6544:tid 852] [client 127.0.0.1:56584] PHP   8. include() D:\\www\\mts\\system\\FrontController.php:524, referer: http://mts.loc/members

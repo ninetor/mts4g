@@ -1,0 +1,5 @@
+#Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule !\.(js|css|jpg|jpeg|png|bmp|zip|ico|txt|woff|ttf|eot)$ bootstrap.php [L]
+RewriteRule ^.*(css|js|fonts|img)/(.+)$ application/templates/$1/$2
