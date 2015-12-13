@@ -20,7 +20,7 @@ class OrderModel extends Model {
 
 	public function setPhone($id, $phone)
 	{
-		$query = $this->_pdo->prepare("Update `order` set Phone = :Phone where id = :id");
+		$query = $this->_pdo->prepare("Update `order` set Phone = :Phone, Active = 1 where id = :id");
 		$query->bindParam(':Phone', $phone);
 		$query->bindParam(':id', $id);
 		return $query->execute();

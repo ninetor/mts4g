@@ -53,7 +53,7 @@ class MainController extends Controller
         {
             $values['image'] = null;
             if ($_FILES){
-                $uploaddir = "{$_SERVER['DOCUMENT_ROOT']}uploads/";
+                $uploaddir = "{$_SERVER['DOCUMENT_ROOT']}/uploads/";
                 $uploadfile = $uploaddir . basename($_FILES['image']['name']);
 
                 if (move_uploaded_file($_FILES['image']['tmp_name'], $uploadfile)) {//upload this
