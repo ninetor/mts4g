@@ -283,12 +283,16 @@ if (object)
 {
     FB.ui(
         {
-            method: 'feed',
-            name: object.message,
-            picture: object.image,
-            caption: '4G-скорость — уже в Минске!',
-            description: object.message,
-            //href: 'ns.nineseven.ru/members/'+object.id,
+            method: 'share',
+            //name: object.message,
+            //picture: object.image,
+            //caption: '4G-скорость — уже в Минске!',
+            //description: object.message,
+
+
+            href: 'ns.nineseven.ru/members/'+object.id,
+
+            app_id:129128417456746,
             redirect_uri: 'ns.nineseven.ru/members/'+object.id,
         },
         function (response) {
