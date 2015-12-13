@@ -291,6 +291,7 @@ if (object)
             href: 'ns.nineseven.ru/members/'+object.id,
         },
         function (response) {
+            console.log(response);
             if (response && response.post_id) {
                 showFourStep();
             } else {
