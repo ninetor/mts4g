@@ -288,7 +288,8 @@ if (object)
             picture: object.image,
             caption: '4G-скорость — уже в Минске!',
             description: object.message,
-            href: 'ns.nineseven.ru/members/'+object.id,
+            //href: 'ns.nineseven.ru/members/'+object.id,
+            redirect_uri: 'ns.nineseven.ru/members/'+object.id,
         },
         function (response) {
             console.log(response);
