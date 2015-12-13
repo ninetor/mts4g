@@ -284,24 +284,21 @@ if (object)
     FB.ui(
         {
             method: 'share',
-            //name: object.message,
-            //picture: object.image,
-            //caption: '4G-скорость — уже в Минске!',
-            //description: object.message,
-
-
+            name: object.message,
+            picture: object.image,
+            caption: '4G-скорость — уже в Минске!',
+            description: object.message,
             href: 'ns.nineseven.ru/members/'+object.id,
-
             app_id:129128417456746,
-            redirect_uri: 'ns.nineseven.ru/members/'+object.id,
+            //redirect_uri: 'ns.nineseven.ru/members/'+object.id,
         },
         function (response) {
             console.log(response);
-            if (response && response.post_id) {
+            //if (response && response.post_id) {
                 showFourStep();
-            } else {
-                alert('Необходимо опубликовать пост у себя на странице');
-            }
+            //} else {
+            //    alert('Необходимо опубликовать пост у себя на странице');
+            //}
         }
     );
 }
