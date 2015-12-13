@@ -1,3 +1,6 @@
-/uploads/*
+.gitignore
+uploads
 
-.idea/*
+.idea
+
+logs

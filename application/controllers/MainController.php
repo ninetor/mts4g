@@ -11,8 +11,6 @@ class MainController extends Controller
     }
     public function indexAction()
     {
-        var_dump($_SERVER);
-        die;
         $view = new MainView();
         return $this->_controller->setPage($view->showMain());
     }
