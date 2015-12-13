@@ -15,6 +15,7 @@
       <column name="Phone" sqlType="VARCHAR" precision="55" scale="0" nullable="true" jdbcType="12"/>
       <column name="Created" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
       <column name="TypeId" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="active" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA=="/>
       <primary-key name="PRIMARY" columns="id"/>
       <foreign-key name="TypeOrder" columns="Order" ref-table="typeorder" ref-schema="" ref-catalog="mts4g" ref-columns="id" update-rule="0" delete-rule="0" deferrability="2"/>
       <exported-key name="Order" table="winnersweekorder" schema="" catalog="mts4g" columns="WinnersWeekOrder"/>

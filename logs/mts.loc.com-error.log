@@ -366,3 +366,220 @@
 [Sun Dec 13 15:21:44.948303 2015] [:error] [pid 4636:tid 808] [client 127.0.0.1:53656] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31, referer: http://mts.loc/
 [Sun Dec 13 15:21:44.948303 2015] [:error] [pid 4636:tid 808] [client 127.0.0.1:53656] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
 [Sun Dec 13 15:21:44.948303 2015] [:error] [pid 4636:tid 808] [client 127.0.0.1:53656] PHP   4. MainController->steponeAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 19:56:51.170697 2015] [:error] [pid 4636:tid 772] [client 127.0.0.1:58640] PHP Parse error:  syntax error, unexpected '}' in D:\\www\\mts\\application\\controllers\\MainController.php on line 46
+[Sun Dec 13 19:56:51.203698 2015] [:error] [pid 4636:tid 772] [client 127.0.0.1:58640] PHP Stack trace:
+[Sun Dec 13 19:56:51.222700 2015] [:error] [pid 4636:tid 772] [client 127.0.0.1:58640] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sun Dec 13 19:56:51.222700 2015] [:error] [pid 4636:tid 772] [client 127.0.0.1:58640] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31
+[Sun Dec 13 19:56:51.222700 2015] [:error] [pid 4636:tid 772] [client 127.0.0.1:58640] PHP   3. class_exists() D:\\www\\mts\\system\\FrontController.php:417
+[Sun Dec 13 19:56:51.222700 2015] [:error] [pid 4636:tid 772] [client 127.0.0.1:58640] PHP   4. __autoload() D:\\www\\mts\\system\\FrontController.php:417
+[Sun Dec 13 19:59:08.614558 2015] [:error] [pid 4636:tid 772] [client 127.0.0.1:58668] PHP Notice:  Undefined index: form in D:\\www\\mts\\application\\controllers\\MainController.php on line 36, referer: http://mts.loc/
+[Sun Dec 13 19:59:08.622558 2015] [:error] [pid 4636:tid 772] [client 127.0.0.1:58668] PHP Stack trace:, referer: http://mts.loc/
+[Sun Dec 13 19:59:08.622558 2015] [:error] [pid 4636:tid 772] [client 127.0.0.1:58668] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/
+[Sun Dec 13 19:59:08.622558 2015] [:error] [pid 4636:tid 772] [client 127.0.0.1:58668] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31, referer: http://mts.loc/
+[Sun Dec 13 19:59:08.622558 2015] [:error] [pid 4636:tid 772] [client 127.0.0.1:58668] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 19:59:08.622558 2015] [:error] [pid 4636:tid 772] [client 127.0.0.1:58668] PHP   4. MainController->createorderAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 19:59:08.645560 2015] [:error] [pid 4636:tid 772] [client 127.0.0.1:58668] PHP Notice:  Undefined index: message in D:\\www\\mts\\application\\controllers\\MainController.php on line 37, referer: http://mts.loc/
+[Sun Dec 13 19:59:08.645560 2015] [:error] [pid 4636:tid 772] [client 127.0.0.1:58668] PHP Stack trace:, referer: http://mts.loc/
+[Sun Dec 13 19:59:08.645560 2015] [:error] [pid 4636:tid 772] [client 127.0.0.1:58668] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/
+[Sun Dec 13 19:59:08.645560 2015] [:error] [pid 4636:tid 772] [client 127.0.0.1:58668] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31, referer: http://mts.loc/
+[Sun Dec 13 19:59:08.645560 2015] [:error] [pid 4636:tid 772] [client 127.0.0.1:58668] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 19:59:08.645560 2015] [:error] [pid 4636:tid 772] [client 127.0.0.1:58668] PHP   4. MainController->createorderAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 20:02:35.286379 2015] [:error] [pid 4636:tid 788] [client 127.0.0.1:58852] PHP Notice:  Undefined index: form in D:\\www\\mts\\application\\controllers\\MainController.php on line 36, referer: http://mts.loc/
+[Sun Dec 13 20:02:35.317381 2015] [:error] [pid 4636:tid 788] [client 127.0.0.1:58852] PHP Stack trace:, referer: http://mts.loc/
+[Sun Dec 13 20:02:35.317381 2015] [:error] [pid 4636:tid 788] [client 127.0.0.1:58852] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/
+[Sun Dec 13 20:02:35.317381 2015] [:error] [pid 4636:tid 788] [client 127.0.0.1:58852] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31, referer: http://mts.loc/
+[Sun Dec 13 20:02:35.318381 2015] [:error] [pid 4636:tid 788] [client 127.0.0.1:58852] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 20:02:35.318381 2015] [:error] [pid 4636:tid 788] [client 127.0.0.1:58852] PHP   4. MainController->createorderAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 20:02:35.318381 2015] [:error] [pid 4636:tid 788] [client 127.0.0.1:58852] PHP Notice:  Undefined index: message in D:\\www\\mts\\application\\controllers\\MainController.php on line 37, referer: http://mts.loc/
+[Sun Dec 13 20:02:35.318381 2015] [:error] [pid 4636:tid 788] [client 127.0.0.1:58852] PHP Stack trace:, referer: http://mts.loc/
+[Sun Dec 13 20:02:35.318381 2015] [:error] [pid 4636:tid 788] [client 127.0.0.1:58852] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/
+[Sun Dec 13 20:02:35.318381 2015] [:error] [pid 4636:tid 788] [client 127.0.0.1:58852] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31, referer: http://mts.loc/
+[Sun Dec 13 20:02:35.318381 2015] [:error] [pid 4636:tid 788] [client 127.0.0.1:58852] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 20:02:35.318381 2015] [:error] [pid 4636:tid 788] [client 127.0.0.1:58852] PHP   4. MainController->createorderAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 20:03:27.325355 2015] [:error] [pid 4636:tid 796] [client 127.0.0.1:58919] PHP Notice:  Undefined index: form in D:\\www\\mts\\application\\controllers\\MainController.php on line 36, referer: http://mts.loc/
+[Sun Dec 13 20:03:27.338356 2015] [:error] [pid 4636:tid 796] [client 127.0.0.1:58919] PHP Stack trace:, referer: http://mts.loc/
+[Sun Dec 13 20:03:27.338356 2015] [:error] [pid 4636:tid 796] [client 127.0.0.1:58919] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/
+[Sun Dec 13 20:03:27.338356 2015] [:error] [pid 4636:tid 796] [client 127.0.0.1:58919] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31, referer: http://mts.loc/
+[Sun Dec 13 20:03:27.338356 2015] [:error] [pid 4636:tid 796] [client 127.0.0.1:58919] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 20:03:27.338356 2015] [:error] [pid 4636:tid 796] [client 127.0.0.1:58919] PHP   4. MainController->createorderAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 20:03:27.339356 2015] [:error] [pid 4636:tid 796] [client 127.0.0.1:58919] PHP Notice:  Undefined index: message in D:\\www\\mts\\application\\controllers\\MainController.php on line 37, referer: http://mts.loc/
+[Sun Dec 13 20:03:27.339356 2015] [:error] [pid 4636:tid 796] [client 127.0.0.1:58919] PHP Stack trace:, referer: http://mts.loc/
+[Sun Dec 13 20:03:27.339356 2015] [:error] [pid 4636:tid 796] [client 127.0.0.1:58919] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/
+[Sun Dec 13 20:03:27.339356 2015] [:error] [pid 4636:tid 796] [client 127.0.0.1:58919] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:31, referer: http://mts.loc/
+[Sun Dec 13 20:03:27.339356 2015] [:error] [pid 4636:tid 796] [client 127.0.0.1:58919] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 20:03:27.339356 2015] [:error] [pid 4636:tid 796] [client 127.0.0.1:58919] PHP   4. MainController->createorderAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 20:49:47.477371 2015] [:error] [pid 7960:tid 828] [client 127.0.0.1:60814] PHP Warning:  preg_replace(): Empty regular expression in D:\\www\\mts\\system\\FrontController.php on line 102
+[Sun Dec 13 20:49:47.580377 2015] [:error] [pid 7960:tid 828] [client 127.0.0.1:60814] PHP Stack trace:
+[Sun Dec 13 20:49:47.580377 2015] [:error] [pid 7960:tid 828] [client 127.0.0.1:60814] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sun Dec 13 20:49:47.580377 2015] [:error] [pid 7960:tid 828] [client 127.0.0.1:60814] PHP   2. FrontController::getInstance() D:\\www\\mts\\bootstrap.php:29
+[Sun Dec 13 20:49:47.580377 2015] [:error] [pid 7960:tid 828] [client 127.0.0.1:60814] PHP   3. FrontController->__construct() D:\\www\\mts\\system\\FrontController.php:27
+[Sun Dec 13 20:49:47.580377 2015] [:error] [pid 7960:tid 828] [client 127.0.0.1:60814] PHP   4. preg_replace(*uninitialized*, *uninitialized*, *uninitialized*) D:\\www\\mts\\system\\FrontController.php:102
+[Sun Dec 13 20:52:44.117474 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60892] PHP Warning:  preg_replace(): Empty regular expression in D:\\www\\mts\\system\\FrontController.php on line 102, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:52:44.117474 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60892] PHP Stack trace:, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:52:44.117474 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60892] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:52:44.117474 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60892] PHP   2. FrontController::getInstance() D:\\www\\mts\\bootstrap.php:29, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:52:44.117474 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60892] PHP   3. FrontController->__construct() D:\\www\\mts\\system\\FrontController.php:27, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:52:44.117474 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60892] PHP   4. preg_replace(*uninitialized*, *uninitialized*, *uninitialized*) D:\\www\\mts\\system\\FrontController.php:102, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:53:01.068444 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60897] PHP Warning:  preg_replace(): Empty regular expression in D:\\www\\mts\\system\\FrontController.php on line 102
+[Sun Dec 13 20:53:01.069444 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60897] PHP Stack trace:
+[Sun Dec 13 20:53:01.069444 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60897] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sun Dec 13 20:53:01.069444 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60897] PHP   2. FrontController::getInstance() D:\\www\\mts\\bootstrap.php:29
+[Sun Dec 13 20:53:01.069444 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60897] PHP   3. FrontController->__construct() D:\\www\\mts\\system\\FrontController.php:27
+[Sun Dec 13 20:53:01.069444 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60897] PHP   4. preg_replace(*uninitialized*, *uninitialized*, *uninitialized*) D:\\www\\mts\\system\\FrontController.php:102
+[Sun Dec 13 20:53:07.237797 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60905] PHP Warning:  preg_replace(): Empty regular expression in D:\\www\\mts\\system\\FrontController.php on line 102, referer: http://mts.loc/?XDEBUG_SESSION_START=18502
+[Sun Dec 13 20:53:07.238797 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60905] PHP Stack trace:, referer: http://mts.loc/?XDEBUG_SESSION_START=18502
+[Sun Dec 13 20:53:07.238797 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60905] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/?XDEBUG_SESSION_START=18502
+[Sun Dec 13 20:53:07.238797 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60905] PHP   2. FrontController::getInstance() D:\\www\\mts\\bootstrap.php:29, referer: http://mts.loc/?XDEBUG_SESSION_START=18502
+[Sun Dec 13 20:53:07.238797 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60905] PHP   3. FrontController->__construct() D:\\www\\mts\\system\\FrontController.php:27, referer: http://mts.loc/?XDEBUG_SESSION_START=18502
+[Sun Dec 13 20:53:07.238797 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60905] PHP   4. preg_replace(*uninitialized*, *uninitialized*, *uninitialized*) D:\\www\\mts\\system\\FrontController.php:102, referer: http://mts.loc/?XDEBUG_SESSION_START=18502
+[Sun Dec 13 20:53:09.981954 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60905] PHP Warning:  preg_replace(): Empty regular expression in D:\\www\\mts\\system\\FrontController.php on line 102, referer: http://mts.loc/specification
+[Sun Dec 13 20:53:09.981954 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60905] PHP Stack trace:, referer: http://mts.loc/specification
+[Sun Dec 13 20:53:09.981954 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60905] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/specification
+[Sun Dec 13 20:53:09.981954 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60905] PHP   2. FrontController::getInstance() D:\\www\\mts\\bootstrap.php:29, referer: http://mts.loc/specification
+[Sun Dec 13 20:53:09.981954 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60905] PHP   3. FrontController->__construct() D:\\www\\mts\\system\\FrontController.php:27, referer: http://mts.loc/specification
+[Sun Dec 13 20:53:09.981954 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60905] PHP   4. preg_replace(*uninitialized*, *uninitialized*, *uninitialized*) D:\\www\\mts\\system\\FrontController.php:102, referer: http://mts.loc/specification
+[Sun Dec 13 20:53:11.200023 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60905] PHP Warning:  preg_replace(): Empty regular expression in D:\\www\\mts\\system\\FrontController.php on line 102, referer: http://mts.loc/members
+[Sun Dec 13 20:53:11.201023 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60905] PHP Stack trace:, referer: http://mts.loc/members
+[Sun Dec 13 20:53:11.201023 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60905] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/members
+[Sun Dec 13 20:53:11.201023 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60905] PHP   2. FrontController::getInstance() D:\\www\\mts\\bootstrap.php:29, referer: http://mts.loc/members
+[Sun Dec 13 20:53:11.201023 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60905] PHP   3. FrontController->__construct() D:\\www\\mts\\system\\FrontController.php:27, referer: http://mts.loc/members
+[Sun Dec 13 20:53:11.201023 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60905] PHP   4. preg_replace(*uninitialized*, *uninitialized*, *uninitialized*) D:\\www\\mts\\system\\FrontController.php:102, referer: http://mts.loc/members
+[Sun Dec 13 20:54:23.265145 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60961] PHP Warning:  preg_replace(): Delimiter must not be alphanumeric or backslash in D:\\www\\mts\\system\\FrontController.php on line 102, referer: http://mts.loc/members
+[Sun Dec 13 20:54:23.265145 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60961] PHP Stack trace:, referer: http://mts.loc/members
+[Sun Dec 13 20:54:23.265145 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60961] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/members
+[Sun Dec 13 20:54:23.265145 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60961] PHP   2. FrontController::getInstance() D:\\www\\mts\\bootstrap.php:29, referer: http://mts.loc/members
+[Sun Dec 13 20:54:23.265145 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60961] PHP   3. FrontController->__construct() D:\\www\\mts\\system\\FrontController.php:27, referer: http://mts.loc/members
+[Sun Dec 13 20:54:23.265145 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60961] PHP   4. preg_replace(*uninitialized*, *uninitialized*, *uninitialized*) D:\\www\\mts\\system\\FrontController.php:102, referer: http://mts.loc/members
+[Sun Dec 13 20:54:25.893295 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60961] PHP Warning:  preg_replace(): Delimiter must not be alphanumeric or backslash in D:\\www\\mts\\system\\FrontController.php on line 102
+[Sun Dec 13 20:54:25.894295 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60961] PHP Stack trace:
+[Sun Dec 13 20:54:25.894295 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60961] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sun Dec 13 20:54:25.894295 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60961] PHP   2. FrontController::getInstance() D:\\www\\mts\\bootstrap.php:29
+[Sun Dec 13 20:54:25.894295 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60961] PHP   3. FrontController->__construct() D:\\www\\mts\\system\\FrontController.php:27
+[Sun Dec 13 20:54:25.894295 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60961] PHP   4. preg_replace(*uninitialized*, *uninitialized*, *uninitialized*) D:\\www\\mts\\system\\FrontController.php:102
+[Sun Dec 13 20:54:28.677455 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60961] PHP Warning:  preg_replace(): Delimiter must not be alphanumeric or backslash in D:\\www\\mts\\system\\FrontController.php on line 102
+[Sun Dec 13 20:54:28.677455 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60961] PHP Stack trace:
+[Sun Dec 13 20:54:28.677455 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60961] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sun Dec 13 20:54:28.677455 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60961] PHP   2. FrontController::getInstance() D:\\www\\mts\\bootstrap.php:29
+[Sun Dec 13 20:54:28.677455 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60961] PHP   3. FrontController->__construct() D:\\www\\mts\\system\\FrontController.php:27
+[Sun Dec 13 20:54:28.677455 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:60961] PHP   4. preg_replace(*uninitialized*, *uninitialized*, *uninitialized*) D:\\www\\mts\\system\\FrontController.php:102
+[Sun Dec 13 20:54:42.842265 2015] [:error] [pid 7960:tid 820] [client 127.0.0.1:60983] PHP Warning:  preg_replace(): Delimiter must not be alphanumeric or backslash in D:\\www\\mts\\system\\FrontController.php on line 102
+[Sun Dec 13 20:54:42.842265 2015] [:error] [pid 7960:tid 820] [client 127.0.0.1:60983] PHP Stack trace:
+[Sun Dec 13 20:54:42.842265 2015] [:error] [pid 7960:tid 820] [client 127.0.0.1:60983] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sun Dec 13 20:54:42.842265 2015] [:error] [pid 7960:tid 820] [client 127.0.0.1:60983] PHP   2. FrontController::getInstance() D:\\www\\mts\\bootstrap.php:29
+[Sun Dec 13 20:54:42.842265 2015] [:error] [pid 7960:tid 820] [client 127.0.0.1:60983] PHP   3. FrontController->__construct() D:\\www\\mts\\system\\FrontController.php:27
+[Sun Dec 13 20:54:42.842265 2015] [:error] [pid 7960:tid 820] [client 127.0.0.1:60983] PHP   4. preg_replace(*uninitialized*, *uninitialized*, *uninitialized*) D:\\www\\mts\\system\\FrontController.php:102
+[Sun Dec 13 20:56:05.546995 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61039] PHP Notice:  Undefined index: form in D:\\www\\mts\\application\\controllers\\MainController.php on line 38, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:56:05.547995 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61039] PHP Stack trace:, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:56:05.547995 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61039] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:56:05.547995 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61039] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:30, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:56:05.547995 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61039] PHP   3. ReflectionMethod->invoke(*uninitialized*) D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:56:05.547995 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61039] PHP   4. MainController->createorderAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:56:06.632057 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61039] PHP Notice:  Undefined index: message in D:\\www\\mts\\application\\controllers\\MainController.php on line 39, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:56:06.633057 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61039] PHP Stack trace:, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:56:06.633057 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61039] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:56:06.633057 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61039] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:30, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:56:06.633057 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61039] PHP   3. ReflectionMethod->invoke(*uninitialized*) D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:56:06.633057 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61039] PHP   4. MainController->createorderAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:56:52.346672 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61048] PHP Fatal error:  Cannot use [] for reading in D:\\www\\mts\\application\\controllers\\MainController.php on line 38, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:56:52.346672 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61048] PHP Stack trace:, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:56:52.347672 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61048] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:56:52.347672 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61048] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:30, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:56:52.347672 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61048] PHP   3. class_exists(*uninitialized*) D:\\www\\mts\\system\\FrontController.php:417, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:56:52.347672 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61048] PHP   4. __autoload($className = *uninitialized*) D:\\www\\mts\\system\\FrontController.php:417, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:56:54.344786 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61050] PHP Fatal error:  Cannot use [] for reading in D:\\www\\mts\\application\\controllers\\MainController.php on line 38
+[Sun Dec 13 20:56:54.344786 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61050] PHP Stack trace:
+[Sun Dec 13 20:56:54.344786 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61050] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sun Dec 13 20:56:54.344786 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61050] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:30
+[Sun Dec 13 20:56:54.344786 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61050] PHP   3. class_exists(*uninitialized*) D:\\www\\mts\\system\\FrontController.php:417
+[Sun Dec 13 20:56:54.344786 2015] [:error] [pid 7960:tid 816] [client 127.0.0.1:61050] PHP   4. __autoload($className = *uninitialized*) D:\\www\\mts\\system\\FrontController.php:417
+[Sun Dec 13 20:57:31.797929 2015] [:error] [pid 7960:tid 824] [client 127.0.0.1:61093] PHP Warning:  htmlspecialchars_decode() expects parameter 1 to be string, array given in D:\\www\\mts\\application\\controllers\\MainController.php on line 38, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:57:31.798929 2015] [:error] [pid 7960:tid 824] [client 127.0.0.1:61093] PHP Stack trace:, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:57:31.798929 2015] [:error] [pid 7960:tid 824] [client 127.0.0.1:61093] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:57:31.798929 2015] [:error] [pid 7960:tid 824] [client 127.0.0.1:61093] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:30, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:57:31.798929 2015] [:error] [pid 7960:tid 824] [client 127.0.0.1:61093] PHP   3. ReflectionMethod->invoke(*uninitialized*) D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:57:31.798929 2015] [:error] [pid 7960:tid 824] [client 127.0.0.1:61093] PHP   4. MainController->createorderAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:57:31.798929 2015] [:error] [pid 7960:tid 824] [client 127.0.0.1:61093] PHP   5. htmlspecialchars_decode(*uninitialized*) D:\\www\\mts\\application\\controllers\\MainController.php:38, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:57:32.206952 2015] [:error] [pid 7960:tid 824] [client 127.0.0.1:61093] PHP Notice:  Undefined index: message in D:\\www\\mts\\application\\controllers\\MainController.php on line 39, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:57:32.206952 2015] [:error] [pid 7960:tid 824] [client 127.0.0.1:61093] PHP Stack trace:, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:57:32.206952 2015] [:error] [pid 7960:tid 824] [client 127.0.0.1:61093] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:57:32.206952 2015] [:error] [pid 7960:tid 824] [client 127.0.0.1:61093] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:30, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:57:32.206952 2015] [:error] [pid 7960:tid 824] [client 127.0.0.1:61093] PHP   3. ReflectionMethod->invoke(*uninitialized*) D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 20:57:32.206952 2015] [:error] [pid 7960:tid 824] [client 127.0.0.1:61093] PHP   4. MainController->createorderAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/?XDEBUG_SESSION_START=13193
+[Sun Dec 13 21:41:28.267726 2015] [:error] [pid 7960:tid 828] [client 127.0.0.1:61886] PHP Notice:  Undefined index: message in D:\\www\\mts\\application\\controllers\\MainController.php on line 38, referer: http://mts.loc/
+[Sun Dec 13 21:41:28.267726 2015] [:error] [pid 7960:tid 828] [client 127.0.0.1:61886] PHP Stack trace:, referer: http://mts.loc/
+[Sun Dec 13 21:41:28.267726 2015] [:error] [pid 7960:tid 828] [client 127.0.0.1:61886] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/
+[Sun Dec 13 21:41:28.267726 2015] [:error] [pid 7960:tid 828] [client 127.0.0.1:61886] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:30, referer: http://mts.loc/
+[Sun Dec 13 21:41:28.267726 2015] [:error] [pid 7960:tid 828] [client 127.0.0.1:61886] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 21:41:28.267726 2015] [:error] [pid 7960:tid 828] [client 127.0.0.1:61886] PHP   4. MainController->createorderAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 21:42:21.470769 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:61915] PHP Notice:  Undefined index: message in D:\\www\\mts\\application\\controllers\\MainController.php on line 38, referer: http://mts.loc/
+[Sun Dec 13 21:42:21.493770 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:61915] PHP Stack trace:, referer: http://mts.loc/
+[Sun Dec 13 21:42:21.493770 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:61915] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/
+[Sun Dec 13 21:42:21.493770 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:61915] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:30, referer: http://mts.loc/
+[Sun Dec 13 21:42:21.493770 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:61915] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 21:42:21.493770 2015] [:error] [pid 7960:tid 812] [client 127.0.0.1:61915] PHP   4. MainController->createorderAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 21:43:22.906283 2015] [:error] [pid 7960:tid 820] [client 127.0.0.1:61933] PHP Notice:  Undefined index: message in D:\\www\\mts\\application\\controllers\\MainController.php on line 38, referer: http://mts.loc/
+[Sun Dec 13 21:43:22.916283 2015] [:error] [pid 7960:tid 820] [client 127.0.0.1:61933] PHP Stack trace:, referer: http://mts.loc/
+[Sun Dec 13 21:43:22.916283 2015] [:error] [pid 7960:tid 820] [client 127.0.0.1:61933] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/
+[Sun Dec 13 21:43:22.916283 2015] [:error] [pid 7960:tid 820] [client 127.0.0.1:61933] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:30, referer: http://mts.loc/
+[Sun Dec 13 21:43:22.916283 2015] [:error] [pid 7960:tid 820] [client 127.0.0.1:61933] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 21:43:22.916283 2015] [:error] [pid 7960:tid 820] [client 127.0.0.1:61933] PHP   4. MainController->createorderAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 21:44:10.207988 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:61969] PHP Notice:  Undefined index: message in D:\\www\\mts\\application\\controllers\\MainController.php on line 38, referer: http://mts.loc/
+[Sun Dec 13 21:44:10.208988 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:61969] PHP Stack trace:, referer: http://mts.loc/
+[Sun Dec 13 21:44:10.208988 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:61969] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/
+[Sun Dec 13 21:44:10.208988 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:61969] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:30, referer: http://mts.loc/
+[Sun Dec 13 21:44:10.208988 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:61969] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 21:44:10.208988 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:61969] PHP   4. MainController->createorderAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 21:45:07.361257 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61987] PHP Notice:  Undefined index: message in D:\\www\\mts\\application\\controllers\\MainController.php on line 38, referer: http://mts.loc/
+[Sun Dec 13 21:45:07.361257 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61987] PHP Stack trace:, referer: http://mts.loc/
+[Sun Dec 13 21:45:07.361257 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61987] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/
+[Sun Dec 13 21:45:07.361257 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61987] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:30, referer: http://mts.loc/
+[Sun Dec 13 21:45:07.361257 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61987] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 21:45:07.361257 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61987] PHP   4. MainController->createorderAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 21:45:15.353715 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61989] PHP Notice:  Undefined index: message in D:\\www\\mts\\application\\controllers\\MainController.php on line 38, referer: http://mts.loc/
+[Sun Dec 13 21:45:15.353715 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61989] PHP Stack trace:, referer: http://mts.loc/
+[Sun Dec 13 21:45:15.353715 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61989] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/
+[Sun Dec 13 21:45:15.353715 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61989] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:30, referer: http://mts.loc/
+[Sun Dec 13 21:45:15.353715 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61989] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 21:45:15.353715 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61989] PHP   4. MainController->createorderAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 21:45:48.513611 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61994] PHP Notice:  Undefined index: message in D:\\www\\mts\\application\\controllers\\MainController.php on line 38, referer: http://mts.loc/
+[Sun Dec 13 21:45:48.513611 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61994] PHP Stack trace:, referer: http://mts.loc/
+[Sun Dec 13 21:45:48.513611 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61994] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/
+[Sun Dec 13 21:45:48.513611 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61994] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:30, referer: http://mts.loc/
+[Sun Dec 13 21:45:48.513611 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61994] PHP   3. ReflectionMethod->invoke() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 21:45:48.513611 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61994] PHP   4. MainController->createorderAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 21:45:59.641248 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61998] PHP Notice:  Undefined index: message in D:\\www\\mts\\application\\controllers\\MainController.php on line 38, referer: http://mts.loc/
+[Sun Dec 13 21:45:59.641248 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61998] PHP Stack trace:, referer: http://mts.loc/
+[Sun Dec 13 21:45:59.641248 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61998] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0, referer: http://mts.loc/
+[Sun Dec 13 21:45:59.641248 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61998] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:30, referer: http://mts.loc/
+[Sun Dec 13 21:45:59.641248 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61998] PHP   3. ReflectionMethod->invoke(*uninitialized*) D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 21:45:59.641248 2015] [:error] [pid 7960:tid 804] [client 127.0.0.1:61998] PHP   4. MainController->createorderAction() D:\\www\\mts\\system\\FrontController.php:463, referer: http://mts.loc/
+[Sun Dec 13 21:53:54.002380 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62130] PHP Parse error:  syntax error, unexpected '}' in D:\\www\\mts\\application\\controllers\\MainController.php on line 52
+[Sun Dec 13 21:53:54.003380 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62130] PHP Stack trace:
+[Sun Dec 13 21:53:54.003380 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62130] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sun Dec 13 21:53:54.003380 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62130] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:30
+[Sun Dec 13 21:53:54.003380 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62130] PHP   3. class_exists(*uninitialized*) D:\\www\\mts\\system\\FrontController.php:417
+[Sun Dec 13 21:53:54.003380 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62130] PHP   4. __autoload($className = *uninitialized*) D:\\www\\mts\\system\\FrontController.php:417
+[Sun Dec 13 21:54:00.188733 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62132] PHP Parse error:  syntax error, unexpected '}' in D:\\www\\mts\\application\\controllers\\MainController.php on line 52
+[Sun Dec 13 21:54:00.188733 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62132] PHP Stack trace:
+[Sun Dec 13 21:54:00.188733 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62132] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sun Dec 13 21:54:00.188733 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62132] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:30
+[Sun Dec 13 21:54:00.188733 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62132] PHP   3. class_exists(*uninitialized*) D:\\www\\mts\\system\\FrontController.php:417
+[Sun Dec 13 21:54:00.188733 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62132] PHP   4. __autoload($className = *uninitialized*) D:\\www\\mts\\system\\FrontController.php:417
+[Sun Dec 13 21:54:10.477322 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62134] PHP Parse error:  syntax error, unexpected '}' in D:\\www\\mts\\application\\controllers\\MainController.php on line 53
+[Sun Dec 13 21:54:10.477322 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62134] PHP Stack trace:
+[Sun Dec 13 21:54:10.477322 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62134] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sun Dec 13 21:54:10.477322 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62134] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:30
+[Sun Dec 13 21:54:10.477322 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62134] PHP   3. class_exists(*uninitialized*) D:\\www\\mts\\system\\FrontController.php:417
+[Sun Dec 13 21:54:10.477322 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62134] PHP   4. __autoload($className = *uninitialized*) D:\\www\\mts\\system\\FrontController.php:417
+[Sun Dec 13 21:54:12.767453 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62136] PHP Parse error:  syntax error, unexpected '}' in D:\\www\\mts\\application\\controllers\\MainController.php on line 53
+[Sun Dec 13 21:54:12.767453 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62136] PHP Stack trace:
+[Sun Dec 13 21:54:12.767453 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62136] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sun Dec 13 21:54:12.767453 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62136] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:30
+[Sun Dec 13 21:54:12.767453 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62136] PHP   3. class_exists(*uninitialized*) D:\\www\\mts\\system\\FrontController.php:417
+[Sun Dec 13 21:54:12.767453 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62136] PHP   4. __autoload($className = *uninitialized*) D:\\www\\mts\\system\\FrontController.php:417
+[Sun Dec 13 21:54:13.733508 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62138] PHP Parse error:  syntax error, unexpected '}' in D:\\www\\mts\\application\\controllers\\MainController.php on line 53
+[Sun Dec 13 21:54:13.733508 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62138] PHP Stack trace:
+[Sun Dec 13 21:54:13.733508 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62138] PHP   1. {main}() D:\\www\\mts\\bootstrap.php:0
+[Sun Dec 13 21:54:13.733508 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62138] PHP   2. FrontController->route() D:\\www\\mts\\bootstrap.php:30
+[Sun Dec 13 21:54:13.733508 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62138] PHP   3. class_exists(*uninitialized*) D:\\www\\mts\\system\\FrontController.php:417
+[Sun Dec 13 21:54:13.733508 2015] [:error] [pid 7960:tid 788] [client 127.0.0.1:62138] PHP   4. __autoload($className = *uninitialized*) D:\\www\\mts\\system\\FrontController.php:417

@@ -1,7 +1,6 @@
 <?php
 // Устанавливается константа, для проверки прямого доступа к файлам.
 define("USE_HOST",$_SERVER["SERVER_NAME"]."/");
-
 // Загрузка системных классов.
 require_once("system/FrontController.php");
 require_once("application/Events.php");

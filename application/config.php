@@ -19,9 +19,10 @@ $routingRules = array(// ассоциативный массив с маршру
 	//пример маршрута
 //	"controller/action" => "testroute",// - если после домена указано testroute строка  запроса имеет вид http://mysite.com/testroute - выполняется действие action контроллера controller, строка запроса преобразовывается в http://mysite.com/controller/action
 
-    "main/index" => "",
-    "main/specification" => "specification",
-    "main/winners" => "winners",
-    "main/members" => "members",
-    "main/stepone" => "stepone",
+    "main/index" => ["action" => ""],
+    "main/specification" => ["action" => "specification"],
+    "main/winners" => ["action" => "winners"],
+    "main/members" => ["action" => "members"],
+    "main/createorder" => ["action" => "createorder"],
+    "main/setphone" => ["action" => "setphone"],
 );
