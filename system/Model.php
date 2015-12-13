@@ -30,6 +30,10 @@ class Model{
 
 	public function init()
 	{
+		if ($_SERVER['HTTP_HOST']!="mts.loc")
+		{
+			$this->pass = "8s%c@ISTxxPI";
+		}
 		$this->_pdo =  new PDO("mysql:host=localhost;dbname={$this->db}", $this->login, $this->pass);
 	}
 	public function __construct()
