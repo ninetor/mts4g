@@ -21,13 +21,16 @@ class Model{
 		return false;// Возвращается false если элемент не существует.
 	}
 	/**
-	 * @var $_controller FrontController
+	 * @var $_pdo PDO
 	 */
-	public $_controller = null;
+	protected $_pdo = null;
+	private $login = 'root';
+	private $pass = 'root';
+	private $db = 'mts4g';
 
 	public function init()
 	{
-		$this->_controller = FrontController::getInstance();
+		$this->_pdo =  new PDO("mysql:host=localhost;dbname={$this->db}", $this->login, $this->pass);
 	}
 	public function __construct()
 	{

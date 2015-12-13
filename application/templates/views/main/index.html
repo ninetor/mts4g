@@ -273,23 +273,23 @@
 
     <!--POPUPS-->
     <div id="step1" class="steps">
-        <form action="" method="post">
+        <form action="" id="form_step1" method="post">
             <h4><span>Шаг 1.</span>Подробности заказа</h4>
             <div class="choose">
                 <div class="radio-wrap">
-                    <input id="romantic" name="choose" type="radio" checked="checked">
+                    <input id="romantic" name="type" value="1" type="radio" checked="checked">
                     <label for="romantic" class="romantic"><i></i>Романтический</label>
                 </div>
                 <div class="radio-wrap">
-                    <input id="real" name="choose" type="radio">
+                    <input id="real" name="type" value="2" type="radio">
                     <label for="real" class="real"><i></i>Реальный</label>
                 </div>
                 <div class="radio-wrap">
-                    <input id="fantastic" name="choose" type="radio">
+                    <input id="fantastic" name="type" value="3"  type="radio">
                     <label for="fantastic" class="fantastic"><i></i>Фантастический</label>
                 </div>
                 <div class="radio-wrap">
-                    <input id="solemn" name="choose" type="radio">
+                    <input id="solemn" name="type" value="4"  type="radio">
                     <label for="solemn" class="solemn"><i></i>Торжественный</label>
                 </div>
             </div>
@@ -302,11 +302,16 @@
                     <span class="warning">Максимум — 70 символов</span>
                 </div>
             </div>
-            <a href="#step2" class="btn step2">Продолжить</a>
+            <a href="#" class="btn" onclick="StepOne()">Продолжить</a> <!--#step2-->
+            <a href="#step2" class="step2" style="display:none;">Продолжить</a>
         </form>
     </div>
-    <div id="step2" class="steps">
+
+
+    <div id="step2" class="steps" >
         <h4><span>Шаг 2.</span>Загрузите фото</h4>
+        <form id="form_step2">
+          <input type="hidden" id="id_input_step2" value="">
         <div class="download">
             <div id="dropBox">
                 <div class="dropbox-info">
@@ -320,20 +325,33 @@
                 </div>
             </div>
             <div class="download-info">
-                <div class="download-info__text">
+                <div class="download-info__text" id="step2-info__text">
                     Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах
                 </div>
             </div>
-        </div>
-        <a href="#step1" class="back step1">Назад</a><a href="#step3" class="btn step3">Оформить заказ</a>
+        </div></form>
+
+        <a href="#step1" class="back step1">Назад</a>
+
+        <a href="#step3" class="btn step3">Оформить заказ</a>
     </div>
+
+
     <div id="step3" class="steps">
         <h4><span>Шаг 3.</span>Поделитесь</h4>
         <p>
             Чтобы подтвердить заказ, отправьте его себе на стену в социальную сеть
         </p>
-        <a href="#step4" class="btn vk step4">ВКонтакте</a> <span class="or">или</span> <a href="#step4" class="btn fb step4">Facebook</a>
+        <a href="#step4" class="btn vk step4">ВКонтакте</a>
+        <span class="or">или</span>
+        <!--<a href="#step4" class="btn fb step4">Facebook</a>-->
+        <a href="#" onclick="shareFB()"
+           class="btn fb">Facebook</a>
     </div>
+
+
+
+
     <div id="step4" class="steps">
         <h4><span>Шаг 4.</span>Отлично, заказ отправлен!</h4>
         <p>
@@ -363,3 +381,25 @@
             Каждую неделю можно оформить новый заказ!
         </p>
     </div>
+
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId      : '129128417456746',
+                xfbml      : true,
+                version    : 'v2.5'
+            });
+        };
+
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+
+
+
+    </script>

@@ -23,4 +23,5 @@ $routingRules = array(// ассоциативный массив с маршру
     "main/specification" => "specification",
     "main/winners" => "winners",
     "main/members" => "members",
+    "main/stepone" => "stepone",
 );

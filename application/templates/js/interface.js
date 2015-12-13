@@ -109,13 +109,7 @@ $(document).ready(function() {
         maxWidth	: 800,
         minHeight: 300,
     });
-    $(".step2").fancybox({
-        'titlePosition'     : 'inside',
-        'transitionIn'      : 'none',
-        'transitionOut'     : 'none',
-        padding: 50,
-        maxWidth	: 800,
-    });
+
     $(".step3").fancybox({
         'titlePosition'     : 'inside',
         'transitionIn'      : 'none',
@@ -226,4 +220,96 @@ $(document).ready(function() {
 });
 
 
+/**
+ * @return {boolean}
+ */
+function StepOne()
+{
 
+	var val = $('.textarea-wrap').find('textarea').val();
+	if (val!= "")
+	{$('#step2-info__text').text(val);}
+	else
+	{
+		$('.textarea-wrap').find('textarea').css({'border-color':'red'});
+		return;
+	}
+	$(".step2").fancybox({
+						'titlePosition'     : 'inside',
+						'transitionIn'      : 'none',
+						'transitionOut'     : 'none',
+						padding: 50,
+						maxWidth	: 800,
+					}).click();
+
+	//var form = $('#form_step1').serialize();
+	//$.ajax({
+	//	data: {form: form},
+	//	dataType: 'json',
+	//	type: 'POST',
+	//	url: '/stepone',
+	//	success: function (data) {
+	//		if (data.success == 1) {
+	//			var id = data.id;
+	//			$('#id_input_step2').val(id);
+	//			$(".step2").fancybox({
+	//				'titlePosition'     : 'inside',
+	//				'transitionIn'      : 'none',
+	//				'transitionOut'     : 'none',
+	//				padding: 50,
+	//				maxWidth	: 800,
+	//			}).click();
+	//		}
+	//		else {
+	//			$('.textarea-wrap').find('textarea').css({'border-color':'red'});
+	//		}
+	//	}
+	//});
+	//return false;
+}
+
+
+
+/**
+ * @return {boolean}
+ */
+function StepTwo() {
+	var formData = new FormData($('#id_input_step2'));
+	console.log(formData);return;
+	$.ajax({
+		url: "page.php",
+		type: "POST",
+		data: formData,
+		async: false,
+		success: function (msg) {
+			alert(msg)
+		},
+		cache: false,
+		contentType: false,
+		processData: false
+	});
+
+	e.preventDefault();
+}
+
+
+function shareFB ()
+{
+	FB.ui(
+                    {
+                        method: 'share',
+                        name: 'fase',
+                        picture: 'http://fbrell.com/f8.jpg',
+                        caption: 'asdasdasddas',
+                        description: 'olololol',
+						href: 'ns.nineseven.ru',
+                    },
+                    function(response) {
+                        if (response && response.post_id) {
+                            alert('Post was published.');
+                        } else {
+                            alert('Post was not published.');
+                        }
+                    }
+            );
+}
