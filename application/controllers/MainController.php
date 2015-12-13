@@ -52,6 +52,7 @@ class MainController extends Controller
         if ($values['message'] && $values['type'])
         {
             $values['image'] = null;
+            $image = "application/templates/img/content/top-logo.png";
             if ($_FILES){
                 $uploaddir = "{$_SERVER['DOCUMENT_ROOT']}/uploads/";
                 $uploadfile = $uploaddir . basename($_FILES['image']['name']);
@@ -59,13 +60,9 @@ class MainController extends Controller
                 if (move_uploaded_file($_FILES['image']['tmp_name'], $uploadfile)) {//upload this
                     $image  = "uploads/".$_FILES['image']['name'];
                 }
-                else
-                {
-                    $image = "application/templates/img/content/top-logo.png";
-                }
-
-                $values['image']  = $_SERVER['HTTP_HOST']."/".$image;
             }
+
+            $values['image']  = $_SERVER['HTTP_HOST']."/".$image;
             $model = new OrderModel();
             $save = $model->addOrder($values['message'],$values['type'], $values['image']);
             if ($save)

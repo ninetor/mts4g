@@ -283,7 +283,7 @@ if (object)
 {
     FB.ui(
         {
-            method: 'share',
+            method: 'feed',
             name: object.message,
             picture: object.image,
             caption: '4G-скорость — уже в Минске!',
