@@ -334,8 +334,9 @@ function sendPhone() {
 }
 
 function crearevk() {
-    console.log(object)
-    $('#vkapiahser').append(
+    var vkapiahser = $('#vkapiahser');
+    vkapiahser.empty();
+    vkapiahser.append(
         VK.Share.button({
                 url: 'ns.nineseven.ru/members/' +
                 object.id + "?title=" +
@@ -345,7 +346,7 @@ function crearevk() {
             },
             {
                 type: 'custom',
-                text: '<button class="btn vk">ВКонтакте</button>'
+                text: '<span class="btn vk">ВКонтакте</span>'
             })
     );
 }
