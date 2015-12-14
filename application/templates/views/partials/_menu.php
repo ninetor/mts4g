@@ -10,7 +10,7 @@
         <a href="<?=$params['urlMenu']?>" class="top-nav__item">4Gакции</a>
     </nav>
     <div class="top-socials">
-        <a href="#" class="vk" >
+        <a href="#" class="vk" onclick="Share.vkontakte('<?=$params['host']?>','Хочу прокатиться на #4GтаксиМТС!','http://<?=$params['host']?>/img/content/stylemap.png','Придумайте повод и получите шанс прокатиться на #4GтаксиМТС!')">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 									 viewBox="0 0 532.337 532.337" xml:space="preserve">
 									<path d="M471.998,241.286c7.57-9.786,13.58-17.638,18.018-23.562c31.965-42.498,45.82-69.646,41.574-81.482l-1.666-2.772
@@ -46,9 +46,7 @@
 									C449.275,271.874,457.586,259.769,471.998,241.286z"/>
 								</svg>
         </a>
-        <a href="#" class="fb fb-share-button"
-		   data-href="http://<?=$params['host']?>"
-		   data-layout="button_count">
+        <a href="#" class="fb" onclick="Share.facebook('<?=$params['host']?>','Хочу прокатиться на #4GтаксиМТС!','http://<?=$params['host']?>/img/content/stylemap.png','Придумайте повод и получите шанс прокатиться на #4GтаксиМТС!')">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 									 viewBox="0 0 96.124 96.123" xml:space="preserve">
 									<path d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803
@@ -57,7 +55,7 @@
 										c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"/>
 								</svg>
         </a>
-        <a href="#" class="twitter">
+        <a href="#" class="twitter" onclick="Share.twitter('<?=$params['host']?>','Хочу прокатиться на #4GтаксиМТС!')">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 									 viewBox="0 0 612 612" xml:space="preserve">
 									<path d="M612,116.258c-22.525,9.981-46.694,16.75-72.088,19.772c25.929-15.527,45.777-40.155,55.184-69.411
