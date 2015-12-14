@@ -58,13 +58,12 @@ class View
         $this->init();
     }
 
-    public function createWithTemplate($content, $isMain = false)
+    public function createWithTemplate($contentFile, $isMain = false, $top_info = null)
     {
         /**
          * the partials of page HTML
          */
-        $contentFile = $this->_controller->createHTML("/{$this->_viewFolder}/{$content}");
-        $headerFile = $this->_controller->createHTML("{$this->_viewFolder}/{$this->_headerFile}",[ 'host' => $_SERVER['HTTP_HOST']]);
+        $headerFile = $this->_controller->createHTML("{$this->_viewFolder}/{$this->_headerFile}");
         $footerFile = $this->_controller->createHTML("{$this->_viewFolder}/{$this->_footerFile}");
 
         $urlMenu = $isMain ? null : "/";
@@ -76,7 +75,7 @@ class View
             'urlMenu' => $urlMenu,
             'isMain' => $isMain,
             'host' => $_SERVER['HTTP_HOST']]);
-        $top_info = $isMain ? $this->_controller->createHTML("{$this->_viewFolder}/{$this->_partialsFolder}/{$this->_topInfoFile}") : null;
+
         $topFile = $this->_controller->createHTML("{$this->_viewFolder}/{$this->_partialsFolder}/{$this->_topFile}", ['menu' => $menuFile, 'info' => $top_info]);
 
         return $this->_controller->createHTML("{$this->_viewFolder}/{$this->_mainFile}", [

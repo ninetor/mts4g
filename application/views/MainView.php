@@ -5,23 +5,29 @@ if(!defined("USE_HOST"))// условие проверяющее возможн�
 class MainView extends View{
     public $_folderPage = "main";
 
-	public function showMain()
+	public function showMain($params)
 	{
-        return $this->createWithTemplate("{$this->_folderPage}/index.html",true);
+		$contentFile = $this->_controller->createHTML("/{$this->_viewFolder}/{$this->_folderPage}/index.php");
+		$top_info =  $this->_controller->createHTML("{$this->_viewFolder}/{$this->_partialsFolder}/{$this->_topInfoFile}",['count'=>$params['count']]);
+        return $this->createWithTemplate($contentFile,true,$top_info);
 	}
 
 	public function showSpecification()
 	{
-        return $this->createWithTemplate("{$this->_folderPage}/specification.html");
+		$contentFile = $this->_controller->createHTML("/{$this->_viewFolder}/{$this->_folderPage}/specification.html");
+        return $this->createWithTemplate($contentFile);
 	}
 
-	public function showMembers()
+	public function showMembers($params)
 	{
-        return $this->createWithTemplate("{$this->_folderPage}/members.html");
+
+		$contentFile = $this->_controller->createHTML("/{$this->_viewFolder}/{$this->_folderPage}/members.php",$params);
+        return $this->createWithTemplate($contentFile);
 	}
 
-	public function showWinners()
+	public function showWinners($params)
 	{
-        return $this->createWithTemplate("{$this->_folderPage}/winners.html");
+		$contentFile = $this->_controller->createHTML("/{$this->_viewFolder}/{$this->_folderPage}/winners.php",$params);
+        return $this->createWithTemplate($contentFile);
 	}
 }

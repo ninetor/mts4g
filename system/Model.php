@@ -34,7 +34,7 @@ class Model{
 		{
 			$this->pass = "8s%c@ISTxxPI";
 		}
-		$this->_pdo =  new PDO("mysql:host=localhost;dbname={$this->db}", $this->login, $this->pass);
+		$this->_pdo =  new PDO("mysql:host=localhost;dbname={$this->db}", $this->login, $this->pass,array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
 	}
 	public function __construct()
 	{

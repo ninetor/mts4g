@@ -10,7 +10,8 @@
         <a href="<?=$params['urlMenu']?>" class="top-nav__item">4Gакции</a>
     </nav>
     <div class="top-socials">
-        <a href="#" class="vk" onclick="Share.vkontakte('<?=$params['host']?>','Хочу прокатиться на #4GтаксиМТС!','http://<?=$params['host']?>/img/content/stylemap.png','Придумайте повод и получите шанс прокатиться на #4GтаксиМТС!')">
+
+        <a href="#" class="vk" onclick="Share.vkontakte('<?=$params['host']?>','Хочу прокатиться на #4GтаксиМТС!','http://img0.joyreactor.cc/pics/post/full/anon-%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0-2191131.jpeg','Придумайте повод и получите шанс прокатиться на #4GтаксиМТС!')">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 									 viewBox="0 0 532.337 532.337" xml:space="preserve">
 									<path d="M471.998,241.286c7.57-9.786,13.58-17.638,18.018-23.562c31.965-42.498,45.82-69.646,41.574-81.482l-1.666-2.772

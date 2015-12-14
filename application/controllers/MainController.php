@@ -12,7 +12,8 @@ class MainController extends Controller
     public function indexAction()
     {
         $view = new MainView();
-        return $this->_controller->setPage($view->showMain());
+        $model = new OrderModel();
+        return $this->_controller->setPage($view->showMain(['count'=>$model->getCount()]));
     }
 
     public function specificationAction()
@@ -20,16 +21,31 @@ class MainController extends Controller
         $view = new MainView();
         return $this->_controller->setPage($view->showSpecification());
     }
+
     public function membersAction()
     {
+        $model = new OrderModel();
+        $Allmembers = $model->getMembers();
+        $countAll = count($Allmembers);
+        $limit = 2;
+
+        $currentPage = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+        $pagination = pagination($countAll,$currentPage,$limit);
+
+        $offset = $limit* ($currentPage -1);
+        $addQuery = " LIMIT $limit OFFSET $offset";
+        $members = $model->getMembers($addQuery);
         $view = new MainView();
-        return $this->_controller->setPage($view->showMembers());
+
+        return $this->_controller->setPage($view->showMembers(['members'=>$members, 'pagination' => $pagination]));
     }
 
     public function winnersAction()
     {
+        $model = new OrderModel();
+        $winners = $model->getWinners();
         $view = new MainView();
-        return $this->_controller->setPage($view->showWinners());
+        return $this->_controller->setPage($view->showWinners(['winners'=>$winners]));
     }
 
 
@@ -52,22 +68,23 @@ class MainController extends Controller
         if ($values['message'] && $values['type'])
         {
             $values['image'] = null;
-            $image = "application/templates/img/content/top-logo.png";
+
             if ($_FILES){
                 $uploaddir = "{$_SERVER['DOCUMENT_ROOT']}/uploads/";
                 $uploadfile = $uploaddir . basename($_FILES['image']['name']);
 
                 if (move_uploaded_file($_FILES['image']['tmp_name'], $uploadfile)) {//upload this
                     $image  = "uploads/".$_FILES['image']['name'];
+                    $values['image']  = "http://".$_SERVER['HTTP_HOST']."/".$image;
                 }
             }
 
-            $values['image']  = "http://".$_SERVER['HTTP_HOST']."/".$image;
             $model = new OrderModel();
             $save = $model->addOrder($values['message'],$values['type'], $values['image']);
             if ($save)
             {
                 $values['id'] = $save;
+                $values['image']  = "http://".$_SERVER['HTTP_HOST']."/"."application/templates/img/content/top-logo.png";
                 echo json_encode(['success'=>1, 'object' => $values]);
             }
             else

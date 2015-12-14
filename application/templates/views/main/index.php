@@ -387,7 +387,6 @@
     <p>
         Чтобы подтвердить заказ, отправьте его себе на стену в социальную сеть
     </p>
-    <!--<a href="#" onclick="Share.vkontakte('http://ns.nineseven.ru/members/'+object.id,object.message,object.image,object.message)" class="btn vk ">ВКонтакте</a>-->
    <span id="vkapiahser" onclick="showFourStep()">
 
          </span>

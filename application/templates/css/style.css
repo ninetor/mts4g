@@ -1709,6 +1709,11 @@ span.pagination__item--prev {
   background: transparent;
   color: #888888; }
 
+span.pagination__item--next {
+  width: auto;
+  background: transparent;
+  color: #888888; }
+
 .pagination__item--prev {
   width: auto;
   background: transparent;

@@ -9,7 +9,7 @@ $escHTMLVariables = true;// переменная, отвечающая за за
 $useDirectRoute = false;// Переменная, отвечающая за возможность прямого доступа к методам контроллеров
  
 $includes = array(// массив с именами файлов, какие будут подключены из папки application/libraries
-	//"example.php",
+	"main.php",
 );
 
 $defaultController = "MainController";// имя контроллера, какой устанавливается по умолчанию, если в строке явно не указан
