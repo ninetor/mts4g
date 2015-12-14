@@ -62,7 +62,7 @@ class MainController extends Controller
                 }
             }
 
-            $values['image']  = $_SERVER['HTTP_HOST']."/".$image;
+            $values['image']  = "http://".$_SERVER['HTTP_HOST']."/".$image;
             $model = new OrderModel();
             $save = $model->addOrder($values['message'],$values['type'], $values['image']);
             if ($save)

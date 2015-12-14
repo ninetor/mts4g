@@ -17,6 +17,15 @@ $(document).ready(function () {
     }
     ;
 
+    //VK.init(function () {
+    // API initialization succeeded
+    // Your code here
+    //}, function () {
+    // API initialization failed
+    // Can reload page here
+    //}, '5.41');
+
+
     //ORDER-COUNTER
     counter();
 
@@ -110,7 +119,6 @@ $(document).ready(function () {
         maxWidth: 800,
         minHeight: 300,
     });
-
 
 
     $(".member-popup").fancybox({
@@ -248,8 +256,7 @@ function createOrder() {
         //async: false,
         success: function (data) {
             console.log(data.success);
-            if (data.success == 1)
-            {
+            if (data.success == 1) {
                 object = data.object;
                 $("#tostep3").fancybox({
                     'titlePosition': 'inside',
@@ -258,6 +265,7 @@ function createOrder() {
                     padding: 60,
                     maxWidth: 720,
                 }).click();
+                crearevk();
             }
         },
         //cache: false,
@@ -267,8 +275,7 @@ function createOrder() {
 
 }
 
-function showFourStep()
-{
+function showFourStep() {
     $("#tostep4").fancybox({
         'titlePosition': 'inside',
         'transitionIn': 'none',
@@ -279,44 +286,41 @@ function showFourStep()
 }
 
 function shareFB() {
-if (object)
-{
-    FB.ui(
-        {
-            method: 'share',
-            name: object.message,
-            picture: object.image,
-            caption: '4G-скорость — уже в Минске!',
-            description: object.message,
-            href: 'ns.nineseven.ru/members/'+object.id,
-            app_id:129128417456746,
-            //redirect_uri: 'ns.nineseven.ru/members/'+object.id,
-        },
-        function (response) {
-            console.log(response);
-            //if (response && response.post_id) {
+    if (object) {
+        FB.ui(
+            {
+                method: 'share',
+                name: object.message,
+                picture: object.image,
+                caption: '4G-скорость — уже в Минске!',
+                description: object.message,
+                href: 'ns.nineseven.ru/members/' + object.id,
+                app_id: 129128417456746,
+                //redirect_uri: 'ns.nineseven.ru/members/'+object.id,
+            },
+            function (response) {
+                console.log(response);
+                //if (response && response.post_id) {
                 showFourStep();
-            //} else {
-            //    alert('Необходимо опубликовать пост у себя на странице');
-            //}
-        }
-    );
-}
+                //} else {
+                //    alert('Необходимо опубликовать пост у себя на странице');
+                //}
+            }
+        );
+    }
 }
 
-function sendPhone()
-{
+function sendPhone() {
     var id = object.id;
     var phone = $('#phoneOrder').val();
     $.ajax({
         url: "/setphone",
         type: "POST",
-        data: {id:id, phone:phone},
+        data: {id: id, phone: phone},
         dataType: 'json',
         success: function (data) {
             console.log(data.success);
-            if (data.success == 1)
-            {
+            if (data.success == 1) {
                 $("#tostep5").fancybox({
                     'titlePosition': 'inside',
                     'transitionIn': 'none',
@@ -327,4 +331,21 @@ function sendPhone()
             }
         }
     });
+}
+
+function crearevk() {
+    console.log(object)
+    $('#vkapiahser').append(
+        VK.Share.button({
+                url: 'ns.nineseven.ru/members/' +
+                object.id + "?title=" +
+                "4G-скорость — уже в Минске!" + "&description=" +
+                object.message + "&image=" +
+                object.image + "&noparse=true",
+            },
+            {
+                type: 'custom',
+                text: '<button class="btn vk">ВКонтакте</button>'
+            })
+    );
 }

@@ -1,5 +1,6 @@
 Share = {
     vkontakte: function(purl, ptitle, pimg, text) {
+        console.log(pimg);
         url  = 'http://vkontakte.ru/share.php?';
         url += 'url='          + encodeURIComponent(purl);
         url += '&title='       + encodeURIComponent(ptitle);
@@ -7,6 +8,7 @@ Share = {
         url += '&image='       + encodeURIComponent(pimg);
         url += '&noparse=true';
         Share.popup(url);
+        console.log(url);
     },
     odnoklassniki: function(purl, text) {
         url  = 'http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1';

@@ -30,7 +30,7 @@ class Model{
 
 	public function init()
 	{
-		if ($_SERVER['HTTP_HOST']!="mts.loc")
+		if ($_SERVER['HTTP_HOST']!="mts.loc" && $_SERVER['HTTP_HOST']!="mts.local")
 		{
 			$this->pass = "8s%c@ISTxxPI";
 		}

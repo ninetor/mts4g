@@ -2,7 +2,106 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edded8a7-8d07-4b17-88c9-1f200902e07b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/4g.png" afterPath="$PROJECT_DIR$/application/templates/img/content/4g.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/accum.png" afterPath="$PROJECT_DIR$/application/templates/img/content/accum.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/vendors/slick/ajax-loader.gif" afterPath="$PROJECT_DIR$/application/templates/js/vendors/slick/ajax-loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/back.png" afterPath="$PROJECT_DIR$/application/templates/img/content/back.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/vendors/fancybox/blank.gif" afterPath="$PROJECT_DIR$/application/templates/js/vendors/fancybox/blank.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/camera.png" afterPath="$PROJECT_DIR$/application/templates/img/content/camera.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/choose-bg.png" afterPath="$PROJECT_DIR$/application/templates/img/content/choose-bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/close.png" afterPath="$PROJECT_DIR$/application/templates/img/content/close.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/vendors/croppic/cropperIcons.png" afterPath="$PROJECT_DIR$/application/templates/js/vendors/croppic/cropperIcons.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/customer1.jpg" afterPath="$PROJECT_DIR$/application/templates/img/content/customer1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/customer2.jpg" afterPath="$PROJECT_DIR$/application/templates/img/content/customer2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/customer3.jpg" afterPath="$PROJECT_DIR$/application/templates/img/content/customer3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/customer4.jpg" afterPath="$PROJECT_DIR$/application/templates/img/content/customer4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/display.png" afterPath="$PROJECT_DIR$/application/templates/img/content/display.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/download-bg.jpg" afterPath="$PROJECT_DIR$/application/templates/img/content/download-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/download-info-bg.png" afterPath="$PROJECT_DIR$/application/templates/img/content/download-info-bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/dropbox-info_bg.jpg" afterPath="$PROJECT_DIR$/application/templates/img/content/dropbox-info_bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/vendors/fancybox/fancybox_loading.gif" afterPath="$PROJECT_DIR$/application/templates/js/vendors/fancybox/fancybox_loading.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/vendors/fancybox/fancybox_loading@2x.gif" afterPath="$PROJECT_DIR$/application/templates/js/vendors/fancybox/fancybox_loading@2x.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/vendors/fancybox/fancybox_overlay.png" afterPath="$PROJECT_DIR$/application/templates/js/vendors/fancybox/fancybox_overlay.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/vendors/fancybox/fancybox_sprite.png" afterPath="$PROJECT_DIR$/application/templates/js/vendors/fancybox/fancybox_sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/vendors/fancybox/fancybox_sprite@2x.png" afterPath="$PROJECT_DIR$/application/templates/js/vendors/fancybox/fancybox_sprite@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/fb.png" afterPath="$PROJECT_DIR$/application/templates/img/content/fb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/footer-illustration.png" afterPath="$PROJECT_DIR$/application/templates/img/content/footer-illustration.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/lenovo.png" afterPath="$PROJECT_DIR$/application/templates/img/content/lenovo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/lumia540.png" afterPath="$PROJECT_DIR$/application/templates/img/content/lumia540.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/lumia640.png" afterPath="$PROJECT_DIR$/application/templates/img/content/lumia640.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/member-bg.jpg" afterPath="$PROJECT_DIR$/application/templates/img/content/member-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/member-info-bg.png" afterPath="$PROJECT_DIR$/application/templates/img/content/member-info-bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/microsoft.png" afterPath="$PROJECT_DIR$/application/templates/img/content/microsoft.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/phone-arrows.png" afterPath="$PROJECT_DIR$/application/templates/img/content/phone-arrows.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/phone-icon1.png" afterPath="$PROJECT_DIR$/application/templates/img/content/phone-icon1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/phone-message.png" afterPath="$PROJECT_DIR$/application/templates/img/content/phone-message.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/phone-shadow.png" afterPath="$PROJECT_DIR$/application/templates/img/content/phone-shadow.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/popup-arrows-m.png" afterPath="$PROJECT_DIR$/application/templates/img/content/popup-arrows-m.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/popup-arrows.png" afterPath="$PROJECT_DIR$/application/templates/img/content/popup-arrows.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/question-icon.png" afterPath="$PROJECT_DIR$/application/templates/img/content/question-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/questions-illustration.png" afterPath="$PROJECT_DIR$/application/templates/img/content/questions-illustration.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/samsung.png" afterPath="$PROJECT_DIR$/application/templates/img/content/samsung.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/scroll.png" afterPath="$PROJECT_DIR$/application/templates/img/content/scroll.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/sim.png" afterPath="$PROJECT_DIR$/application/templates/img/content/sim.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/top-illustration.png" afterPath="$PROJECT_DIR$/application/templates/img/content/top-illustration.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/top-img.jpg" afterPath="$PROJECT_DIR$/application/templates/img/content/top-img.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/top-logo.png" afterPath="$PROJECT_DIR$/application/templates/img/content/top-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/underline.png" afterPath="$PROJECT_DIR$/application/templates/img/content/underline.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/unnamed.png" afterPath="$PROJECT_DIR$/application/templates/img/content/unnamed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/vidget1.jpg" afterPath="$PROJECT_DIR$/application/templates/img/content/vidget1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/vidget2.jpg" afterPath="$PROJECT_DIR$/application/templates/img/content/vidget2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/content/vk.png" afterPath="$PROJECT_DIR$/application/templates/img/content/vk.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/Controller.php" afterPath="$PROJECT_DIR$/system/Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Events.php" afterPath="$PROJECT_DIR$/application/Events.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/ExampleLibrary.php" afterPath="$PROJECT_DIR$/application/libraries/ExampleLibrary.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/FrontController.php" afterPath="$PROJECT_DIR$/system/FrontController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/MainController.php" afterPath="$PROJECT_DIR$/application/controllers/MainController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/MainView.php" afterPath="$PROJECT_DIR$/application/views/MainView.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/Model.php" afterPath="$PROJECT_DIR$/system/Model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/OrderModel.php" afterPath="$PROJECT_DIR$/application/models/OrderModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/Share.js" afterPath="$PROJECT_DIR$/application/templates/js/Share.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/View.php" afterPath="$PROJECT_DIR$/system/View.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/partials/_addition.html" afterPath="$PROJECT_DIR$/application/templates/views/partials/_addition.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/partials/_menu.php" afterPath="$PROJECT_DIR$/application/templates/views/partials/_menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/partials/_top.html" afterPath="$PROJECT_DIR$/application/templates/views/partials/_top.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/partials/_top_info.html" afterPath="$PROJECT_DIR$/application/templates/views/partials/_top_info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.php" afterPath="$PROJECT_DIR$/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config.php" afterPath="$PROJECT_DIR$/application/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/vendors/croppic/croppic.css" afterPath="$PROJECT_DIR$/application/templates/js/vendors/croppic/croppic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/vendors/croppic/croppic.min.js" afterPath="$PROJECT_DIR$/application/templates/js/vendors/croppic/croppic.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/svg/fb.svg" afterPath="$PROJECT_DIR$/application/templates/img/svg/fb.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/footer.html" afterPath="$PROJECT_DIR$/application/templates/views/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/header.html" afterPath="$PROJECT_DIR$/application/templates/views/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/main/index.html" afterPath="$PROJECT_DIR$/application/templates/views/main/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/install.php" afterPath="$PROJECT_DIR$/install.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/interface.js" afterPath="$PROJECT_DIR$/application/templates/js/interface.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/jQuery-2.1.3.min.js" afterPath="$PROJECT_DIR$/application/templates/js/jQuery-2.1.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/vendors/fancybox/jquery.fancybox.css" afterPath="$PROJECT_DIR$/application/templates/js/vendors/fancybox/jquery.fancybox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/vendors/fancybox/jquery.fancybox.pack.js" afterPath="$PROJECT_DIR$/application/templates/js/vendors/fancybox/jquery.fancybox.pack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/main.html" afterPath="$PROJECT_DIR$/application/templates/views/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/main/members.html" afterPath="$PROJECT_DIR$/application/templates/views/main/members.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/mts.iml" afterPath="$PROJECT_DIR$/.idea/mts.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/mts.loc-access.log" afterPath="$PROJECT_DIR$/logs/mts.loc-access.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/mts.loc.com-error.log" afterPath="$PROJECT_DIR$/logs/mts.loc.com-error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/vendors/slick/slick.css" afterPath="$PROJECT_DIR$/application/templates/js/vendors/slick/slick.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/vendors/slick/slick.min.js" afterPath="$PROJECT_DIR$/application/templates/js/vendors/slick/slick.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/main/specification.html" afterPath="$PROJECT_DIR$/application/templates/views/main/specification.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/vendors/spin/spin.min.js" afterPath="$PROJECT_DIR$/application/templates/js/vendors/spin/spin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/css/style.css" afterPath="$PROJECT_DIR$/application/templates/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/svg/twitter.svg" afterPath="$PROJECT_DIR$/application/templates/img/svg/twitter.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/img/svg/vk.svg" afterPath="$PROJECT_DIR$/application/templates/img/svg/vk.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/main/winners.html" afterPath="$PROJECT_DIR$/application/templates/views/main/winners.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mts.iws" />
@@ -63,36 +162,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/templates/views/main/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52366865">
-              <caret line="346" column="53" selection-start-line="346" selection-start-column="53" selection-end-line="346" selection-end-column="53" />
+            <state vertical-scroll-proportion="-7.9259257">
+              <caret line="348" column="48" selection-start-line="348" selection-start-column="48" selection-end-line="348" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#a#1;n#div#0;n#form#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#2;n#div#1;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="e#20216#20384#0" expanded="true" />
+                <element signature="e#20414#20688#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/templates/views/main.html">
+      <file leaf-file-name="MainController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/MainController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.793103">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state vertical-scroll-proportion="-10.666667">
+              <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interface.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="interface.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/templates/js/interface.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="287" column="21" selection-start-line="287" selection-start-column="21" selection-end-line="287" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.49635038">
+              <caret line="277" column="25" selection-start-line="277" selection-start-column="25" selection-end-line="277" selection-end-column="25" />
+              <folding>
+                <element signature="e#30#6051#0" expanded="true" />
+                <element signature="n#!!block;n#StepOne#0" expanded="true" />
+                <element signature="n#!!block;n#createOrder#0" expanded="true" />
+                <element signature="e#6947#7387#0" expanded="true" />
+                <element signature="n#!!block;n#shareFB#0" expanded="true" />
+                <element signature="n#!!block;n#sendPhone#0" expanded="true" />
+                <element signature="n#!!block;n#crearevk#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.925926">
+              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -102,37 +221,32 @@
         <entry file="file://$PROJECT_DIR$/application/templates/js/Share.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/MainController.php">
+      <file leaf-file-name="Model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.51724">
-              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state vertical-scroll-proportion="-16.592592">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.965517">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="mts4g.order" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/64b02fa/377f7745-cc2c-4d94-bf38-4961d72fa70f/mts4g..order">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
+          <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -141,35 +255,12 @@
       <file leaf-file-name="OrderModel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/OrderModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.8965516">
-              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state vertical-scroll-proportion="-2.6666667">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding>
-                <marker date="1450035021548" expanded="true" signature="284:357" placeholder="INSERT INTO ..." />
-                <marker date="1450035021548" expanded="true" signature="667:685" placeholder="INSERT INTO ..." />
-                <marker date="1450035021548" expanded="true" signature="899:918" placeholder="SELECT * fro..order..." />
+                <marker date="1450082884395" expanded="true" signature="284:357" placeholder="INSERT INTO ..." />
+                <marker date="1450082884395" expanded="true" signature="899:918" placeholder="SELECT * fro..order..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/377f7745-cc2c-4d94-bf38-4961d72fa70f/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
-              <folding>
-                <marker date="1450033731574" expanded="true" signature="0:32" placeholder="UPDATE `orde..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Model.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/Model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.965517">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -216,14 +307,14 @@
         <option value="$PROJECT_DIR$/bootstrap.php" />
         <option value="$PROJECT_DIR$/application/config.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/377f7745-cc2c-4d94-bf38-4961d72fa70f/console.sql" />
-        <option value="$PROJECT_DIR$/system/Model.php" />
         <option value="$PROJECT_DIR$/application/models/OrderModel.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/application/controllers/MainController.php" />
-        <option value="$PROJECT_DIR$/application/templates/js/interface.js" />
-        <option value="$PROJECT_DIR$/application/templates/js/Share.js" />
         <option value="$PROJECT_DIR$/application/templates/views/main.html" />
+        <option value="$PROJECT_DIR$/system/Model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/MainController.php" />
+        <option value="$PROJECT_DIR$/application/templates/js/Share.js" />
         <option value="$PROJECT_DIR$/application/templates/views/main/index.html" />
+        <option value="$PROJECT_DIR$/application/templates/js/interface.js" />
       </list>
     </option>
   </component>
@@ -243,10 +334,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="PhpXdebugProxy" port="9000" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-1" />
+    <option name="width" value="1922" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -272,7 +362,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -287,7 +376,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mts" />
+              <option name="myItemId" value="mts.local" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -297,7 +386,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mts" />
+              <option name="myItemId" value="mts.local" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -311,15 +400,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mts" />
+              <option name="myItemId" value="mts.local" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -333,7 +418,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mts" />
+              <option name="myItemId" value="mts.local" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -344,14 +429,6 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -359,7 +436,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mts" />
+              <option name="myItemId" value="mts.local" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -381,7 +458,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mts" />
+              <option name="myItemId" value="mts.local" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -389,12 +466,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -406,6 +484,7 @@
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -530,29 +609,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-1" y="0" width="1922" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3270869" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.197615" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18381241" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1785174" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1782284" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22827938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18569905" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3314978" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.197615" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22827938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -582,13 +661,46 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/OrderModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <marker date="1450082884395" expanded="true" signature="284:357" placeholder="INSERT INTO ..." />
+            <marker date="1450082884395" expanded="true" signature="899:918" placeholder="SELECT * fro..order..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/templates/views/partials/_menu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <marker date="1449944262994" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -604,7 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -630,8 +741,10 @@
           <folding>
             <element signature="n#style#0;n#a#1;n#div#0;n#form#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#2;n#div#1;n#form#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="e#20216#20384#0" expanded="true" />
+            <element signature="e#20414#20688#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -640,7 +753,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#30#6051#0" expanded="true" />
+            <element signature="n#!!block;n#StepOne#0" expanded="true" />
+            <element signature="n#!!block;n#createOrder#0" expanded="true" />
+            <element signature="e#6947#7387#0" expanded="true" />
+            <element signature="n#!!block;n#shareFB#0" expanded="true" />
+            <element signature="n#!!block;n#sendPhone#0" expanded="true" />
+            <element signature="n#!!block;n#crearevk#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -755,18 +876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/38bdf681/377f7745-cc2c-4d94-bf38-4961d72fa70f/mts4g..typeorder">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/templates/views/main/members.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9056604">
@@ -786,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3509434">
           <caret line="216" column="9" selection-start-line="216" selection-start-column="9" selection-end-line="216" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,13 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/web/php/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/FrontController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9456522">
@@ -829,16 +930,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/14.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,9 +941,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <marker date="1449944262994" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -856,20 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.586207">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/38bdf681/377f7745-cc2c-4d94-bf38-4961d72fa70f/mts4g..order">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -878,49 +957,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.5172415">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.1311476">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/377f7745-cc2c-4d94-bf38-4961d72fa70f/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
-          <folding>
-            <marker date="1450033731574" expanded="true" signature="0:32" placeholder="UPDATE `orde..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.965517">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/OrderModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.8965516">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <marker date="1450035021548" expanded="true" signature="284:357" placeholder="INSERT INTO ..." />
-            <marker date="1450035021548" expanded="true" signature="667:685" placeholder="INSERT INTO ..." />
-            <marker date="1450035021548" expanded="true" signature="899:918" placeholder="SELECT * fro..order..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -928,15 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21857923">
           <caret line="4" column="62" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -948,18 +979,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/MainController.php">
+    <entry file="file://$PROJECT_DIR$/application/templates/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.51724">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5179856">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.965517">
+        <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06486487">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.592592">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/64b02fa/377f7745-cc2c-4d94-bf38-4961d72fa70f/mts4g..order">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -967,36 +1027,65 @@
     <entry file="file://$PROJECT_DIR$/application/templates/js/Share.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/views/main.html">
+    <entry file="file://$PROJECT_DIR$/application/models/OrderModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.793103">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
+        <state vertical-scroll-proportion="-2.6666667">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <marker date="1450082884395" expanded="true" signature="284:357" placeholder="INSERT INTO ..." />
+            <marker date="1450082884395" expanded="true" signature="899:918" placeholder="SELECT * fro..order..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/js/interface.js">
+    <entry file="file://$PROJECT_DIR$/application/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="287" column="21" selection-start-line="287" selection-start-column="21" selection-end-line="287" selection-end-column="33" />
+        <state vertical-scroll-proportion="-16.925926">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/templates/views/main/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52366865">
-          <caret line="346" column="53" selection-start-line="346" selection-start-column="53" selection-end-line="346" selection-end-column="53" />
+        <state vertical-scroll-proportion="-7.9259257">
+          <caret line="348" column="48" selection-start-line="348" selection-start-column="48" selection-end-line="348" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#a#1;n#div#0;n#form#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#2;n#div#1;n#form#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="e#20216#20384#0" expanded="true" />
+            <element signature="e#20414#20688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/MainController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.666667">
+          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/js/interface.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49635038">
+          <caret line="277" column="25" selection-start-line="277" selection-start-column="25" selection-end-line="277" selection-end-column="25" />
+          <folding>
+            <element signature="e#30#6051#0" expanded="true" />
+            <element signature="n#!!block;n#StepOne#0" expanded="true" />
+            <element signature="n#!!block;n#createOrder#0" expanded="true" />
+            <element signature="e#6947#7387#0" expanded="true" />
+            <element signature="n#!!block;n#shareFB#0" expanded="true" />
+            <element signature="n#!!block;n#sendPhone#0" expanded="true" />
+            <element signature="n#!!block;n#crearevk#0" expanded="true" />
           </folding>
         </state>
       </provider>
