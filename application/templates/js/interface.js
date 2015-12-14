@@ -336,6 +336,7 @@ function sendPhone() {
 function crearevk() {
     var vkapiahser = $('#vkapiahser');
     vkapiahser.empty();
+    console.log(object);
     vkapiahser.append(
         VK.Share.button({
                 url: 'ns.nineseven.ru/members/' +
