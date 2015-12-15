@@ -290,9 +290,18 @@ function shareFB() {
 
         FB.login(function(){
             // Note: The call will only work if you accept the permission request
-            FB.api('/me/feed', 'post', {message: 'Hello, world!'}, function(response) {
+            FB.api('/me/feed', 'post', {message: 'Хочу прокатиться на #4GтаксиМТС!', link: {
+                name: object.message,
+                        picture: object.image,
+                        caption: '4G-скорость — уже в Минске!',
+                        description: object.message,
+            }}, function(response) {
                 console.log(response)
+                FB.api('/me', function(responseTwo) {
+                    console.log("API " + responseTwo);
+                });
             });
+
         }, {scope: 'publish_actions'});
 
         //FB.api('/me', {fields: 'last_name'}, function(response) {
