@@ -2347,6 +2347,9 @@ span.pagination__item--next {
   height: 100%;
   opacity: 0;
 }
+.cropControls.cropControlsCrop{
+  z-index: 25
+}
 .cropImgWrapper{
   z-index: 20!important;
 }

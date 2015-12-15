@@ -191,11 +191,12 @@ class MainController extends Controller
         $limit = 2;
 
         $currentPage = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+        $currentId = isset($_GET['id']) ? (int)$_GET['id'] : null;
         $pagination = pagination($countAll,$currentPage,$limit);
 
         $offset = $limit* ($currentPage -1);
         $addQuery = " LIMIT $limit OFFSET $offset";
-        if ($currentPage==1) {$addQuery = "";}
+        if ($currentPage==1 && $currentId) {$addQuery = "order by id = $currentId desc, id desc ".$addQuery;}
         $members = $model->getMembers($addQuery);
         $view = new MainView();
 
