@@ -380,24 +380,24 @@ function sendPhone() {
     });
 }
 
-function crearevk() {
-    var vkapiahser = $('#vkapiahser');
-    vkapiahser.empty();
-    console.log(object);
-    vkapiahser.append(
-        VK.Share.button({
-                url: window.host+'/members/' +
-                object.id + "?title=" +
-                "4G-скорость — уже в Минске!" + "&description=" +
-                object.message + "&image=" +
-                object.image + "&noparse=true",
-            },
-            {
-                type: 'custom',
-                text: '<span class="btn vk">ВКонтакте</span>'
-            })
-    );
-}
+//function crearevk() {
+//    var vkapiahser = $('#vkapiahser');
+//    vkapiahser.empty();
+//    console.log(object);
+//    vkapiahser.append(
+//        VK.Share.button({
+//                url: window.host+'/members/' +
+//                object.id + "?title=" +
+//                "4G-скорость — уже в Минске!" + "&description=" +
+//                object.message + "&image=" +
+//                object.image + "&noparse=true",
+//            },
+//            {
+//                type: 'custom',
+//                text: '<span class="btn vk">ВКонтакте</span>'
+//            })
+//    );
+//}
 
 function shareFBMain()
 {

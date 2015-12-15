@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="edded8a7-8d07-4b17-88c9-1f200902e07b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/main/index.php" afterPath="$PROJECT_DIR$/application/templates/views/main/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/interface.js" afterPath="$PROJECT_DIR$/application/templates/js/interface.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mts.iws" />
@@ -84,10 +85,10 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/templates/views/main/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24021353">
-              <caret line="415" column="140" selection-start-line="415" selection-start-column="140" selection-end-line="415" selection-end-column="140" />
+            <state vertical-scroll-proportion="0.64285713">
+              <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
               <folding>
-                <element signature="e#888#1969#0#HTML" expanded="true" />
+                <element signature="e#888#1973#0#HTML" expanded="true" />
                 <element signature="n#style#0;n#a#2;n#div#1;n#form#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -97,15 +98,15 @@
       <file leaf-file-name="interface.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/templates/js/interface.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.6">
+              <caret line="247" column="31" selection-start-line="247" selection-start-column="31" selection-end-line="247" selection-end-column="31" />
               <folding>
+                <element signature="e#30#6050#0" expanded="true" />
                 <element signature="e#282#437#0" expanded="true" />
                 <element signature="e#2228#2688#0" expanded="true" />
                 <element signature="e#2772#2943#0" expanded="true" />
                 <element signature="e#4515#5267#0" expanded="true" />
                 <element signature="n#!!block;n#StepOne#0" expanded="true" />
-                <element signature="n#!!block;n#createOrder#0" expanded="true" />
                 <element signature="e#6946#7388#0" expanded="true" />
                 <element signature="n#!!block;n#showFourStep#0" expanded="true" />
                 <element signature="e#7692#8066#0" expanded="true" />
@@ -118,10 +119,9 @@
                 <element signature="e#9972#10396#0" expanded="true" />
                 <element signature="n#!!block;n#sendPhone#0" expanded="true" />
                 <element signature="e#10682#11056#0" expanded="true" />
-                <element signature="n#!!block;n#crearevk#0" expanded="true" />
                 <element signature="n#!!block;n#shareFBMain#0" expanded="true" />
-                <element signature="e#11669#12129#0" expanded="true" />
-                <element signature="e#12075#12120#0" expanded="true" />
+                <element signature="e#11705#12165#0" expanded="true" />
+                <element signature="e#12111#12156#0" expanded="true" />
                 <element signature="n#!!block;n#shareVKMain#0" expanded="true" />
               </folding>
             </state>
@@ -171,7 +171,7 @@
       <file leaf-file-name="MainController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/MainController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6666667">
+            <state vertical-scroll-proportion="-6.6666665">
               <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
               <folding />
             </state>
@@ -895,7 +895,13 @@
       <option name="project" value="LOCAL" />
       <updated>1450190953215</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="&#10;da">
+      <created>1450191101305</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1450191101305</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1302,14 +1308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/MainController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6666667">
-          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.666667">
@@ -1322,22 +1320,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.222222">
           <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/css/croppic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="67.2">
-          <caret line="98" column="12" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/views/main/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8888888">
-          <caret line="18" column="48" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -1374,17 +1356,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/views/main/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8888888">
+          <caret line="18" column="48" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/css/croppic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="67.2">
+          <caret line="98" column="12" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/MainController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6666665">
+          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/templates/js/interface.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.6">
+          <caret line="247" column="31" selection-start-line="247" selection-start-column="31" selection-end-line="247" selection-end-column="31" />
           <folding>
+            <element signature="e#30#6050#0" expanded="true" />
             <element signature="e#282#437#0" expanded="true" />
             <element signature="e#2228#2688#0" expanded="true" />
             <element signature="e#2772#2943#0" expanded="true" />
             <element signature="e#4515#5267#0" expanded="true" />
             <element signature="n#!!block;n#StepOne#0" expanded="true" />
-            <element signature="n#!!block;n#createOrder#0" expanded="true" />
             <element signature="e#6946#7388#0" expanded="true" />
             <element signature="n#!!block;n#showFourStep#0" expanded="true" />
             <element signature="e#7692#8066#0" expanded="true" />
@@ -1397,10 +1403,9 @@
             <element signature="e#9972#10396#0" expanded="true" />
             <element signature="n#!!block;n#sendPhone#0" expanded="true" />
             <element signature="e#10682#11056#0" expanded="true" />
-            <element signature="n#!!block;n#crearevk#0" expanded="true" />
             <element signature="n#!!block;n#shareFBMain#0" expanded="true" />
-            <element signature="e#11669#12129#0" expanded="true" />
-            <element signature="e#12075#12120#0" expanded="true" />
+            <element signature="e#11705#12165#0" expanded="true" />
+            <element signature="e#12111#12156#0" expanded="true" />
             <element signature="n#!!block;n#shareVKMain#0" expanded="true" />
           </folding>
         </state>
@@ -1408,10 +1413,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/templates/views/main/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24021353">
-          <caret line="415" column="140" selection-start-line="415" selection-start-column="140" selection-end-line="415" selection-end-column="140" />
+        <state vertical-scroll-proportion="0.64285713">
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
           <folding>
-            <element signature="e#888#1969#0#HTML" expanded="true" />
+            <element signature="e#888#1973#0#HTML" expanded="true" />
             <element signature="n#style#0;n#a#2;n#div#1;n#form#0;n#!!top" expanded="true" />
           </folding>
         </state>
