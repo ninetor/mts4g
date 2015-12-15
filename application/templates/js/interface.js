@@ -370,9 +370,10 @@ function crearevk() {
 function shareFBMain()
 {
     FB.login(function(){
-        FB.api('/me/feed', 'post', {message: 'Хочу прокатиться на #4GтаксиМТС!',
+        FB.api('/me/feed', 'post', {
+            message: 'Хочу прокатиться на #4GтаксиМТС!',
             link: 'ns.nineseven.ru/',
-            name: object.message,
+            name: "4GтаксиМТС",
             picture: "http://ns.nineseven.ru/img/content/stylemap.png",
             caption: '4G-скорость — уже в Минске!',
             description: "Придумайте повод и получите шанс прокатиться на #4GтаксиМТС!",
