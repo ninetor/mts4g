@@ -327,15 +327,16 @@ function shareFB() {
 
 function shareVK() {
     if (object) {
-        VK.api("getUserSettings", {},function(data) {
+        VK.api("account.getAppPermissions", {},function(data) {
             console.log(data);
-            if (data.response&8192){
+            if (data.response){
                     VK.api('wall.post',{ message: 'Хочу прокатиться на #4GтаксиМТС!',
-                        link: window.host+'/',
-                        name: "4GтаксиМТС",
-                        picture: "http://"+window.host+"/img/content/stylemap.png",
-                        caption: '4G-скорость — уже в Минске!',
-                        description: "Придумайте повод и получите шанс прокатиться на #4GтаксиМТС!",
+                        attachment:"http://"+window.host+"/img/content/stylemap.png",
+                        //link: window.host+'/',
+                        //name: "4GтаксиМТС",
+                        //picture: "http://"+window.host+"/img/content/stylemap.png",
+                        //caption: '4G-скорость — уже в Минске!',
+                        //description: "Придумайте повод и получите шанс прокатиться на #4GтаксиМТС!",
                     }, function(data) {
                         if (data.response) { // если получен ответ
                             alert('Сообщение отправлено! ID сообщения: ' + data.response.post_id);
@@ -343,8 +344,6 @@ function shareVK() {
                             alert('Ошибка! ' + data.error.error_code + ' ' + data.error.error_msg);
                         }
                     });
-            }else {
-                VK.callMethod('showSettingsBox',8192);
             }
         });
 
