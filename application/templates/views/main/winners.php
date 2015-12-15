@@ -16,7 +16,7 @@ if ($winners)
                             </div>
                             <div class="customer__title">Заказчик: <span><?=$winner['Social']?></span></div>
                             <div class="customer__img">
-                                <img src="../uploads/<?=$winner['Image']?>" alt="">
+                                <img src="<?=$winner['Image']?>" alt="">
                             </div>
                         </div>
                     </a>
@@ -38,7 +38,7 @@ if ($winners)
                             </div>
                         </div>
                         <div class="customer__img">
-                            <img src="../uploads/<?=$winner['Image']?>" alt="">
+                            <img src="<?=$winner['Image']?>" alt="">
                         </div>
                     </div>
                 </div>

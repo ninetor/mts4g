@@ -274,24 +274,28 @@ class MainController extends Controller
         $values = $_POST;
         if ($values['message'] && $values['type'])
         {
-            $values['image'] = null;
-
-            if ($_FILES){
-                $uploaddir = "{$_SERVER['DOCUMENT_ROOT']}/uploads/";
-                $uploadfile = $uploaddir . basename($_FILES['image']['name']);
-
-                if (move_uploaded_file($_FILES['image']['tmp_name'], $uploadfile)) {//upload this
-                    $image  = "uploads/".$_FILES['image']['name'];
-                    $values['image']  = "http://".$_SERVER['HTTP_HOST']."/".$image;
-                }
+            if (array_key_exists('image',$values))
+            {
+//                $name = str_replace("uploads/",'',$values['image']);
+                $values['image'] = "http://" . $_SERVER['HTTP_HOST'] . "/" . $values['image'];
             }
+
+//            if ($_FILES){
+//                $uploaddir = "{$_SERVER['DOCUMENT_ROOT']}/uploads/";
+//                $uploadfile = $uploaddir . basename($_FILES['image']['name']);
+//
+//                if (move_uploaded_file($_FILES['image']['tmp_name'], $uploadfile)) {//upload this
+//                    $image  = "uploads/".$_FILES['image']['name'];
+//                    $values['image']  = "http://".$_SERVER['HTTP_HOST']."/".$image;
+//                }
+//            }
 
             $model = new OrderModel();
             $save = $model->addOrder($values['message'],$values['type'], $values['image']);
             if ($save)
             {
                 $values['id'] = $save;
-                if (!$values['image']) $values['image']  = "http://".$_SERVER['HTTP_HOST']."/"."application/templates/img/content/top-logo.png";
+                if (!array_key_exists('image',$values)) $values['image']  = "http://".$_SERVER['HTTP_HOST']."/"."application/templates/img/content/top-logo.png";
                 echo json_encode(['success'=>1, 'object' => $values]);
             }
             else

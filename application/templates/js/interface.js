@@ -243,9 +243,12 @@ function StepOne() {
 function createOrder() {
     var formData = new FormData($('#form_step12')[0]);
 
-    var fileInput = document.getElementById('fileupload');
-    var file = fileInput.files[0];
-    formData.append('image', file);
+    var croppedImg = $('#cropContainerMinimal').find('.croppedImg');
+    var src = croppedImg.attr('src');
+    if (typeof src != 'undefined')
+    {
+        formData.append('image', src);
+    }
 
     $.ajax({
         url: "/createorder",

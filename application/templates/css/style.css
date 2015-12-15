@@ -1795,6 +1795,13 @@ span.pagination__item--prev {
   background: transparent;
   color: #888888; }
 
+span.pagination__item--next {
+  width: auto;
+  background: transparent;
+  color: #888888;
+  margin: 0 30px;
+}
+
 .pagination__item--prev {
   width: auto;
   background: transparent;
@@ -2305,4 +2312,49 @@ span.pagination__item--prev {
   height: 200px;
   position: relative;
   border: 1px solid #ccc;
+}
+
+
+#cropContainerMinimal {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border: 0;
+}
+.download-anchor{
+  display: block;
+  position: relative;
+  padding: 0 20px;
+  font-size: 13px;
+  line-height: 20px;
+  top: 55px;
+}
+.download-anchor a{
+  color: #ed1c24 ;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 5px;
+  border-bottom: 1px dashed #ed1c24 ;
+}
+
+.cropControls {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0);
+}
+.cropControls i.cropControlUpload {
+  background-position: -150px 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.cropImgWrapper{
+  z-index: 20;
 }
