@@ -275,20 +275,37 @@ function createOrder() {
 
 }
 
-function showFourStep() {
-    $("#tostep4").fancybox({
-        'titlePosition': 'inside',
-        'transitionIn': 'none',
-        'transitionOut': 'none',
-        padding: 60,
-        maxWidth: 720,
-    }).click();
+function showFourStep(name) {
+    var id = object.id;
+    $.ajax({
+        url: "/setsocial",
+        type: "POST",
+        data: {id: id, name: name},
+        dataType: 'json',
+        success: function (data) {
+            console.log(data.success);
+            if (data.success == 1) {
+                $("#tostep4").fancybox({
+                    'titlePosition': 'inside',
+                    'transitionIn': 'none',
+                    'transitionOut': 'none',
+                    padding: 60,
+                    maxWidth: 720,
+                }).click();
+            }
+        }
+    });
 }
 
 function shareFB() {
     if (object) {
-console.log(object);
         FB.login(function(){
+            FB.api('/me', function(responseTwo) {
+                if (typeof responseTwo['name'] != 'undefined')
+                 name = responseTwo['name'];
+                else
+                return false;
+            });
             // Note: The call will only work if you accept the permission request
             FB.api('/me/feed', 'post', {message: 'Хочу прокатиться на #4GтаксиМТС!', link: 'ns.nineseven.ru/members/' + object.id,
             //{
@@ -299,37 +316,12 @@ console.log(object);
             //}
         }, function(response) {
                 console.log(response)
-                FB.api('/me', function(responseTwo) {
-                    console.log(responseTwo);
-                });
+                if (typeof response['id'] != 'undefined')
+                showFourStep(name);
             });
 
         }, {scope: 'publish_actions'});
 
-        //FB.api('/me', {fields: 'last_name'}, function(response) {
-        //    console.log(response);
-        //});
-
-        //FB.ui(
-        //    {
-        //        app_id: 128132277556360,
-        //        method: 'share',
-        //        name: object.message,
-        //        picture: object.image,
-        //        caption: '4G-скорость — уже в Минске!',
-        //        description: object.message,
-        //        href: 'ns.nineseven.ru/members/' + object.id,
-        //        redirect_uri: 'ns.nineseven.ru/members/'+object.id,
-            //},
-            //function (response) {
-            //    console.log(response);
-            //    if (response && response.post_id) {
-                //showFourStep();
-                //} else {
-                //    alert('Необходимо опубликовать пост у себя на странице');
-                //}
-            //}
-        //);
     }
 }
 

@@ -26,6 +26,14 @@ class OrderModel extends Model
         return $query->execute();
     }
 
+    public function setName($id, $name)
+    {
+        $query = $this->_pdo->prepare("Update `order` set Social = :name, Active = 1 where id = :id");
+        $query->bindParam(':name', $name);
+        $query->bindParam(':id', $id);
+        return $query->execute();
+    }
+
     public function getCount()
     {
         $sql = "SELECT count(*) FROM `order` WHERE active = 1";

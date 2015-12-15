@@ -62,6 +62,19 @@ class MainController extends Controller
         die;
     }
 
+    public function setsocialAction()
+    {
+        $name = $_POST['name'];
+        $id = $_POST['id'];
+        if ($name && $id)
+        {
+            $model = new OrderModel();
+            $save = $model->setName($id, $name);
+            echo json_encode(['success'=>$save ? 1 : 0]);
+        }
+        die;
+    }
+
     public function createorderAction()
     {
         $values = $_POST;
