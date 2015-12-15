@@ -62,6 +62,35 @@ class MainController extends Controller
         die;
     }
 
+
+    public function testAction()
+    {
+
+        $v = new Vkclass(array(
+            'client_id' => 5189016, // (обязательно) номер приложения
+            'secret_key' => 'nRE4ql1ddmIsGtOxOolj', // (обязательно) получить тут https://vk.com/editapp?id=12345&section=options где 12345 - client_id
+            'scope' => 'wall', // права доступа
+            'v' => '5.35' // не обязательно
+        ));
+
+        $url = $v->get_code_token();
+        var_dump($url);
+        die;
+        $config['secret_key'] = 'nRE4ql1ddmIsGtOxOolj';
+        $config['client_id'] = 5189016; // номер приложения
+        $config['access_token'] = 'ваш токен доступа';
+        $config['scope'] = 'wall,photos,video'; // права доступа к методам (для генерации токена)
+
+        $v = new Vk($config);
+
+        // пример публикации сообщения на стене пользователя
+        // значения массива соответствуют значениям в Api https://vk.com/dev/wall.post
+
+        $response = $v->api('wall.post', array(
+            'message' => 'I testing API form https://github.com/fdcore/vk.api'
+        ));
+    }
+
     public function setsocialAction()
     {
         $name = $_POST['name'];

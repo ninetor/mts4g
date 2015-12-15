@@ -23,6 +23,7 @@ function __autoload($className){
 	if(file_exists($filepath))
 		require_once($filepath);
 }
+require_once('application/classes/vk.php');
 
 if(method_exists("Events","beforeStart"))// Проверка наличия статического метода.
 	Events::beforeStart();// Вызов статического метода перед выполнением маршрутизации.

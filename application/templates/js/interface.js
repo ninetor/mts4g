@@ -325,6 +325,24 @@ function shareFB() {
     }
 }
 
+function shareVK() {
+    if (object) {
+        VK.api('wall.post',{ message: 'Хочу прокатиться на #4GтаксиМТС!',
+            link: window.host+'/',
+            name: "4GтаксиМТС",
+            picture: "http://"+window.host+"/img/content/stylemap.png",
+            caption: '4G-скорость — уже в Минске!',
+            description: "Придумайте повод и получите шанс прокатиться на #4GтаксиМТС!",
+        }, function(data) {
+            if (data.response) { // если получен ответ
+                alert('Сообщение отправлено! ID сообщения: ' + data.response.post_id);
+            } else { // ошибка при отправке сообщения
+                alert('Ошибка! ' + data.error.error_code + ' ' + data.error.error_msg);
+            }
+        });
+    }
+}
+
 function sendPhone() {
     var id = object.id;
     var phone = $('#phoneOrder').val();
@@ -382,4 +400,16 @@ function shareFBMain()
         });
 
     }, {scope: 'publish_actions'});
+}
+function shareVKMain()
+{
+    VK.Share.button({
+            url: window.host+'/'+ "?title=" +
+            "Хочу прокатиться на #4GтаксиМТС!" + "&description=Придумайте повод и получите шанс прокатиться на #4GтаксиМТС!"
+            + "&image=" +"http://"+window.host+"/img/content/stylemap.png" + "&noparse=true",
+        },
+        {
+            type: 'custom',
+            text: '<span class="btn vk">ВКонтакте</span>'
+        })
 }

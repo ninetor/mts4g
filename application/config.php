@@ -26,4 +26,5 @@ $routingRules = array(// ассоциативный массив с маршру
     "main/createorder" => ["action" => "createorder"],
     "main/setphone" => ["action" => "setphone"],
     "main/setsocial" => ["action" => "setsocial"],
+    "main/test" => ["action" => "test"],
 );
