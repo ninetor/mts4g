@@ -3,7 +3,7 @@
     <?=$params['header']?>
 <body>
 <script>
-    window.host = <?=$params['host']?>;
+    window.host = '<?=$params['host']?>';
 </script>
 <div class="layout">
     <?=$params['top']?>
