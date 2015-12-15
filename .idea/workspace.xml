@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edded8a7-8d07-4b17-88c9-1f200902e07b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/templates/img/content/close-widget.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/templates/img/content/cropperIcons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/templates/img/content/downloadIcon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/templates/img/content/infinity.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/templates/img/content/infonity.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/templates/img/content/li-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/templates/img/content/placeholder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/templates/img/content/tube.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/templates/img/content/zoom-in.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/templates/img/content/zoom-out.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/templates/views/main/actions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/templates/css/croppic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/templates/js/croppic.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/mts.loc-access.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/mts.loc.com-error.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/MainController.php" afterPath="$PROJECT_DIR$/application/controllers/MainController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/MainView.php" afterPath="$PROJECT_DIR$/application/views/MainView.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/View.php" afterPath="$PROJECT_DIR$/system/View.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/partials/_menu.php" afterPath="$PROJECT_DIR$/application/templates/views/partials/_menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.php" afterPath="$PROJECT_DIR$/bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config.php" afterPath="$PROJECT_DIR$/application/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/header.html" afterPath="$PROJECT_DIR$/application/templates/views/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/main/index.php" afterPath="$PROJECT_DIR$/application/templates/views/main/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/interface.js" afterPath="$PROJECT_DIR$/application/templates/js/interface.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/main.php" afterPath="$PROJECT_DIR$/application/templates/views/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/css/style.css" afterPath="$PROJECT_DIR$/application/templates/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mts.iws" />
@@ -109,8 +84,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/templates/views/main/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6886121">
-              <caret line="421" column="42" selection-start-line="421" selection-start-column="42" selection-end-line="421" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.52846974">
+              <caret line="416" column="45" selection-start-line="416" selection-start-column="45" selection-end-line="416" selection-end-column="45" />
               <folding>
                 <element signature="e#888#1948#0#HTML" expanded="true" />
               </folding>
@@ -901,7 +876,13 @@
       <option name="project" value="LOCAL" />
       <updated>1450183503882</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="&#10;da">
+      <created>1450190687677</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1450190687677</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1414,8 +1395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/templates/views/main/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6886121">
-          <caret line="421" column="42" selection-start-line="421" selection-start-column="42" selection-end-line="421" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.52846974">
+          <caret line="416" column="45" selection-start-line="416" selection-start-column="45" selection-end-line="416" selection-end-column="45" />
           <folding>
             <element signature="e#888#1948#0#HTML" expanded="true" />
           </folding>
