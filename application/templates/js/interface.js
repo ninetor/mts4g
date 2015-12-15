@@ -307,7 +307,7 @@ function shareFB() {
                 return false;
             });
             // Note: The call will only work if you accept the permission request
-            FB.api('/me/feed', 'post', {message: 'Хочу прокатиться на #4GтаксиМТС!', link: 'ns.nineseven.ru/members/' + object.id,
+            FB.api('/me/feed', 'post', {message: 'Хочу прокатиться на #4GтаксиМТС!', link: window.host+'/members/' + object.id,
             //{
                         name: object.message,
                         picture: object.image,
@@ -354,7 +354,7 @@ function crearevk() {
     console.log(object);
     vkapiahser.append(
         VK.Share.button({
-                url: 'ns.nineseven.ru/members/' +
+                url: window.host+'/members/' +
                 object.id + "?title=" +
                 "4G-скорость — уже в Минске!" + "&description=" +
                 object.message + "&image=" +
@@ -372,9 +372,9 @@ function shareFBMain()
     FB.login(function(){
         FB.api('/me/feed', 'post', {
             message: 'Хочу прокатиться на #4GтаксиМТС!',
-            link: 'ns.nineseven.ru/',
+            link: window.host+'/',
             name: "4GтаксиМТС",
-            picture: "http://ns.nineseven.ru/img/content/stylemap.png",
+            picture: "http://"+window.host+"/img/content/stylemap.png",
             caption: '4G-скорость — уже в Минске!',
             description: "Придумайте повод и получите шанс прокатиться на #4GтаксиМТС!",
         }, function(response) {

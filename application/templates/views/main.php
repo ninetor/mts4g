@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
-<:header:>
+    <?=$params['header']?>
 <body>
+<script>
+    window.host = <?=$params['host']?>;
+</script>
 <div class="layout">
-<:top:>
-<:content:>
-<:footer:>
-<:addition:>
+    <?=$params['top']?>
+    <?=$params['content']?>
+    <?=$params['footer']?>
+    <?=$params['addition']?>
 </div><!-- END LAYOUT-->
     <script src="../js/jQuery-2.1.3.min.js"></script>
     <script src="../js/vendors/slick/slick.min.js"></script>

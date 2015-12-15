@@ -42,7 +42,7 @@ class View
     protected $_menuFile = "_menu.php";
     protected $_topFile = "_top.html";
     protected $_topInfoFile = "_top_info.html";
-    protected $_mainFile = "main.html";
+    protected $_mainFile = "main.php";
     protected $_footerFile = "footer.html";
     protected $_additionFile = "_addition.html";
 
@@ -84,6 +84,7 @@ class View
             'top' => $topFile,
             'footer' => $footerFile,
             'addition' => $additionFile,
+            'host' => $_SERVER['HTTP_HOST'],
         ]);
     }
 }
