@@ -107,8 +107,8 @@
       <file leaf-file-name="interface.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/templates/js/interface.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39693758">
-              <caret line="339" column="39" selection-start-line="339" selection-start-column="39" selection-end-line="339" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.4393404">
+              <caret line="338" column="26" selection-start-line="338" selection-start-column="26" selection-end-line="338" selection-end-column="26" />
               <folding>
                 <element signature="e#30#6051#0" expanded="true" />
                 <element signature="e#282#437#0" expanded="true" />
@@ -124,12 +124,13 @@
                 <element signature="e#8145#9014#0" expanded="true" />
                 <element signature="e#8195#8369#0" expanded="true" />
                 <element signature="e#8854#9001#0" expanded="true" />
+                <element signature="e#9768#10192#0" expanded="true" />
                 <element signature="n#!!block;n#sendPhone#0" expanded="true" />
-                <element signature="e#10448#10822#0" expanded="true" />
+                <element signature="e#10478#10852#0" expanded="true" />
                 <element signature="n#!!block;n#crearevk#0" expanded="true" />
                 <element signature="n#!!block;n#shareFBMain#0" expanded="true" />
-                <element signature="e#11435#11895#0" expanded="true" />
-                <element signature="e#11841#11886#0" expanded="true" />
+                <element signature="e#11465#11925#0" expanded="true" />
+                <element signature="e#11871#11916#0" expanded="true" />
                 <element signature="n#!!block;n#shareVKMain#0" expanded="true" />
               </folding>
             </state>
@@ -832,7 +833,13 @@
       <option name="project" value="LOCAL" />
       <updated>1450182817729</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="&#10;da">
+      <created>1450183215102</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1450183215102</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -932,12 +939,13 @@
             <element signature="e#8145#9014#0" expanded="true" />
             <element signature="e#8195#8369#0" expanded="true" />
             <element signature="e#8854#9001#0" expanded="true" />
+            <element signature="e#9768#10192#0" expanded="true" />
             <element signature="n#!!block;n#sendPhone#0" expanded="true" />
-            <element signature="e#10448#10822#0" expanded="true" />
+            <element signature="e#10478#10852#0" expanded="true" />
             <element signature="n#!!block;n#crearevk#0" expanded="true" />
             <element signature="n#!!block;n#shareFBMain#0" expanded="true" />
-            <element signature="e#11435#11895#0" expanded="true" />
-            <element signature="e#11841#11886#0" expanded="true" />
+            <element signature="e#11465#11925#0" expanded="true" />
+            <element signature="e#11871#11916#0" expanded="true" />
             <element signature="n#!!block;n#shareVKMain#0" expanded="true" />
           </folding>
         </state>
@@ -1351,8 +1359,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/templates/js/interface.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39693758">
-          <caret line="339" column="39" selection-start-line="339" selection-start-column="39" selection-end-line="339" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.4393404">
+          <caret line="338" column="26" selection-start-line="338" selection-start-column="26" selection-end-line="338" selection-end-column="26" />
           <folding>
             <element signature="e#30#6051#0" expanded="true" />
             <element signature="e#282#437#0" expanded="true" />
@@ -1368,12 +1376,13 @@
             <element signature="e#8145#9014#0" expanded="true" />
             <element signature="e#8195#8369#0" expanded="true" />
             <element signature="e#8854#9001#0" expanded="true" />
+            <element signature="e#9768#10192#0" expanded="true" />
             <element signature="n#!!block;n#sendPhone#0" expanded="true" />
-            <element signature="e#10448#10822#0" expanded="true" />
+            <element signature="e#10478#10852#0" expanded="true" />
             <element signature="n#!!block;n#crearevk#0" expanded="true" />
             <element signature="n#!!block;n#shareFBMain#0" expanded="true" />
-            <element signature="e#11435#11895#0" expanded="true" />
-            <element signature="e#11841#11886#0" expanded="true" />
+            <element signature="e#11465#11925#0" expanded="true" />
+            <element signature="e#11871#11916#0" expanded="true" />
             <element signature="n#!!block;n#shareVKMain#0" expanded="true" />
           </folding>
         </state>
