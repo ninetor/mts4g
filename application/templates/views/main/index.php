@@ -390,9 +390,7 @@
     <p>
         Чтобы подтвердить заказ, отправьте его себе на стену в социальную сеть
     </p>
-   <span id="vkapiahser">
-        <span class="btn vk" onclick="shareVK()">ВКонтакте</span>
-         </span>
+        <a class="btn vk" href="#" onclick="shareVK()">ВКонтакте</a>
     <span class="or">или</span>
 
     <a href="#" onclick="shareFB()"
