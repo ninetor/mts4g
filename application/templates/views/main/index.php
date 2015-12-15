@@ -36,7 +36,7 @@
             rotateControls: false,
             loaderHtml:'<div class="loader bubblingG"><span id="bubblingG_1"></span><span id="bubblingG_2"></span><span id="bubblingG_3"></span></div> ',
             onBeforeImgUpload: function(){ console.log('onBeforeImgUpload') },
-            onAfterImgUpload: function(){ console.log('onAfterImgUpload') },
+            onAfterImgUpload: function(){ console.log('onAfterImgUpload'); window.imageUser =  },
             onImgDrag: function(){ console.log('onImgDrag') },
             onImgZoom: function(){ console.log('onImgZoom') },
             onBeforeImgCrop: function(){ console.log('onBeforeImgCrop') },
@@ -413,8 +413,8 @@ LTE позволяет достичь скорости загрузки до 326
 
             <div id="dropBox">
                 <div id="cropContainerMinimal">
-                    <div class="download-anchor">Используйте стандартное фото для оформления или добавьте своё:</div>
-                    <a href="#">загрузите его</a>
+                    <div class="download-anchor">Используйте стандартное фото для оформления или добавьте своё:<a href="#">загрузите </a>его</div>
+
                 </div>
 <!--                <div class="dropbox-info">-->
 <!--                    Используйте стандартное фото для оформления или добавьте своё:-->
