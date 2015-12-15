@@ -195,7 +195,7 @@ class MainController extends Controller
 
         $offset = $limit* ($currentPage -1);
         $addQuery = " LIMIT $limit OFFSET $offset";
-        if ($currentPage==1) {$addQuery = }
+        if ($currentPage==1) {$addQuery = "";}
         $members = $model->getMembers($addQuery);
         $view = new MainView();
 
