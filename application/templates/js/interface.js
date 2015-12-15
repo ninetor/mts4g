@@ -131,21 +131,21 @@ $(document).ready(function () {
     });
 
     //FILE UPLOAD
-    $('#fileupload').on('change', function () {
-        $('#fileinfo span').text($(this).val());
-    });
-
-    //DROP IMAGE
-    if ($('#dropBox').length > 0) {
-        var dropBox;
-        window.onload = function () {
-            dropBox = document.getElementById("dropBox");
-            dropBox.ondragenter = ignoreDrag;
-            dropBox.ondragover = ignoreDrag;
-            dropBox.ondrop = drop;
-        };
-    }
-    ;
+    //$('#fileupload').on('change', function () {
+    //    $('#fileinfo span').text($(this).val());
+    //});
+    //
+    ////DROP IMAGE
+    //if ($('#dropBox').length > 0) {
+    //    var dropBox;
+    //    window.onload = function () {
+    //        dropBox = document.getElementById("dropBox");
+    //        dropBox.ondragenter = ignoreDrag;
+    //        dropBox.ondragover = ignoreDrag;
+    //        dropBox.ondrop = drop;
+    //    };
+    //}
+    //;
 
     // functions
     function isTouchDevice() {
@@ -205,9 +205,32 @@ $(document).ready(function () {
     //    reader.readAsDataURL(file);
     //}
 
-    $('.radio-wrap').on('click',function(){
+    $("input[name='type']").change(function(){
+      var val = $(this).val();
 
-    })
+        var text = "";
+        switch (parseInt(val)) {
+            case 1:
+                text = "Например: Я хочу прокатить  любимую на 4Gтакси!";
+                break;
+            case 2:
+                text = "Например: Заказываю 4Gтакси,  чтобы сделать с ним селфи! ";
+                break;
+            case 3:
+                text = "Например: Мне нужно 4Gтакси, так как на бэтмобиле ездить уже надоело.  ";
+                break;
+            case 4:
+                text = "Например: У меня день рождения! Пусть ко мне приедет 4Gтакси!";
+                break;
+        }
+
+        $('#textmessage').attr('placeholder',text);
+
+    });
+
+    //$('.radio-wrap').on('click',function(element){
+    //    console.log($(element).val());
+    //})
 
 
     if (window.location.hash) {

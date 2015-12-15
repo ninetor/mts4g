@@ -2351,6 +2351,7 @@ span.pagination__item--next {
   z-index: 25
 }
 .cropImgWrapper{
+  top:0;
   z-index: 20!important;
 }
 #cropContainerMinimal{

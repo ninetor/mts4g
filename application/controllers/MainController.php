@@ -12,8 +12,11 @@ class MainController extends Controller
     public function indexAction()
     {
         $view = new MainView();
-        $model = new OrderModel();
-        return $this->_controller->setPage($view->showMain(['count'=>$model->getCount()]));
+        $modelOrder = new OrderModel();
+        $model = new PhoneModel();
+        $phones =$model->getPhones();
+
+        return $this->_controller->setPage($view->showMain(['count'=>$modelOrder->getCount(), 'phones' => $phones]));
     }
 
     public function specificationAction()
@@ -200,7 +203,7 @@ class MainController extends Controller
         $members = $model->getMembers($addQuery);
         $view = new MainView();
 
-        return $this->_controller->setPage($view->showMembers(['members'=>$members, 'pagination' => $pagination]));
+        return $this->_controller->setPage($view->showMembers(['members'=>$members, 'pagination' => $pagination,'id'=>$currentId]));
     }
 
     public function winnersAction()

@@ -73,215 +73,53 @@
 
         <div class="phone-slider-wrap">
             <div class="phone-slider">
-                <div class="phone-slider__item">
-                    <div class="phone-title">
-                        Microsoft Lumia 640
-                    </div>
-                    <div class="phone-img">
-                        <img src="../img/content/lumia540.png" alt="">
-
-                        <div class="phone-img__inner">
-                            <img src="../img/content/phone-icon1.png" alt="">
+                <?php foreach ($params['phones'] as $phone) : ?>
+                    <div class="phone-slider__item">
+                        <div class="phone-title">
+                            Microsoft Lumia 640
                         </div>
-                    </div>
-                    <ul class="advantages-list advantages-list__left">
-                        <li class="advantages-list__item">
+                        <div class="phone-img">
+                            <img src="../uploads/<?= $phone['Image'] ?>" alt="">
+                            <div class="phone-img__inner">
+                                <img src="../img/content/phone-icon1.png" alt="">
+                            </div>
+                        </div>
+                        <?php
+                        $countParams = count($phone['params']);
+                        $countelems = ceil($countParams / 2);
+
+                        echo '<ul class="advantages-list advantages-list__left">';
+                        foreach (array_slice($phone['params'], 0, $countelems) as $param) { ?>
+                            <li class="advantages-list__item">
 											<span class="icon">
-												<img src="../img/content/4g.png" alt="">
+												<img src="../img/content/<?= $param['Image'] ?>" alt="">
 											</span>
 											<span class="advantages-list__text">
-												Поддержка
+                                        <?= $param['Text'] ?>
 											</span>
-                        </li>
-                        <li class="advantages-list__item">
+                            </li>
+                        <?php }
+                        echo '</ul>';
+
+                        echo ' <ul class="advantages-list advantages-list__right">';
+                        foreach (array_slice($phone['params'], $countelems, $countelems) as $param) { ?>
+                            <li class="advantages-list__item">
 											<span class="icon">
-												<img src="../img/content/display.png" alt="">
+												<img src="../img/content/<?= $param['Image'] ?>" alt="">
 											</span>
 											<span class="advantages-list__text">
-												Дисплей 5.7&#34;
+                                        <?= $param['Text'] ?>
 											</span>
-                        </li>
-                        <li class="advantages-list__item">
-											<span class="icon">
-												<img src="../img/content/sim.png" alt="">
-											</span>
-											<span class="advantages-list__text">
-												2 SIM-карты
-											</span>
-                        </li>
-                    </ul>
-                    <ul class="advantages-list advantages-list__right">
-                        <li class="advantages-list__item">
-											<span class="icon">
-												<img src="../img/content/camera.png" alt="">
-											</span>
-											<span class="advantages-list__text">
-												Камера 13 Мп
-											</span>
-                        </li>
-                        <li class="advantages-list__item">
-											<span class="icon">
-												<img src="../img/content/accum.png" alt="">
-											</span>
-											<span class="advantages-list__text">
-												Аккумулятор 3000 mAh
-											</span>
-                        </li>
-                    </ul>
-                    <div class="phone-message">
-                        Первый платёж 730 000 руб.
-                    </div>
-                </div>
-                <div class="phone-slider__item">
-                    <div class="phone-title">
-                        Microsoft Lumia 540
-                    </div>
-                    <div class="phone-img">
-                        <img src="../img/content/lumia640.png" alt="">
+                            </li>
+                        <?php }
+                        echo '</ul>';
 
-                        <div class="phone-img__inner">
-                            <img src="../img/content/phone-icon1.png" alt="">
+                        ?>
+                        <div class="phone-message">
+                            <?= $phone['FirstPay'] ?>
                         </div>
                     </div>
-                    <ul class="advantages-list advantages-list__left">
-                        <li class="advantages-list__item">
-                            <span class="icon"><img src="../img/content/4g.png" alt=""></span>
-                            <span class="advantages-list__text">Поддержка</span>
-                        </li>
-                        <li class="advantages-list__item">
-                            <span class="icon"><img src="../img/content/display.png" alt=""></span>
-                            <span class="advantages-list__text">Дисплей 3.7&#34;</span>
-                        </li>
-                        <li class="advantages-list__item">
-                            <span class="icon"><img src="../img/content/sim.png" alt=""></span>
-                            <span class="advantages-list__text">1 SIM-карта</span>
-                        </li>
-                    </ul>
-                    <ul class="advantages-list advantages-list__right">
-                        <li class="advantages-list__item">
-                            <span class="icon"><img src="../img/content/camera.png" alt=""></span>
-                            <span class="advantages-list__text">Камера 18 Мп</span>
-                        </li>
-                        <li class="advantages-list__item">
-                            <span class="icon"><img src="../img/content/accum.png" alt=""></span>
-                            <span class="advantages-list__text">Аккумулятор 1000 mAh</span>
-                        </li>
-                    </ul>
-                    <div class="phone-message">
-                        Без рассрочки!
-                    </div>
-                </div>
-                <div class="phone-slider__item">
-                    <div class="phone-title">
-                        Samsung
-                    </div>
-                    <div class="phone-img">
-                        <img src="../img/content/samsung.png" alt="">
-
-                        <div class="phone-img__inner">
-                            <img src="../img/content/phone-icon1.png" alt="">
-                        </div>
-                    </div>
-                    <ul class="advantages-list advantages-list__right">
-                        <li class="advantages-list__item"><span class="icon"><img src="../img/content/camera.png"
-                                                                                  alt=""></span><span
-                                class="advantages-list__text">Камера 1 Мп</span></li>
-                        <li class="advantages-list__item"><span class="icon"><img src="../img/content/accum.png" alt=""></span><span
-                                class="advantages-list__text">Аккумулятор 20 mAh</span></li>
-                    </ul>
-                    <ul class="advantages-list advantages-list__left">
-                        <li class="advantages-list__item"><span class="icon"><img src="../img/content/4g.png"
-                                                                                  alt=""></span><span
-                                class="advantages-list__text">Без поддержки</span></li>
-                        <li class="advantages-list__item"><span class="icon"><img src="../img/content/display.png"
-                                                                                  alt=""></span><span
-                                class="advantages-list__text">Дисплей 1.7&#34;</span></li>
-                        <li class="advantages-list__item"><span class="icon"><img src="../img/content/sim.png"
-                                                                                  alt=""></span><span
-                                class="advantages-list__text">Ни одной SIM-карты</span></li>
-                    </ul>
-                    <div class="phone-message">
-                        Без рассрочки!
-                    </div>
-                </div>
-                <div class="phone-slider__item">
-                    <div class="phone-title">
-                        Lenovo
-                    </div>
-                    <div class="phone-img">
-                        <img src="../img/content/lenovo.png" alt="">
-
-                        <div class="phone-img__inner">
-                            <img src="../img/content/phone-icon1.png" alt="">
-                        </div>
-                    </div>
-                    <ul class="advantages-list advantages-list__left">
-                        <li class="advantages-list__item">
-                            <span class="icon"><img src="../img/content/4g.png" alt=""></span>
-                            <span class="advantages-list__text">Поддержка</span>
-                        </li>
-                        <li class="advantages-list__item">
-                            <span class="icon"><img src="../img/content/display.png" alt=""></span>
-                            <span class="advantages-list__text">Дисплей 3.7&#34;</span>
-                        </li>
-                        <li class="advantages-list__item">
-                            <span class="icon"><img src="../img/content/sim.png" alt=""></span>
-                            <span class="advantages-list__text">1 SIM-карта</span>
-                        </li>
-                    </ul>
-                    <ul class="advantages-list advantages-list__right">
-                        <li class="advantages-list__item">
-                            <span class="icon"><img src="../img/content/camera.png" alt=""></span>
-                            <span class="advantages-list__text">Камера 18 Мп</span>
-                        </li>
-                        <li class="advantages-list__item">
-                            <span class="icon"><img src="../img/content/accum.png" alt=""></span>
-                            <span class="advantages-list__text">Аккумулятор 1000 mAh</span>
-                        </li>
-                    </ul>
-                    <div class="phone-message">
-                        Без рассрочки!
-                    </div>
-                </div>
-                <div class="phone-slider__item">
-                    <div class="phone-title">
-                        Microsoft Lumia 540
-                    </div>
-                    <div class="phone-img">
-                        <img src="../img/content/unnamed.png" alt="">
-
-                        <div class="phone-img__inner">
-                            <img src="../img/content/phone-icon1.png" alt="">
-                        </div>
-                    </div>
-                    <ul class="advantages-list advantages-list__left">
-                        <li class="advantages-list__item">
-                            <span class="icon"><img src="../img/content/4g.png" alt=""></span>
-                            <span class="advantages-list__text">Поддержка</span>
-                        </li>
-                        <li class="advantages-list__item">
-                            <span class="icon"><img src="../img/content/display.png" alt=""></span>
-                            <span class="advantages-list__text">Дисплей 3.7&#34;</span>
-                        </li>
-                        <li class="advantages-list__item">
-                            <span class="icon"><img src="../img/content/sim.png" alt=""></span>
-                            <span class="advantages-list__text">1 SIM-карта</span>
-                        </li>
-                    </ul>
-                    <ul class="advantages-list advantages-list__right">
-                        <li class="advantages-list__item">
-                            <span class="icon"><img src="../img/content/camera.png" alt=""></span>
-                            <span class="advantages-list__text">Камера 18 Мп</span>
-                        </li>
-                        <li class="advantages-list__item">
-                            <span class="icon"><img src="../img/content/accum.png" alt=""></span>
-                            <span class="advantages-list__text">Аккумулятор 1000 mAh</span>
-                        </li>
-                    </ul>
-                    <div class="phone-message">
-                        Без рассрочки!
-                    </div>
-                </div>
+                <?php endforeach; ?>
             </div>
             <div class="phone-slider__arrows">
                 <a href="#" class="phone-slider__prev"></a>
@@ -427,14 +265,14 @@ LTE позволяет достичь скорости загрузки до 326
         <div class="download">
 
             <div id="dropBox">
-              <div class="dropBox-wrap">
-                  <div class="download-anchor">Используйте стандартное фото для оформления или добавьте своё:<a
-                          href="#">загрузите </a>его
-                  </div>
-                <div id="cropContainerMinimal">
+                <div class="dropBox-wrap">
+                    <div class="download-anchor">Используйте стандартное фото для оформления или добавьте своё:<a
+                            href="#">загрузите </a>его
+                    </div>
+                    <div id="cropContainerMinimal">
 
+                    </div>
                 </div>
-              </div>
                 <!--                <div class="dropbox-info">-->
                 <!--                    Используйте стандартное фото для оформления или добавьте своё:-->
                 <!--                    <div class="download-anchor">-->

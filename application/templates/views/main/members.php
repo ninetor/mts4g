@@ -63,4 +63,16 @@ else
 </section>
 
 <?php }
+
+
+if ($params['id']) {
+    echo "<script>$(document).ready(function() {
+$('#member".$params['id']."').fancybox({
+        'transitionIn': 'none',
+        'transitionOut': 'none',
+        padding: 60,
+        arrows: true,}).click()
+})</script>";
+}
+
 ?>
