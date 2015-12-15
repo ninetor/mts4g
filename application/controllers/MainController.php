@@ -73,8 +73,12 @@ class MainController extends Controller
             'v' => '5.35' // не обязательно
         ));
 
-        $url = $v->get_code_token();
-        var_dump($url);
+        $response = $v->wall->post(array(
+            'message' => 'I testing API form https://github.com/fdcore/vk.api'
+        ));
+            var_dump($response);die;
+//        $url = $v->get_code_token();
+//        var_dump($url);
         die;
         $config['secret_key'] = 'nRE4ql1ddmIsGtOxOolj';
         $config['client_id'] = 5189016; // номер приложения

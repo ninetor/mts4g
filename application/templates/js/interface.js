@@ -265,7 +265,7 @@ function createOrder() {
                     padding: 60,
                     maxWidth: 720,
                 }).click();
-                crearevk();
+                //crearevk();
             }
         },
         //cache: false,
@@ -327,6 +327,22 @@ function shareFB() {
 
 function shareVK() {
     if (object) {
+        VK.api("getUserSettings", {},function(data) {
+            if (data.response&8192){
+                VK.api("wall.post", {
+                    message: 'Хочу прокатиться на #4GтаксиМТС!',
+                    link: window.host + '/',
+                    name: "4GтаксиМТС",
+                    picture: "http://" + window.host + "/img/content/stylemap.png",
+                    caption: '4G-скорость — уже в Минске!',
+                    description: "Придумайте повод и получите шанс прокатиться на #4GтаксиМТС!",
+                });
+            }else {
+                VK.callMethod('showSettingsBox',8192);
+            }
+        });
+
+
         VK.api('wall.post',{ message: 'Хочу прокатиться на #4GтаксиМТС!',
             link: window.host+'/',
             name: "4GтаксиМТС",
