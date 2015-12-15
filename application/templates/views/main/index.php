@@ -25,6 +25,33 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 <!--HEADER-->
 
+<script>
+    $(document).ready(function(){
+
+        var croppicContaineroutputMinimal = {
+            uploadUrl:'/uploadimage',
+            cropUrl:'/cropimage',
+            modal:false,
+            doubleZoomControls:false,
+            rotateControls: false,
+            loaderHtml:'<div class="loader bubblingG"><span id="bubblingG_1"></span><span id="bubblingG_2"></span><span id="bubblingG_3"></span></div> ',
+            onBeforeImgUpload: function(){ console.log('onBeforeImgUpload') },
+            onAfterImgUpload: function(){ console.log('onAfterImgUpload') },
+            onImgDrag: function(){ console.log('onImgDrag') },
+            onImgZoom: function(){ console.log('onImgZoom') },
+            onBeforeImgCrop: function(){ console.log('onBeforeImgCrop') },
+            onAfterImgCrop:function(){ console.log('onAfterImgCrop') },
+            onReset:function(){ console.log('onReset') },
+            onError:function(errormessage){ console.log('onError:'+errormessage) }
+        }
+        var cropContaineroutput = new Croppic('cropContainerMinimal', croppicContaineroutputMinimal);
+    })
+
+
+</script>
+
+
+
 <section class="phone-select" id="smartphone">
     <div class="container">
         <h2>Переходите на 4G-скорость &#8212; <br> выбирайте 4G-смартфон</h2>
@@ -257,47 +284,74 @@
         <div class="questions-accord questions-accord--short">
             <a href="#" class="questions-accord__item">
                 <i class="icon"></i>
-                Что такое 4G?
+                Что такое LTE и 4G?
                 <div class="button open">
                     <div class="line left"></div>
                     <div class="line right"></div>
                 </div>
 							<span class="answer">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas eum, facilis. Doloremque magni eos quae eum aliquid, est illum pariatur, tenetur molestias, perspiciatis consectetur voluptate alias vel facere ab eveniet.
-							</span>
+								4G (от англ. 4th Generation) — четвёртое поколение мобильной связи.
+LTE расшифровывается как Long-Term Evolution, «долгосрочное развитие» сотовых сетей третьего поколения.  Это стандарт беспроводной высокоскоростной передачи данных для мобильных телефонов и других терминалов, работающих с данными.
+LTE позволяет достичь скорости загрузки до 326,4 мбит/с, скорости отдачи —  до 172,8 мбит/с, задержка в передаче данных может быть снижена до 5 миллисекунд. Скорость загрузки в реальных условиях обеспечивается на уровне 50-100 мбит/с.
+                            </span>
             </a>
             <a href="#" class="questions-accord__item">
                 <i class="icon"></i>
-                В каких городах Беларуси есть 4G?
+                Какова территория покрытия 4G?
                 <div class="button open">
                     <div class="line left"></div>
                     <div class="line right"></div>
                 </div>
 							<span class="answer">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas eum, facilis. Doloremque magni eos quae eum aliquid, est illum pariatur, tenetur molestias, perspiciatis consectetur voluptate alias vel facere ab eveniet.
-							</span>
+							На данный момент покрытие 4G охватывает часть территории Минска, но в дальнейшем его планируется расширять. Карту покрытия 4G вы можете посмотреть на сайте <a href="http://mts.by" target="_blank"></a>
+                            </span>
             </a>
             <a href="#" class="questions-accord__item">
                 <i class="icon"></i>
-                Как проверить ест ли 4G у меня в смартфоне?
+                Как узнать, поддерживает ли мой смартфон 4G?
                 <div class="button open">
                     <div class="line left"></div>
                     <div class="line right"></div>
                 </div>
 							<span class="answer">
-								Это должно быть описано в спецификации телефона. Иногда указание на поддержку LTE есть даже в названии смартфона. В салоне связи вам это тоже подскажут, в службе поддержки оператора должны подсказать.
-							</span>
+							Наберите на своём телефоне *464# <span class="tube"></span>
+Для работы в сети LTE ваш смартфон или планшет должен поддерживать 4G для Европейских стран (диапазон1800 МГц, band 3).
+Если вы купили свой телефон в Беларуси у официального поставщика, скорее всего, его технические параметры соответствуют требованиям. Все 4G оборудование, которое продаёт МТС, будет работать в сети LTE.
+                            </span>
             </a>
             <a href="#" class="questions-accord__item">
                 <i class="icon"></i>
-                В каких городах Беларуси есть 4G?
+                Как включить 4G?
                 <div class="button open">
                     <div class="line left"></div>
                     <div class="line right"></div>
                 </div>
 							<span class="answer">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas eum, facilis. Doloremque magni eos quae eum aliquid, est illum pariatur, tenetur molestias, perspiciatis consectetur voluptate alias vel facere ab eveniet.
-							</span>
+							Как правило, ваш девайс сам активирует 4G.
+Если автоматически 4G не включился, в настройках мобильной сети активируйте режим 4G/LTE и перезагрузите смартфон. Либо при необходимости выполните поиск оператора в ручном режиме и выберите сеть 4G МТС. Если после этих действий 4G не активируется, обновите прошивку смартфона.
+                            </span>
+            </a>
+            <a href="#" class="questions-accord__item">
+                <i class="icon"></i>
+                Нужно ли подключать какие-то услуги?
+                <div class="button open">
+                    <div class="line left"></div>
+                    <div class="line right"></div>
+                </div>
+							<span class="answer">
+						Никакие дополнительные услуги для 4G подсключать не нужно. После настройки телефон автоматически выберет наилучший доступ в интернет.
+                            </span>
+            </a>
+            <a href="#" class="questions-accord__item">
+                <i class="icon"></i>
+                Нужно ли менять SIM-карту?
+                <div class="button open">
+                    <div class="line left"></div>
+                    <div class="line right"></div>
+                </div>
+							<span class="answer">
+						Если вы используете SIM-карту на протяжении длительного времени, ваше устройство поддерживает LTE, но зарегистрироваться в сети LTE не удаётся, обратитесь в салон МТС. Возможно, у вас SIM-карта старого образца. Вам заменят SIM-карту на новую совершенно бесплатно. Для замены SIM-карты не забудьте взять с собой паспорт.
+						        </span>
             </a>
         </div>
         <div class="ask">
@@ -355,17 +409,26 @@
         <input type="hidden" id="id_input_step2" value="">
 
         <div class="download">
+
+
             <div id="dropBox">
-                <div class="dropbox-info">
+                <div id="cropContainerMinimal">
                     Используйте стандартное фото для оформления или добавьте своё:
-                    <div class="download-anchor">
-                        <label class="mybutton" for="fileupload">загрузите</label>
-                        <input class="fileupload" name="image" id="fileupload" type="file"/>
-                    </div>
-                    его или перетащите в это окно
-                    <p id="fileinfo"><span></span></p>
+                    <a href="#">загрузите</a>
                 </div>
+<!--                <div class="dropbox-info">-->
+<!--                    Используйте стандартное фото для оформления или добавьте своё:-->
+<!--                    <div class="download-anchor">-->
+<!--                        <label class="mybutton" for="fileupload">загрузите</label>-->
+<!--                        <input class="fileupload" name="image" id="fileupload" type="file"/>-->
+<!--                    </div>-->
+<!---->
+<!--                    <p id="fileinfo"><span></span></p>-->
+<!--                </div>-->
             </div>
+
+
+
             <div class="download-info">
                 <div class="download-info__text" id="step2-info__text">
                     Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех
@@ -385,6 +448,14 @@
 </form>
 
 <div id="step3" class="steps">
+    <div class="preloader-wrap" id="loadersoc">
+        <div class="preloader">
+            <div class="circ1"></div>
+            <div class="circ2"></div>
+            <div class="circ3"></div>
+            <div class="circ4"></div>
+        </div>
+    </div>
     <h4><span>Шаг 3.</span>Поделитесь</h4>
 
     <p>

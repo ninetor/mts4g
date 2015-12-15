@@ -27,4 +27,7 @@ $routingRules = array(// ассоциативный массив с маршру
     "main/setphone" => ["action" => "setphone"],
     "main/setsocial" => ["action" => "setsocial"],
     "main/test" => ["action" => "test"],
+    "main/shares" => ["action" => "shares"],
+    "main/uploadimage" => ["action" => "uploadimage"],
+    "main/cropimage" => ["action" => "cropimage"],
 );

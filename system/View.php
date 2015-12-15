@@ -65,15 +65,14 @@ class View
          */
         $headerFile = $this->_controller->createHTML("{$this->_viewFolder}/{$this->_headerFile}");
         $footerFile = $this->_controller->createHTML("{$this->_viewFolder}/{$this->_footerFile}");
-
-        $urlMenu = $isMain ? null : "/";
         /**
          * the partials of page
          */
         $additionFile = $this->_controller->createHTML("{$this->_viewFolder}/{$this->_partialsFolder}/{$this->_additionFile}");
         $menuFile = $this->_controller->createHTML("{$this->_viewFolder}/{$this->_partialsFolder}/{$this->_menuFile}", [
-            'urlMenu' => $urlMenu,
+            'urlMenu' => $isMain ? null : "/",
             'isMain' => $isMain,
+            'isShare' => $_SERVER['REQUEST_URI']=="/shares",
             'host' => $_SERVER['HTTP_HOST']]);
 
         $topFile = $this->_controller->createHTML("{$this->_viewFolder}/{$this->_partialsFolder}/{$this->_topFile}", ['menu' => $menuFile, 'info' => $top_info]);

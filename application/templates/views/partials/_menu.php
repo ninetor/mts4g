@@ -4,10 +4,10 @@
     </a>
     <div class="top-logo"></div>
     <nav class="top-nav">
-        <a href="<?=$params['urlMenu']?>#top" class="top-nav__item active scroll">4gтакси</a>
+        <a href="<?=$params['urlMenu']?>#top" class="top-nav__item <?=($params['isMain']) ? 'active' : ''?> scroll">4gтакси</a>
         <a href="<?=$params['urlMenu']?>#smartphone" class="top-nav__item scroll">4gсмартфоны</a>
         <a href="<?=$params['urlMenu']?>#questions" class="top-nav__item scroll">Все о 4G</a>
-        <a href="<?=$params['urlMenu']?>" class="top-nav__item">4Gакции</a>
+        <a href="/shares" class="top-nav__item <?=$params['isShare'] ? 'active' : ''?>">4Gакции</a>
     </nav>
     <div class="top-socials">
 

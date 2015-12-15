@@ -17,12 +17,22 @@ class MainView extends View{
 		$contentFile = $this->_controller->createHTML("/{$this->_viewFolder}/{$this->_folderPage}/specification.html");
         return $this->createWithTemplate($contentFile);
 	}
+	public function showShares()
+	{
+		$contentFile = $this->_controller->createHTML("/{$this->_viewFolder}/{$this->_folderPage}/actions.html");
+        return $this->createWithTemplate($contentFile);
+	}
 
 	public function showMembers($params)
 	{
 
 		$contentFile = $this->_controller->createHTML("/{$this->_viewFolder}/{$this->_folderPage}/members.php",$params);
         return $this->createWithTemplate($contentFile);
+	}
+	public function showTest($params)
+	{
+		$contentFile = $this->_controller->createHTML("/{$this->_viewFolder}/{$this->_folderPage}/test.html",$params);
+        return $contentFile;
 	}
 
 	public function showWinners($params)

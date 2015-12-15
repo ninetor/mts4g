@@ -25,7 +25,6 @@ $(document).ready(function () {
     // Can reload page here
     //}, '5.41');
 
-
     //ORDER-COUNTER
     counter();
 
@@ -299,6 +298,7 @@ function showFourStep(name) {
 
 function shareFB() {
     if (object) {
+        $('#loadersoc').css('display','block');
         FB.login(function(){
             FB.api('/me', function(responseTwo) {
                 if (typeof responseTwo['name'] != 'undefined')
@@ -315,9 +315,13 @@ function shareFB() {
                         description: object.message,
             //}
         }, function(response) {
-                console.log(response)
+                console.log(response);
+                $('#loadersoc').css('display','none');
                 if (typeof response['id'] != 'undefined')
-                showFourStep(name);
+                {
+                    showFourStep(name);
+                }
+
             });
 
         }, {scope: 'publish_actions'});
@@ -331,7 +335,7 @@ function shareVK() {
             console.log(data);
             if (data.response){
                     VK.api('wall.post',{ message: 'Хочу прокатиться на #4GтаксиМТС!',
-                        attachment:+window.host+'/members/' + object.id,
+                        attachment:"http://"+window.host+"/img/content/stylemap.png,"+"http://"+window.host+'/members/' + object.id,
                         //link: window.host+'/',
                         //name: "4GтаксиМТС",
                         //picture: "http://"+window.host+"/img/content/stylemap.png",
