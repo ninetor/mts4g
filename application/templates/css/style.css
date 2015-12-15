@@ -2311,19 +2311,12 @@ span.pagination__item--next {
   width: 200px;
   height: 200px;
   position: relative;
-  border: 1px solid #ccc;
-}
-
-
-#cropContainerMinimal {
-  width: 200px;
-  height: 200px;
-  position: relative;
   border: 0;
+  overflow: hidden;
 }
 .download-anchor{
   display: block;
-  position: relative;
+  position: absolute;
   padding: 0 20px;
   font-size: 13px;
   line-height: 20px;
@@ -2358,3 +2351,5 @@ span.pagination__item--next {
 .cropImgWrapper{
   z-index: 20;
 }
+
+.page-content { min-height: 700px}

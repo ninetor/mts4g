@@ -50,4 +50,13 @@ if ($members)
 
 <?php
 }
+else
+{ ?>
+<section class="page-content">
+    <div class="container">
+        <h2 class="title">Участников еще нет. Станьте первым!</h2>
+    </div>
+</section>
+
+<?php }
 ?>

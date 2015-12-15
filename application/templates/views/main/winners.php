@@ -49,4 +49,13 @@ if ($winners)
 
     <?php
 }
+else
+{ ?>
+    <section class="page-content">
+        <div class="container">
+            <h2 class="title">Победителей пока нет. Станьте первым!</h2>
+        </div>
+    </section>
+
+<?php }
 ?>
