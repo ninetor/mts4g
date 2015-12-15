@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edded8a7-8d07-4b17-88c9-1f200902e07b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/MainController.php" afterPath="$PROJECT_DIR$/application/controllers/MainController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/main/index.php" afterPath="$PROJECT_DIR$/application/templates/views/main/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/interface.js" afterPath="$PROJECT_DIR$/application/templates/js/interface.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/main.php" afterPath="$PROJECT_DIR$/application/libraries/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/main/members.php" afterPath="$PROJECT_DIR$/application/templates/views/main/members.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/css/style.css" afterPath="$PROJECT_DIR$/application/templates/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/main/winners.php" afterPath="$PROJECT_DIR$/application/templates/views/main/winners.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mts.iws" />
@@ -51,10 +46,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/templates/views/main/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2650376">
+            <state vertical-scroll-proportion="-2.4736843">
               <caret line="428" column="30" selection-start-line="428" selection-start-column="30" selection-end-line="428" selection-end-column="30" />
               <folding>
                 <element signature="e#918#2229#0#HTML" expanded="true" />
@@ -90,30 +85,30 @@
       <file leaf-file-name="interface.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/templates/js/interface.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.4">
-              <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="345" column="95" selection-start-line="345" selection-start-column="95" selection-end-line="345" selection-end-column="95" />
               <folding>
+                <element signature="e#30#6160#0" expanded="true" />
                 <element signature="e#282#437#0" expanded="true" />
                 <element signature="e#2228#2688#0" expanded="true" />
                 <element signature="e#2772#2943#0" expanded="true" />
                 <element signature="e#4515#5267#0" expanded="true" />
+                <element signature="e#5919#5927#0" expanded="true" />
                 <element signature="n#!!block;n#StepOne#0" expanded="true" />
                 <element signature="n#!!block;n#createOrder#0" expanded="true" />
                 <element signature="e#7119#7561#0" expanded="true" />
                 <element signature="n#!!block;n#showFourStep#0" expanded="true" />
                 <element signature="e#7865#8239#0" expanded="true" />
                 <element signature="n#!!block;n#shareFB#0" expanded="true" />
-                <element signature="e#8365#9331#0" expanded="true" />
+                <element signature="e#8365#9334#0" expanded="true" />
                 <element signature="e#8415#8589#0" expanded="true" />
-                <element signature="e#9074#9318#0" expanded="true" />
-                <element signature="n#!!block;n#shareVK#0" expanded="true" />
-                <element signature="e#9473#10595#0" expanded="true" />
-                <element signature="e#10145#10569#0" expanded="true" />
+                <element signature="e#9077#9321#0" expanded="true" />
+                <element signature="e#10152#10576#0" expanded="true" />
                 <element signature="n#!!block;n#sendPhone#0" expanded="true" />
-                <element signature="e#10855#11229#0" expanded="true" />
+                <element signature="e#10862#11236#0" expanded="true" />
                 <element signature="n#!!block;n#shareFBMain#0" expanded="true" />
-                <element signature="e#11878#12338#0" expanded="true" />
-                <element signature="e#12284#12329#0" expanded="true" />
+                <element signature="e#11885#12345#0" expanded="true" />
+                <element signature="e#12291#12336#0" expanded="true" />
                 <element signature="n#!!block;n#shareVKMain#0" expanded="true" />
               </folding>
             </state>
@@ -173,8 +168,8 @@
       <file leaf-file-name="MainController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/MainController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.148148">
-              <caret line="285" column="0" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
+            <state vertical-scroll-proportion="-13.481482">
+              <caret line="197" column="41" selection-start-line="197" selection-start-column="41" selection-end-line="197" selection-end-column="41" />
               <folding>
                 <element signature="n#cropimageAction#0;n#MainController#0;n#!!top" expanded="false" />
               </folding>
@@ -182,11 +177,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/templates/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2355" column="1" selection-start-line="2355" selection-start-column="1" selection-end-line="2355" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.75551784">
+              <caret line="2354" column="1" selection-start-line="2354" selection-start-column="1" selection-end-line="2354" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -251,9 +246,9 @@
         <option value="$PROJECT_DIR$/application/templates/views/main/winners.php" />
         <option value="$PROJECT_DIR$/application/controllers/MainController.php" />
         <option value="$PROJECT_DIR$/application/libraries/main.php" />
+        <option value="$PROJECT_DIR$/application/templates/views/main/index.php" />
         <option value="$PROJECT_DIR$/application/templates/js/interface.js" />
         <option value="$PROJECT_DIR$/application/templates/css/style.css" />
-        <option value="$PROJECT_DIR$/application/templates/views/main/index.php" />
       </list>
     </option>
   </component>
@@ -919,7 +914,13 @@
       <option name="project" value="LOCAL" />
       <updated>1450194024887</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="&#10;da">
+      <created>1450195856674</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1450195856674</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1338,16 +1339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/MainController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.148148">
-          <caret line="285" column="0" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
-          <folding>
-            <element signature="n#cropimageAction#0;n#MainController#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/templates/views/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.814815">
@@ -1369,14 +1360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/views/main/members.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/libraries/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.909091">
@@ -1393,48 +1376,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/js/interface.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4">
-          <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
-          <folding>
-            <element signature="e#282#437#0" expanded="true" />
-            <element signature="e#2228#2688#0" expanded="true" />
-            <element signature="e#2772#2943#0" expanded="true" />
-            <element signature="e#4515#5267#0" expanded="true" />
-            <element signature="n#!!block;n#StepOne#0" expanded="true" />
-            <element signature="n#!!block;n#createOrder#0" expanded="true" />
-            <element signature="e#7119#7561#0" expanded="true" />
-            <element signature="n#!!block;n#showFourStep#0" expanded="true" />
-            <element signature="e#7865#8239#0" expanded="true" />
-            <element signature="n#!!block;n#shareFB#0" expanded="true" />
-            <element signature="e#8365#9331#0" expanded="true" />
-            <element signature="e#8415#8589#0" expanded="true" />
-            <element signature="e#9074#9318#0" expanded="true" />
-            <element signature="n#!!block;n#shareVK#0" expanded="true" />
-            <element signature="e#9473#10595#0" expanded="true" />
-            <element signature="e#10145#10569#0" expanded="true" />
-            <element signature="n#!!block;n#sendPhone#0" expanded="true" />
-            <element signature="e#10855#11229#0" expanded="true" />
-            <element signature="n#!!block;n#shareFBMain#0" expanded="true" />
-            <element signature="e#11878#12338#0" expanded="true" />
-            <element signature="e#12284#12329#0" expanded="true" />
-            <element signature="n#!!block;n#shareVKMain#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2355" column="1" selection-start-line="2355" selection-start-column="1" selection-end-line="2355" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/templates/views/main/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2650376">
+        <state vertical-scroll-proportion="-2.4736843">
           <caret line="428" column="30" selection-start-line="428" selection-start-column="30" selection-end-line="428" selection-end-column="30" />
           <folding>
             <element signature="e#918#2229#0#HTML" expanded="true" />
@@ -1448,6 +1392,63 @@
             <element signature="e#2041#2111#0#HTML" expanded="true" />
             <element signature="n#style#0;n#a#2;n#div#1;n#form#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/views/main/members.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/js/interface.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="345" column="95" selection-start-line="345" selection-start-column="95" selection-end-line="345" selection-end-column="95" />
+          <folding>
+            <element signature="e#30#6160#0" expanded="true" />
+            <element signature="e#282#437#0" expanded="true" />
+            <element signature="e#2228#2688#0" expanded="true" />
+            <element signature="e#2772#2943#0" expanded="true" />
+            <element signature="e#4515#5267#0" expanded="true" />
+            <element signature="e#5919#5927#0" expanded="true" />
+            <element signature="n#!!block;n#StepOne#0" expanded="true" />
+            <element signature="n#!!block;n#createOrder#0" expanded="true" />
+            <element signature="e#7119#7561#0" expanded="true" />
+            <element signature="n#!!block;n#showFourStep#0" expanded="true" />
+            <element signature="e#7865#8239#0" expanded="true" />
+            <element signature="n#!!block;n#shareFB#0" expanded="true" />
+            <element signature="e#8365#9334#0" expanded="true" />
+            <element signature="e#8415#8589#0" expanded="true" />
+            <element signature="e#9077#9321#0" expanded="true" />
+            <element signature="e#10152#10576#0" expanded="true" />
+            <element signature="n#!!block;n#sendPhone#0" expanded="true" />
+            <element signature="e#10862#11236#0" expanded="true" />
+            <element signature="n#!!block;n#shareFBMain#0" expanded="true" />
+            <element signature="e#11885#12345#0" expanded="true" />
+            <element signature="e#12291#12336#0" expanded="true" />
+            <element signature="n#!!block;n#shareVKMain#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/MainController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.481482">
+          <caret line="197" column="41" selection-start-line="197" selection-start-column="41" selection-end-line="197" selection-end-column="41" />
+          <folding>
+            <element signature="n#cropimageAction#0;n#MainController#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75551784">
+          <caret line="2354" column="1" selection-start-line="2354" selection-start-column="1" selection-end-line="2354" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -2306,7 +2306,6 @@ span.pagination__item--next {
       -webkit-transform: translateY(-20px);
     }
 }
-
 #cropContainerMinimal {
   width: 200px;
   height: 200px;
@@ -2330,7 +2329,7 @@ span.pagination__item--next {
   border-bottom: 1px dashed #ed1c24 ;
 }
 
-.cropControls {
+.cropControls .cropControlsUpload{
   z-index: 2;
   position: absolute;
   top: 0;
@@ -2352,7 +2351,7 @@ span.pagination__item--next {
   z-index: 20!important;
 }
 #cropContainerMinimal{
-  height: 220px;
+  height: 200px;
 }
 
 .page-content { min-height: 700px}

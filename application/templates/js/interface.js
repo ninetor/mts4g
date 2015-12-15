@@ -315,7 +315,7 @@ function shareFB() {
                 return false;
             });
             // Note: The call will only work if you accept the permission request
-            FB.api('/me/feed', 'post', {message: 'Хочу прокатиться на #4GтаксиМТС!', link: window.host+'/members/' + object.id,
+            FB.api('/me/feed', 'post', {message: 'Хочу прокатиться на #4GтаксиМТС!', link: window.host+'/members?id=' + object.id,
             //{
                         name: object.message,
                         picture: object.image,
@@ -343,7 +343,7 @@ function shareVK() {
             console.log(data);
             if (data.response){
                     VK.api('wall.post',{ message: 'Хочу прокатиться на #4GтаксиМТС!',
-                        attachment:"http://"+window.host+"/img/content/stylemap.png,"+"http://"+window.host+'/members/' + object.id,
+                        attachment:"http://"+window.host+"/img/content/stylemap.png,"+"http://"+window.host+'/members/?id=' + object.id,
                         //link: window.host+'/',
                         //name: "4GтаксиМТС",
                         //picture: "http://"+window.host+"/img/content/stylemap.png",
