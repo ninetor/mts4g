@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edded8a7-8d07-4b17-88c9-1f200902e07b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/interface.js" afterPath="$PROJECT_DIR$/application/templates/js/interface.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/MainController.php" afterPath="$PROJECT_DIR$/application/controllers/MainController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/css/style.css" afterPath="$PROJECT_DIR$/application/templates/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -125,16 +125,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/templates/views/main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3333334">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="members.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/templates/views/main/members.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -155,6 +145,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="OrderModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/OrderModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.259259">
+              <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+              <folding>
+                <marker date="1450173561373" expanded="true" signature="302:375" placeholder="INSERT INTO ..." />
+                <marker date="1450173561373" expanded="true" signature="1257:1302" placeholder="SELECT count..." />
+                <marker date="1450173561373" expanded="true" signature="1494:1533" placeholder="SELECT * FRO..." />
+                <marker date="1450173561373" expanded="true" signature="1730:1781" placeholder="SELECT Title..." />
+                <marker date="1450173561373" expanded="true" signature="1997:2187" placeholder="SELECT `orde..." />
+                <marker date="1450173561373" expanded="true" signature="2597:2616" placeholder="SELECT * fro..order..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="winners.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/templates/views/main/winners.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -168,8 +175,8 @@
       <file leaf-file-name="MainController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/MainController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.481482">
-              <caret line="197" column="41" selection-start-line="197" selection-start-column="41" selection-end-line="197" selection-end-column="41" />
+            <state vertical-scroll-proportion="-7.5925927">
+              <caret line="197" column="42" selection-start-line="197" selection-start-column="42" selection-end-line="197" selection-end-column="42" />
               <folding>
                 <element signature="n#cropimageAction#0;n#MainController#0;n#!!top" expanded="false" />
               </folding>
@@ -180,8 +187,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/templates/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75551784">
-              <caret line="2354" column="1" selection-start-line="2354" selection-start-column="1" selection-end-line="2354" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.5110357">
+              <caret line="2331" column="33" selection-start-line="2331" selection-start-column="33" selection-end-line="2331" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -244,10 +251,10 @@
         <option value="$PROJECT_DIR$/application/templates/views/header.html" />
         <option value="$PROJECT_DIR$/application/templates/views/main/members.php" />
         <option value="$PROJECT_DIR$/application/templates/views/main/winners.php" />
-        <option value="$PROJECT_DIR$/application/controllers/MainController.php" />
         <option value="$PROJECT_DIR$/application/libraries/main.php" />
         <option value="$PROJECT_DIR$/application/templates/views/main/index.php" />
         <option value="$PROJECT_DIR$/application/templates/js/interface.js" />
+        <option value="$PROJECT_DIR$/application/controllers/MainController.php" />
         <option value="$PROJECT_DIR$/application/templates/css/style.css" />
       </list>
     </option>
@@ -920,7 +927,13 @@
       <option name="project" value="LOCAL" />
       <updated>1450195856674</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="&#10;da">
+      <created>1450196476642</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1450196476642</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1311,21 +1324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/OrderModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2241993">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <marker date="1450173561373" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1450173561373" expanded="true" signature="-1:-1" placeholder="SELECT count..." />
-            <marker date="1450173561373" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1450173561373" expanded="true" signature="-1:-1" placeholder="SELECT Title..." />
-            <marker date="1450173561373" expanded="true" signature="-1:-1" placeholder="SELECT `orde..." />
-            <marker date="1450173561373" expanded="true" signature="-1:-1" placeholder="SELECT * fro..order..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/64b02fa/377f7745-cc2c-4d94-bf38-4961d72fa70f/mts4g..smartphones">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1347,6 +1345,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/views/main/winners.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6666665">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="dbDummy://dbtable:/64b02fa/377f7745-cc2c-4d94-bf38-4961d72fa70f/mts4g..order">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1357,22 +1363,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/libraries/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.909091">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/views/main/winners.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1392,14 +1382,6 @@
             <element signature="e#2041#2111#0#HTML" expanded="true" />
             <element signature="n#style#0;n#a#2;n#div#1;n#form#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/views/main/members.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1434,10 +1416,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.909091">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/OrderModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.259259">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+          <folding>
+            <marker date="1450173561373" expanded="true" signature="302:375" placeholder="INSERT INTO ..." />
+            <marker date="1450173561373" expanded="true" signature="1257:1302" placeholder="SELECT count..." />
+            <marker date="1450173561373" expanded="true" signature="1494:1533" placeholder="SELECT * FRO..." />
+            <marker date="1450173561373" expanded="true" signature="1730:1781" placeholder="SELECT Title..." />
+            <marker date="1450173561373" expanded="true" signature="1997:2187" placeholder="SELECT `orde..." />
+            <marker date="1450173561373" expanded="true" signature="2597:2616" placeholder="SELECT * fro..order..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/views/main/members.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/MainController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.481482">
-          <caret line="197" column="41" selection-start-line="197" selection-start-column="41" selection-end-line="197" selection-end-column="41" />
+        <state vertical-scroll-proportion="-7.5925927">
+          <caret line="197" column="42" selection-start-line="197" selection-start-column="42" selection-end-line="197" selection-end-column="42" />
           <folding>
             <element signature="n#cropimageAction#0;n#MainController#0;n#!!top" expanded="false" />
           </folding>
@@ -1446,8 +1459,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/templates/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75551784">
-          <caret line="2354" column="1" selection-start-line="2354" selection-start-column="1" selection-end-line="2354" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.5110357">
+          <caret line="2331" column="33" selection-start-line="2331" selection-start-column="33" selection-end-line="2331" selection-end-column="33" />
           <folding />
         </state>
       </provider>

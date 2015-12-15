@@ -2329,7 +2329,7 @@ span.pagination__item--next {
   border-bottom: 1px dashed #ed1c24 ;
 }
 
-.cropControls .cropControlsUpload{
+.cropControls.cropControlsUpload{
   z-index: 2;
   position: absolute;
   top: 0;
