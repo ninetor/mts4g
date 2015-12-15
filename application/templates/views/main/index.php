@@ -1,3 +1,4 @@
+<script type="text/javascript" src="http://vk.com/js/api/share.js?90" charset="windows-1251"></script>
 <script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
 <script>
     window.fbAsyncInit = function () {
@@ -7,11 +8,9 @@
             version: 'v2.5'
         });
     };
-    $(document).ready({
-        VK.init({
-            apiId: 5189016 // id созданного вами приложения вконтакте
-        });
-    })
+    VK.init({
+        apiId: 5189016 // id созданного вами приложения вконтакте
+    });
 
 </script>
 
@@ -391,7 +390,9 @@
     <p>
         Чтобы подтвердить заказ, отправьте его себе на стену в социальную сеть
     </p>
-     <a class="btn vk" href="#" onclick="shareVK()">ВКонтакте</a>
+   <span id="vkapiahser">
+        <span class="btn vk" onclick="shareVK()">ВКонтакте</span>
+         </span>
     <span class="or">или</span>
 
     <a href="#" onclick="shareFB()"
