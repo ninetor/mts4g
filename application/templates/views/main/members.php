@@ -16,7 +16,7 @@ if ($members)
                             </div>
                             <div class="customer__title">Заказчик: <span><?=$member['Social']?></span></div>
                             <div class="customer__img">
-                                <img src="../uploads/<?=$member['Image']?>" alt="">
+                                <img src="<?=$member['Image']?>" alt="">
                             </div>
                         </div>
                     </a>
@@ -39,7 +39,7 @@ if ($members)
                     </div>
                 </div>
                 <div class="customer__img">
-                    <img src="../uploads/<?=$member['Image']?>" alt="">
+                    <img src="<?=$member['Image']?>" alt="">
                 </div>
             </div>
         </div>

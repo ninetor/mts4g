@@ -97,7 +97,7 @@ class MainController extends Controller
             if ($save)
             {
                 $values['id'] = $save;
-                $values['image']  = "http://".$_SERVER['HTTP_HOST']."/"."application/templates/img/content/top-logo.png";
+                if (!$values['image']) $values['image']  = "http://".$_SERVER['HTTP_HOST']."/"."application/templates/img/content/top-logo.png";
                 echo json_encode(['success'=>1, 'object' => $values]);
             }
             else
