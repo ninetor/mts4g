@@ -4,7 +4,11 @@ if ($winners)
 {?>
     <section class="page-content">
         <div class="container">
-            <h2 class="title"><?=$params['winners']['Title']?></h2>
+            <div class="title-wrap">
+                <h2 class="title title-winners__left"><a href="#" class="active"><?=$params['winners']['Title']?></a></h2>
+                <h2 class="title title-winners__right"><a href="/members">Все участники</a></h2>
+            </div>
+<!--            <h2 class="title">--><?php //$params['winners']['Title']?><!--</h2>-->
             <div class="members-list">
                 <?php foreach ($winners as $winner) :?>
                     <a href="#member<?=$winner['id']?>" rel="members-gallery1" class="member-item member-popup">

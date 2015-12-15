@@ -4,7 +4,11 @@ if ($members)
 {?>
 <section class="page-content">
     <div class="container">
-        <h2 class="title">Все участники</h2>
+        <div class="title-wrap">
+            <h2 class="title title-winners__left"><a href="/winners">Победители недели c 17-24 ноября</a></h2>
+            <h2 class="title title-winners__right"><a href="#" class="active">Все участники</a></h2>
+        </div>
+<!--        <h2 class="title">Все участники</h2>-->
         <div class="members-list">
                <?php foreach ($members as $member) :?>
                     <a href="#member<?=$member['id']?>" rel="members-gallery1" class="member-item member-popup">

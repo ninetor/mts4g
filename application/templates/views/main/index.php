@@ -16,40 +16,55 @@
 
 <div id="fb-root"></div>
 <script>(function (d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s);
-    js.id = id;
-    js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.5&appId=128132277556360";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.5&appId=128132277556360";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 <!--HEADER-->
 
 <script>
-    $(document).ready(function(){
+    $(document).ready(function () {
 
         var croppicContaineroutputMinimal = {
-            uploadUrl:'/uploadimage',
-            cropUrl:'/cropimage',
-            modal:false,
-            doubleZoomControls:false,
+            uploadUrl: '/uploadimage',
+            cropUrl: '/cropimage',
+            modal: false,
+            doubleZoomControls: false,
             rotateControls: false,
-            loaderHtml:'<div class="loader bubblingG"><span id="bubblingG_1"></span><span id="bubblingG_2"></span><span id="bubblingG_3"></span></div> ',
-            onBeforeImgUpload: function(){ console.log('onBeforeImgUpload') },
-            onAfterImgUpload: function(){ console.log('onAfterImgUpload'); },
-            onImgDrag: function(){ console.log('onImgDrag') },
-            onImgZoom: function(){ console.log('onImgZoom') },
-            onBeforeImgCrop: function(){ console.log('onBeforeImgCrop') },
-            onAfterImgCrop:function(){ console.log('onAfterImgCrop') },
-            onReset:function(){ console.log('onReset') },
-            onError:function(errormessage){ console.log('onError:'+errormessage) }
+            loaderHtml: '<div class="loader bubblingG"><span id="bubblingG_1"></span><span id="bubblingG_2"></span><span id="bubblingG_3"></span></div> ',
+            onBeforeImgUpload: function () {
+                console.log('onBeforeImgUpload')
+            },
+            onAfterImgUpload: function () {
+                console.log('onAfterImgUpload');
+            },
+            onImgDrag: function () {
+                console.log('onImgDrag')
+            },
+            onImgZoom: function () {
+                console.log('onImgZoom')
+            },
+            onBeforeImgCrop: function () {
+                console.log('onBeforeImgCrop')
+            },
+            onAfterImgCrop: function () {
+                console.log('onAfterImgCrop')
+            },
+            onReset: function () {
+                console.log('onReset')
+            },
+            onError: function (errormessage) {
+                console.log('onError:' + errormessage)
+            }
         }
         var cropContaineroutput = new Croppic('cropContainerMinimal', croppicContaineroutputMinimal);
     })
 
 
 </script>
-
 
 
 <section class="phone-select" id="smartphone">
@@ -303,7 +318,8 @@ LTE позволяет достичь скорости загрузки до 326
                     <div class="line right"></div>
                 </div>
 							<span class="answer">
-							На данный момент покрытие 4G охватывает часть территории Минска, но в дальнейшем его планируется расширять. Карту покрытия 4G вы можете посмотреть на сайте <a href="http://mts.by" target="_blank"></a>
+							На данный момент покрытие 4G охватывает часть территории Минска, но в дальнейшем его планируется расширять. Карту покрытия 4G вы можете посмотреть на сайте <a
+                                    href="http://mts.by" target="_blank"></a>
                             </span>
             </a>
             <a href="#" class="questions-accord__item">
@@ -393,7 +409,7 @@ LTE позволяет достичь скорости загрузки до 326
 
         <div>
             <div class="textarea-wrap">
-                <textarea name="message" maxlength="70"
+                <textarea name="message" maxlength="70" id="textmessage"
                           placeholder="Например: Я хочу прокатить  любимую на 4Gтакси!"></textarea>
                 <span class="warning">Максимум — 70 символов</span>
             </div>
@@ -410,23 +426,25 @@ LTE позволяет достичь скорости загрузки до 326
 
         <div class="download">
 
-
             <div id="dropBox">
+              <div class="dropBox-wrap">
+                  <div class="download-anchor">Используйте стандартное фото для оформления или добавьте своё:<a
+                          href="#">загрузите </a>его
+                  </div>
                 <div id="cropContainerMinimal">
-                    <div class="download-anchor">Используйте стандартное фото для оформления или добавьте своё:<a href="#">загрузите </a>его</div>
 
                 </div>
-<!--                <div class="dropbox-info">-->
-<!--                    Используйте стандартное фото для оформления или добавьте своё:-->
-<!--                    <div class="download-anchor">-->
-<!--                        <label class="mybutton" for="fileupload">загрузите</label>-->
-<!--                        <input class="fileupload" name="image" id="fileupload" type="file"/>-->
-<!--                    </div>-->
-<!---->
-<!--                    <p id="fileinfo"><span></span></p>-->
-<!--                </div>-->
+              </div>
+                <!--                <div class="dropbox-info">-->
+                <!--                    Используйте стандартное фото для оформления или добавьте своё:-->
+                <!--                    <div class="download-anchor">-->
+                <!--                        <label class="mybutton" for="fileupload">загрузите</label>-->
+                <!--                        <input class="fileupload" name="image" id="fileupload" type="file"/>-->
+                <!--                    </div>-->
+                <!---->
+                <!--                    <p id="fileinfo"><span></span></p>-->
+                <!--                </div>-->
             </div>
-
 
 
             <div class="download-info">
@@ -461,8 +479,8 @@ LTE позволяет достичь скорости загрузки до 326
     <p>
         Чтобы подтвердить заказ, отправьте его себе на стену в социальную сеть
     </p>
-        <a class="btn vk" href="#" onclick="shareVK()">ВКонтакте</a>
-    <span class="or">или</span>
+    <!--        <a class="btn vk" href="#" onclick="shareVK()">ВКонтакте</a>-->
+    <!--    <span class="or">или</span>-->
 
     <a href="#" onclick="shareFB()"
        class="btn fb">Facebook</a>

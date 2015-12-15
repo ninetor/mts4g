@@ -5,6 +5,7 @@ if(!defined("USE_HOST"))// условие проверяющее возможн�
 function pagination($countAll,$currentPage,$limit){
 	$paginationHtml = '<div class="pagination">';
 	$pages = ceil($countAll/$limit);
+	if ($pages == 1) return null;
 	$url = '/members?page=';
 
 	if ($currentPage==1)
