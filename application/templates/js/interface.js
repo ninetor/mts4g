@@ -287,26 +287,38 @@ function showFourStep() {
 
 function shareFB() {
     if (object) {
-        FB.ui(
-            {
-                method: 'share',
-                name: object.message,
-                picture: object.image,
-                caption: '4G-скорость — уже в Минске!',
-                description: object.message,
-                href: 'ns.nineseven.ru/members/' + object.id,
-                app_id: 129128417456746,
-                //redirect_uri: 'ns.nineseven.ru/members/'+object.id,
-            },
-            function (response) {
-                console.log(response);
-                //if (response && response.post_id) {
-                showFourStep();
+
+        FB.login(function(){
+            // Note: The call will only work if you accept the permission request
+            FB.api('/me/feed', 'post', {message: 'Hello, world!'}, function(response) {
+                console.log(response)
+            });
+        }, {scope: 'publish_actions'});
+
+        //FB.api('/me', {fields: 'last_name'}, function(response) {
+        //    console.log(response);
+        //});
+
+        //FB.ui(
+        //    {
+        //        app_id: 128132277556360,
+        //        method: 'share',
+        //        name: object.message,
+        //        picture: object.image,
+        //        caption: '4G-скорость — уже в Минске!',
+        //        description: object.message,
+        //        href: 'ns.nineseven.ru/members/' + object.id,
+        //        redirect_uri: 'ns.nineseven.ru/members/'+object.id,
+            //},
+            //function (response) {
+            //    console.log(response);
+            //    if (response && response.post_id) {
+                //showFourStep();
                 //} else {
                 //    alert('Необходимо опубликовать пост у себя на странице');
                 //}
-            }
-        );
+            //}
+        //);
     }
 }
 
