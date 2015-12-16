@@ -216,7 +216,7 @@ LTE позволяет достичь скорости загрузки до 326
         <div class="ask">
             <div class="ask__left">
                 <h4>Появились еще вопросы?</h4>
-                Напишите в нашу онлайн-поддержку <a href="mailto:help.mts.by">help.mts.by</a>
+                Напишите в нашу онлайн-поддержку <a href="http://help.mts.by" target="_blank">help.mts.by</a>
             </div>
             <a href="https://help.mts.by/hc/ru/requests/new " class="btn">Задать вопрос</a>
         </div>
@@ -226,7 +226,7 @@ LTE позволяет достичь скорости загрузки до 326
 <form action="" id="form_step12" method="post" enctype="multipart/form-data">
     <!--POPUPS-->
     <div id="step1" class="steps">
-        <h4><span>Шаг 1.</span>Подробности заказа</h4>
+        <h4><span>Шаг 1.</span>Выберите и дополните повод</h4>
 
         <div class="choose">
             <div class="radio-wrap">

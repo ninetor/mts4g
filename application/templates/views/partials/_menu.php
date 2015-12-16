@@ -2,7 +2,7 @@
     <a href="#" class="menu-btn">
         <span class="burger-icon"></span>
     </a>
-    <div class="top-logo"></div>
+    <a href=" <?=($params['isMain']) ? '#' : '/'?>" class="top-logo"></a>
     <nav class="top-nav">
         <a href="<?=$params['urlMenu']?>#top" class="top-nav__item <?=($params['isMain']) ? 'active' : ''?> scroll">4gтакси</a>
         <a href="<?=$params['urlMenu']?>#smartphone" class="top-nav__item scroll">4gсмартфоны</a>

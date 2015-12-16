@@ -17,15 +17,12 @@ Share = {
     },
     facebook: function(purl, ptitle, pimg, text) {
 
-
-
         url  = 'http://www.facebook.com/dialog/feed?app_id=128132277556360' +
             '&link='+purl +
             '&picture=' + pimg +
             '&name=' + encodeURIComponent(ptitle) +
             '&caption=' + encodeURIComponent(ptitle) +
         '&description=' + encodeURIComponent(text) +
-        '&redirect_uri=' + purl  +
         '&display=popup';
 
         //url  = 'http://www.facebook.com/sharer.php?s=100';
