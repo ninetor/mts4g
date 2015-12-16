@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edded8a7-8d07-4b17-88c9-1f200902e07b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/Share.js" afterPath="$PROJECT_DIR$/application/templates/js/Share.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/main/index.php" afterPath="$PROJECT_DIR$/application/templates/views/main/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/templates/img/content/download-icons.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/views/partials/_top_info.html" afterPath="$PROJECT_DIR$/application/templates/views/partials/_top_info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/js/interface.js" afterPath="$PROJECT_DIR$/application/templates/js/interface.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/css/style.css" afterPath="$PROJECT_DIR$/application/templates/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -86,11 +87,21 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/templates/views/main/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.3333333">
+            <state vertical-scroll-proportion="-1.3333334">
               <caret line="5" column="35" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="35" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#form#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_top_info.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/templates/views/partials/_top_info.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.3333335">
+              <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="95" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,23 +140,24 @@
         <entry file="file://$PROJECT_DIR$/application/templates/js/interface.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="375" column="16" selection-start-line="375" selection-start-column="16" selection-end-line="375" selection-end-column="16" />
+              <caret line="246" column="1" selection-start-line="246" selection-start-column="1" selection-end-line="246" selection-end-column="1" />
               <folding>
-                <element signature="e#30#7032#0" expanded="true" />
+                <element signature="e#30#5821#0" expanded="true" />
                 <element signature="e#282#437#0" expanded="true" />
                 <element signature="e#2286#2746#0" expanded="true" />
                 <element signature="e#2830#3001#0" expanded="true" />
-                <element signature="e#4607#5359#0" expanded="true" />
-                <element signature="e#6016#6694#0" expanded="true" />
+                <element signature="e#4805#5483#0" expanded="true" />
+                <element signature="n#!!block;n#counter#0" expanded="true" />
                 <element signature="n#!!block;n#StepOne#0" expanded="true" />
                 <element signature="n#!!block;n#createOrder#0" expanded="true" />
-                <element signature="e#8187#8629#0" expanded="true" />
+                <element signature="e#8074#8516#0" expanded="true" />
                 <element signature="n#!!block;n#showFourStep#0" expanded="true" />
                 <element signature="n#!!block;n#shareVK#0" expanded="true" />
-                <element signature="e#10339#10402#0" expanded="true" />
-                <element signature="e#10727#10790#0" expanded="true" />
+                <element signature="e#10226#10317#0" expanded="true" />
+                <element signature="n#!!block;n#shareFB#0" expanded="true" />
+                <element signature="e#10619#10710#0" expanded="true" />
                 <element signature="n#!!block;n#sendPhone#0" expanded="true" />
-                <element signature="e#11241#11615#0" expanded="true" />
+                <element signature="e#11138#11628#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,24 +173,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Share.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Share.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/templates/js/Share.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61433446">
-              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
               <folding>
                 <element signature="e#60#438#0" expanded="true" />
+                <element signature="e#754#1488#0" expanded="true" />
                 <element signature="e#2168#2246#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/templates/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.607142">
-              <caret line="2361" column="0" selection-start-line="2361" selection-start-column="0" selection-end-line="2361" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.35135135">
+              <caret line="2442" column="1" selection-start-line="2442" selection-start-column="1" selection-end-line="2442" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -209,21 +222,6 @@
                 <marker date="1450254401409" expanded="true" signature="1803:1854" placeholder="SELECT Title..." />
                 <marker date="1450254401409" expanded="true" signature="2070:2260" placeholder="SELECT `orde..." />
                 <marker date="1450254401409" expanded="true" signature="2670:2689" placeholder="SELECT * fro..order..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhoneModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/PhoneModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.666666">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <marker date="1450201184963" expanded="true" signature="250:277" placeholder="SELECT * FRO..." />
-                <marker date="1450201184963" expanded="true" signature="470:507" placeholder="SELECT * FRO..." />
-                <marker date="1450201184963" expanded="true" signature="470:544" placeholder="SELECT * FRO..." />
-                <marker date="1450201184963" expanded="true" signature="470:581" placeholder="SELECT * FRO..." />
               </folding>
             </state>
           </provider>
@@ -262,7 +260,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/system/Controller.php" />
         <option value="$PROJECT_DIR$/application/templates/views/main/index.html" />
-        <option value="$PROJECT_DIR$/application/templates/views/partials/_top_info.html" />
         <option value="$PROJECT_DIR$/application/class.php" />
         <option value="$PROJECT_DIR$/application/classes/Paginaton.php" />
         <option value="$PROJECT_DIR$/application/libraries/PaginatonLibrary.php" />
@@ -288,10 +285,11 @@
         <option value="$PROJECT_DIR$/application/views/MainView.php" />
         <option value="$PROJECT_DIR$/application/models/OrderModel.php" />
         <option value="$PROJECT_DIR$/application/controllers/MainController.php" />
-        <option value="$PROJECT_DIR$/application/templates/js/interface.js" />
-        <option value="$PROJECT_DIR$/application/templates/css/style.css" />
         <option value="$PROJECT_DIR$/application/templates/views/main/index.php" />
         <option value="$PROJECT_DIR$/application/templates/js/Share.js" />
+        <option value="$PROJECT_DIR$/application/templates/views/partials/_top_info.html" />
+        <option value="$PROJECT_DIR$/application/templates/js/interface.js" />
+        <option value="$PROJECT_DIR$/application/templates/css/style.css" />
       </list>
     </option>
   </component>
@@ -531,6 +529,36 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mts.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -622,12 +650,6 @@
       <created>1449922301615</created>
       <option name="number" value="Default" />
       <updated>1449922301615</updated>
-    </task>
-    <task id="LOCAL-00005" summary="fix">
-      <created>1450035255547</created>
-      <option name="number" value="00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1450035255547</updated>
     </task>
     <task id="LOCAL-00006" summary="fix">
       <created>1450039759546</created>
@@ -917,7 +939,13 @@
       <option name="project" value="LOCAL" />
       <updated>1450256193214</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="&#10;da">
+      <created>1450257482348</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1450257482348</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1034,13 +1062,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="155" selection-start-line="36" selection-start-column="155" selection-end-line="36" selection-end-column="155" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/views/partials/_top.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12676056">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1275,10 +1296,10 @@
         <state vertical-scroll-proportion="-16.666666">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <marker date="1450201184963" expanded="true" signature="250:277" placeholder="SELECT * FRO..." />
-            <marker date="1450201184963" expanded="true" signature="470:507" placeholder="SELECT * FRO..." />
-            <marker date="1450201184963" expanded="true" signature="470:544" placeholder="SELECT * FRO..." />
-            <marker date="1450201184963" expanded="true" signature="470:581" placeholder="SELECT * FRO..." />
+            <marker date="1450201184963" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1450201184963" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1450201184963" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1450201184963" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
@@ -1302,14 +1323,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52816904">
           <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/views/partials/_top_info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16901408">
-          <caret line="8" column="89" selection-start-line="8" selection-start-column="89" selection-end-line="8" selection-end-column="89" />
           <folding />
         </state>
       </provider>
@@ -1364,6 +1377,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/views/partials/_menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.666667">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="287" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="dbDummy://dbtable:/64b02fa/377f7745-cc2c-4d94-bf38-4961d72fa70f/mts4g..parameters">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1377,17 +1398,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/css/style.css">
+    <entry file="file://$PROJECT_DIR$/application/templates/js/Share.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.607142">
-          <caret line="2361" column="0" selection-start-line="2361" selection-start-column="0" selection-end-line="2361" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding>
+            <element signature="e#60#438#0" expanded="true" />
+            <element signature="e#754#1488#0" expanded="true" />
+            <element signature="e#2168#2246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/views/partials/_top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12676056">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/views/partials/_top_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="95" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/templates/views/main/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3333333">
+        <state vertical-scroll-proportion="-1.3333334">
           <caret line="5" column="35" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="35" />
           <folding>
             <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#form#0;n#!!top" expanded="true" />
@@ -1398,43 +1439,33 @@
     <entry file="file://$PROJECT_DIR$/application/templates/js/interface.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="375" column="16" selection-start-line="375" selection-start-column="16" selection-end-line="375" selection-end-column="16" />
+          <caret line="246" column="1" selection-start-line="246" selection-start-column="1" selection-end-line="246" selection-end-column="1" />
           <folding>
-            <element signature="e#30#7032#0" expanded="true" />
+            <element signature="e#30#5821#0" expanded="true" />
             <element signature="e#282#437#0" expanded="true" />
             <element signature="e#2286#2746#0" expanded="true" />
             <element signature="e#2830#3001#0" expanded="true" />
-            <element signature="e#4607#5359#0" expanded="true" />
-            <element signature="e#6016#6694#0" expanded="true" />
+            <element signature="e#4805#5483#0" expanded="true" />
+            <element signature="n#!!block;n#counter#0" expanded="true" />
             <element signature="n#!!block;n#StepOne#0" expanded="true" />
             <element signature="n#!!block;n#createOrder#0" expanded="true" />
-            <element signature="e#8187#8629#0" expanded="true" />
+            <element signature="e#8074#8516#0" expanded="true" />
             <element signature="n#!!block;n#showFourStep#0" expanded="true" />
             <element signature="n#!!block;n#shareVK#0" expanded="true" />
-            <element signature="e#10339#10402#0" expanded="true" />
-            <element signature="e#10727#10790#0" expanded="true" />
+            <element signature="e#10226#10317#0" expanded="true" />
+            <element signature="n#!!block;n#shareFB#0" expanded="true" />
+            <element signature="e#10619#10710#0" expanded="true" />
             <element signature="n#!!block;n#sendPhone#0" expanded="true" />
-            <element signature="e#11241#11615#0" expanded="true" />
+            <element signature="e#11138#11628#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/views/partials/_menu.php">
+    <entry file="file://$PROJECT_DIR$/application/templates/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.666667">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="287" />
+        <state vertical-scroll-proportion="0.35135135">
+          <caret line="2442" column="1" selection-start-line="2442" selection-start-column="1" selection-end-line="2442" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/js/Share.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61433446">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <folding>
-            <element signature="e#60#438#0" expanded="true" />
-            <element signature="e#2168#2246#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

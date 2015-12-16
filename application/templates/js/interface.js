@@ -149,39 +149,7 @@ $(document).ready(function () {
     //}
     //;
 
-    // functions
-    function isTouchDevice() {
-        return true == ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch);
-    }
 
-    function scrollToDiv(element, navheight) {
-        var offset = element.offset();
-        var offsetTop = offset.top;
-        var totalScroll = offsetTop - navheight + 40;
-
-        $('body,html').animate({
-            scrollTop: totalScroll
-        }, 500);
-    }
-
-    function counter() {
-        if ($('.counter-wrapper').length > 0) {
-            $('.counter-wrapper').empty();
-            var number = $(".counter-input").val();
-            var numArray = number.split("");
-            for (var i = 0; i < numArray.length; i++) {
-                numArray[i] = parseInt(numArray[i], 10);
-                $(".counter-wrapper").append('<span class="digit-con"><span class="digit' + i + '">0<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br></span></span>');
-            }
-            var increment = $('.digit-con').outerHeight();
-            var speed = 1200;
-
-            for (var i = 0; i < numArray.length; i++) {
-                $('.digit' + i).animate({top: -(increment * numArray[i])}, speed);
-            }
-        }
-        ;
-    }
 
     //function ignoreDrag(e) {
     //    e.stopPropagation();
@@ -242,6 +210,41 @@ $(document).ready(function () {
         }
     }
 });
+
+
+// functions
+function isTouchDevice() {
+    return true == ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch);
+}
+
+function scrollToDiv(element, navheight) {
+    var offset = element.offset();
+    var offsetTop = offset.top;
+    var totalScroll = offsetTop - navheight + 40;
+
+    $('body,html').animate({
+        scrollTop: totalScroll
+    }, 500);
+}
+
+function counter() {
+    if ($('.counter-wrapper').length > 0) {
+        $('.counter-wrapper').empty();
+        var number = $(".counter-input").val();
+        var numArray = number.split("");
+        for (var i = 0; i < numArray.length; i++) {
+            numArray[i] = parseInt(numArray[i], 10);
+            $(".counter-wrapper").append('<span class="digit-con"><span class="digit' + i + '">0<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br></span></span>');
+        }
+        var increment = $('.digit-con').outerHeight();
+        var speed = 1200;
+
+        for (var i = 0; i < numArray.length; i++) {
+            $('.digit' + i).animate({top: -(increment * numArray[i])}, speed);
+        }
+    }
+    ;
+}
 
 
 /**
@@ -360,12 +363,13 @@ function shareVK() {
         $('#loadersoc').css('display', 'block');
         setTimeout(function() {
             $('#loadersoc').css('display', 'none');
-        },3500);
+            showFourStep();
+        },3000);
 
         Share.vkontakte("http://"+window.host+'/members/?id=' + object.id, 'Хочу прокатиться на #4GтаксиМТС!',
             object.image,
             object.message);
-        showFourStep();
+
     }
 }
 function shareFB() {
@@ -373,11 +377,12 @@ function shareFB() {
         $('#loadersoc').css('display', 'block');
         setTimeout(function() {
             $('#loadersoc').css('display', 'none');
-        },3500);
+            showFourStep();
+        },3000);
         Share.facebook("http://"+window.host+'/members/?id=' + object.id, 'Хочу прокатиться на #4GтаксиМТС!',
             object.image,
             object.message);
-        showFourStep();
+
     }
 }
 
@@ -399,6 +404,11 @@ function sendPhone() {
                     padding: 60,
                     maxWidth: 720,
                 }).click();
+
+                $('#count-all-orders').val(parseInt($('#count-all-orders').val())+1);
+                counter();
+
+
             }
         }
     });
