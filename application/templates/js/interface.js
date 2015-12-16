@@ -357,6 +357,11 @@ function showFourStep() {
 
 function shareVK() {
     if (object) {
+        $('#loadersoc').css('display', 'block');
+        setTimeout(function() {
+            $('#loadersoc').css('display', 'none');
+        },3500);
+
         Share.vkontakte("http://"+window.host+'/members/?id=' + object.id, 'Хочу прокатиться на #4GтаксиМТС!',
             object.image,
             object.message);
@@ -365,6 +370,10 @@ function shareVK() {
 }
 function shareFB() {
     if (object) {
+        $('#loadersoc').css('display', 'block');
+        setTimeout(function() {
+            $('#loadersoc').css('display', 'none');
+        },3500);
         Share.facebook("http://"+window.host+'/members/?id=' + object.id, 'Хочу прокатиться на #4GтаксиМТС!',
             object.image,
             object.message);
