@@ -2113,6 +2113,10 @@ span.pagination__item--next {
 }
 
 
+#step1 input[type="text"]{
+  width: 500px;
+}
+
 
 @media screen and (max-width: 1250px) {
   .container {
@@ -2530,7 +2534,7 @@ span.pagination__item--next {
     width: 100%; }
   .choose label {
     padding-left: 0;
-    text-align: center;
+    text-align: left;
     padding-left: 10px;
     font-size: 14px;}
   #step1 .textarea-wrap {
@@ -2567,6 +2571,9 @@ span.pagination__item--next {
     position: absolute;
     bottom: 120px;
     left: 0;
+    width: 100%;
+  }
+  #step1 input[type="text"]{
     width: 100%;
   }
 }
@@ -2629,7 +2636,9 @@ span.pagination__item--next {
     left: 0;
     margin-left: 0;
     z-index: 10;
-    text-align: center; }
+    text-align: center;
+    height: auto;
+    line-height: 16px;}
   .member-info{
     width: 100%;
     right: 0;
@@ -2642,3 +2651,63 @@ span.pagination__item--next {
     font-size: 14px; }
 }
 
+
+.actions .title{
+  text-align: center;
+}
+.btn.fb:hover,
+.btn.vk:hover{
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.time__item{
+  white-space: normal;
+}
+.download {
+  margin: 0 auto 50px;
+}
+
+.fancybox-lock,.fancybox-inner{
+  overflow: visible!important;
+}
+#step1 {
+  padding: 30px;
+  background: #fff;
+}
+#step2 {
+  padding: 50px;
+  background: #fff;
+}
+#step3 {
+  padding: 60px;
+  background: #fff;
+}
+#step4 {
+  padding: 60px;
+  background: #fff;
+}
+#step5 {
+  padding: 60px;
+  background: #fff;
+}
+.member-popup{
+  padding: 60px;
+  background: #fff;
+}
+
+@media screen and (max-width: 800px){
+  .download-info__text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 649px){
+  .choose label {
+    text-align: left;
+    padding-left: 20px;
+  }
+}
+
+
+#step3 { height: auto!important;}

@@ -129,23 +129,32 @@ $(document).ready(function () {
 
     //POPUP
     $(".step1").fancybox({
-        'titlePosition': 'inside',
-        'transitionIn': 'none',
-        'transitionOut': 'none',
-        padding: 30,
-        maxWidth: 800,
+        'titlePosition'     : 'inside',
+        'transitionIn'      : 'none',
+        'transitionOut'     : 'none',
+        padding: 0,
+        maxWidth    : 800,
         minHeight: 300,
+        autoSize    : false,
+        helpers: {
+            overlay: {
+                locked: true,
+            }
+        }
     });
 
-
     $(".member-popup").fancybox({
-        'transitionIn': 'none',
-        'transitionOut': 'none',
-        padding: 60,
+        'transitionIn'      : 'none',
+        'transitionOut'     : 'none',
+        padding: 0,
         arrows: true,
-        // maxWidth: 700,
-        // minHeight: 400,
-        // minWidth: 700,
+        minHeight: 300,
+        autoSize    : false,
+        helpers: {
+            overlay: {
+                locked: true,
+            }
+        }
     });
 
     //FILE UPLOAD
@@ -275,26 +284,47 @@ function counter() {
  */
 function StepOne() {
 
+    var isReturn = false;
     var val = $('.textarea-wrap').find('textarea').val();
     var valsoc = $('#socialOrder').val();
     if (val != "" && valsoc != "") {
         $('#step2-info__text').text(val);
+        if(window.containsMat(val)){
+            $('.textarea-wrap').find('textarea').css({'border-color': 'red'});
+            isReturn = true;
+        }
+        if(window.containsMat(valsoc)){
+            $('#socialOrder').css({'border-color': 'red'});
+            isReturn = true;
+        }
     }
     else {
         if (val == "") {
             $('.textarea-wrap').find('textarea').css({'border-color': 'red'});
+            isReturn = true;
         }
-        else if (valsoc == "") {
+        if (valsoc == "") {
             $('#socialOrder').css({'border-color': 'red'});
+            isReturn = true;
         }
-        return;
+
     }
+
+    if (isReturn)   {return;}
+
     $("#tostep2").fancybox({
-        'titlePosition': 'inside',
-        'transitionIn': 'none',
-        'transitionOut': 'none',
-        padding: 50,
-        maxWidth: 800,
+        'titlePosition'     : 'inside',
+        'transitionIn'      : 'none',
+        'transitionOut'     : 'none',
+        padding: 0,
+        maxWidth    : 800,
+        minHeight: 300,
+        autoSize    : false,
+        helpers: {
+            overlay: {
+                locked: true,
+            }
+        }
     }).click();
 }
 
@@ -322,11 +352,16 @@ function createOrder() {
             if (data.success == 1) {
                 object = data.object;
                 $("#tostep3").fancybox({
-                    'titlePosition': 'inside',
-                    'transitionIn': 'none',
-                    'transitionOut': 'none',
-                    padding: 60,
-                    maxWidth: 720,
+                    'titlePosition'     : 'inside',
+                    'transitionIn'      : 'none',
+                    'transitionOut'     : 'none',
+                    padding: 0,
+                    maxWidth    : 720,
+                    helpers: {
+                        overlay: {
+                            locked: true,
+                        }
+                    }
                 }).click();
                 //crearevk();
             }
@@ -340,11 +375,18 @@ function createOrder() {
 
 function showFourStep() {
     $("#tostep4").fancybox({
-        'titlePosition': 'inside',
-        'transitionIn': 'none',
-        'transitionOut': 'none',
-        padding: 60,
-        maxWidth: 720,
+        'titlePosition'     : 'inside',
+        'transitionIn'      : 'none',
+        'transitionOut'     : 'none',
+        padding: 0,
+        maxWidth    : 720,
+        minHeight: 300,
+        autoSize    : false,
+        helpers: {
+            overlay: {
+                locked: true,
+            }
+        }
     }).click();
 }
 
@@ -388,11 +430,18 @@ function sendPhone() {
             console.log(data.success);
             if (data.success == 1) {
                 $("#tostep5").fancybox({
-                    'titlePosition': 'inside',
-                    'transitionIn': 'none',
-                    'transitionOut': 'none',
-                    padding: 60,
-                    maxWidth: 720,
+                    'titlePosition'     : 'inside',
+                    'transitionIn'      : 'none',
+                    'transitionOut'     : 'none',
+                    padding: 0,
+                    maxWidth    : 720,
+                    minHeight: 300,
+                    autoSize    : false,
+                    helpers: {
+                        overlay: {
+                            locked: true,
+                        }
+                    }
                 }).click();
 
                 $('#count-all-orders').val(parseInt($('#count-all-orders').val())+1);

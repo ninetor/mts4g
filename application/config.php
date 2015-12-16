@@ -30,4 +30,9 @@ $routingRules = array(// ассоциативный массив с маршру
     "main/shares" => ["action" => "shares"],
     "main/uploadimage" => ["action" => "uploadimage"],
     "main/cropimage" => ["action" => "cropimage"],
+
+
+//    "admin/admin" => ["action" => "/admin"],
+//    "admin/login" => ["action" => "/admin/login"],
+
 );

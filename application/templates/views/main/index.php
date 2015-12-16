@@ -258,7 +258,7 @@ LTE позволяет достичь скорости загрузки до 326
             </div>
         </div>
         <div>
-            <input type="text" id="socialOrder" style="width: 500px;" name="social" placeholder="Имя и фамилия">
+            <input type="text" id="socialOrder" name="social" placeholder="Имя и фамилия">
         </div>
         <a href="#" class="btn" onclick="StepOne()">Продолжить</a> <!--#step2-->
         <a href="#step2" class="step2" id="tostep2" style="display:none;">Продолжить</a>

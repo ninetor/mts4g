@@ -32,6 +32,7 @@ class MainController extends Controller
     }
     public function testAction()
     {
+        var_dump( "{$_SERVER['DOCUMENT_ROOT']}/uploads/");die;
         $view = new MainView();
         return $this->_controller->setPage($view->showTest([]));
     }
@@ -100,7 +101,7 @@ class MainController extends Controller
         /*
 *	!!! THIS IS JUST AN EXAMPLE !!!, PLEASE USE ImageMagick or some other quality image processing libraries
 */
-        $imgUrl = "http://".$_SERVER['HTTP_HOST']."/".$_POST['imgUrl'];
+        $imgUrl =  $imagePath = "{$_SERVER['DOCUMENT_ROOT']}/".$_POST['imgUrl'];
 // original sizes
         $imgInitW = $_POST['imgInitW'];
         $imgInitH = $_POST['imgInitH'];
@@ -120,9 +121,10 @@ class MainController extends Controller
 
         $output_filename = "uploads/croppedImg_".rand();
 
-
 // uncomment line below to save the cropped image in the same location as the original image.
 //$output_filename = dirname($imgUrl). "/croppedImg_".rand();
+
+
 
         $what = getimagesize($imgUrl);
         switch(strtolower($what['mime']))

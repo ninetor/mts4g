@@ -66,4 +66,14 @@
             <p>Лицензия МСиИ РБ №926 от 30.04.2004, действительна до 30.04.2022. В торговом реестре с 15 мая 2012 г.</p>
         </div>
     </div>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-71496303-1', 'auto');
+		ga('send', 'pageview');
+
+	</script>
 </footer><!--END FOOTER-->
