@@ -2538,3 +2538,43 @@ span.pagination__item--next {
     width: 100%;
   }
 }
+
+
+.member-item__inner {
+  max-width: 520px;
+  margin: 0 auto;
+  height: 320px;
+  background: url(../img/content/download-bg.jpg) center top no-repeat;
+  position: relative;
+}
+.member-info {
+  width: 366px;
+  height: 191px;
+  background: url(../img/content/download-info-bg.png) center top no-repeat;
+  position: absolute;
+  right: -38px;
+  bottom: -36px;
+}
+
+
+@media screen and (max-width: 1024px){
+  .title-wrap .title-winners__left {
+    text-align: center;
+    font-size: 18px;
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  .title-wrap .title-winners__right {
+    text-align: center;
+    padding: 0;
+    font-size: 18px;
+    float: none;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px){
+  .member-item{
+    margin-bottom: 50px;
+  }
+}

@@ -43,7 +43,7 @@ class View
     protected $_topFile = "_top.html";
     protected $_topInfoFile = "_top_info.html";
     protected $_mainFile = "main.php";
-    protected $_footerFile = "footer.html";
+    protected $_footerFile = "footer.php";
     protected $_additionFile = "_addition.php";
 
     protected $_folderPage = null;
@@ -64,7 +64,7 @@ class View
          * the partials of page HTML
          */
         $headerFile = $this->_controller->createHTML("{$this->_viewFolder}/{$this->_headerFile}",['host'=>$_SERVER['HTTP_HOST']]);
-        $footerFile = $this->_controller->createHTML("{$this->_viewFolder}/{$this->_footerFile}");
+        $footerFile = $this->_controller->createHTML("{$this->_viewFolder}/{$this->_footerFile}",['host'=>$_SERVER['HTTP_HOST']]);
         /**
          * the partials of page
          */

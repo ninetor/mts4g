@@ -73,23 +73,23 @@ $(document).ready(function () {
 
 
     if ($(window).width() < 633) {
-        var firstListHeight = $(".advantages-list__left").innerHeight() + 62;
-        $(".advantages-list__right").css("top", firstListHeight);
+        var firstListHeight = $(".slick-active .advantages-list__left").innerHeight() + 62;
+        $(".slick-active .advantages-list__right").css("top", firstListHeight);
         $(".phone-slider__arrows").prependTo($(".slick-list"));
     }
     else if ($(window).width() > 633) {
-        $(".advantages-list__right").css("top", "102px");
+        $(".slick-active .advantages-list__right").css("top", "102px");
         $(".phone-slider__arrows").insertAfter($(".phone-slider"));
     }
 
     $(window).resize(function () {
-        var firstListHeight = $(".advantages-list__left").innerHeight() + 62;
+        var firstListHeight = $(".slick-active .advantages-list__left").innerHeight() + 62;
         if ($(window).width() < 633) {
             $(".phone-slider__arrows").prependTo($(".slick-list"));
             $(".advantages-list__right").css("top", firstListHeight);
         }
         else if ($(window).width() > 633) {
-            $(".advantages-list__right").css("top", "102px");
+            $(".slick-active .advantages-list__right").css("top", "102px");
             $(".phone-slider__arrows").insertAfter($(".phone-slider"));
         }
     });
@@ -374,8 +374,8 @@ function shareVK() {
         },3000);
 
         Share.vkontakte("http://"+window.host+'/members/?id=' + object.id, 'Хочу прокатиться на #4GтаксиМТС!',
-            object.image,
-            object.message);
+            object.image
+           , "Придумайте повод и получите шанс прокатиться на #4GтаксиМТС!");
 
     }
 }
@@ -387,8 +387,8 @@ function shareFB() {
             showFourStep();
         },3000);
         Share.facebook("http://"+window.host+'/members/?id=' + object.id, 'Хочу прокатиться на #4GтаксиМТС!',
-            object.image,
-            object.message);
+            object.image
+            , "Придумайте повод и получите шанс прокатиться на #4GтаксиМТС!");
 
     }
 }
