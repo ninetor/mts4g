@@ -44,7 +44,7 @@ class View
     protected $_topInfoFile = "_top_info.html";
     protected $_mainFile = "main.php";
     protected $_footerFile = "footer.html";
-    protected $_additionFile = "_addition.html";
+    protected $_additionFile = "_addition.php";
 
     protected $_folderPage = null;
 
@@ -68,7 +68,9 @@ class View
         /**
          * the partials of page
          */
-        $additionFile = $this->_controller->createHTML("{$this->_viewFolder}/{$this->_partialsFolder}/{$this->_additionFile}");
+        $additionFile = $this->_controller->createHTML("{$this->_viewFolder}/{$this->_partialsFolder}/{$this->_additionFile}", [
+            'urlMenu' => $isMain ? null : "/",
+        ]);
         $menuFile = $this->_controller->createHTML("{$this->_viewFolder}/{$this->_partialsFolder}/{$this->_menuFile}", [
             'urlMenu' => $isMain ? null : "/",
             'isMain' => $isMain,

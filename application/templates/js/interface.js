@@ -209,6 +209,13 @@ $(document).ready(function () {
             $('.step1').trigger("click");
         }
     }
+
+
+    $('.menu-right__list-item a').on('click',function(){
+        $('.menu-right').removeClass('active');
+        $('.layout').removeClass('active');
+    })
+
 });
 
 
