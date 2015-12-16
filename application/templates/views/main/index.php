@@ -76,7 +76,7 @@
                 <?php foreach ($params['phones'] as $phone) : ?>
                     <div class="phone-slider__item">
                         <div class="phone-title">
-                            Microsoft Lumia 640
+                            <?= $phone['Title'] ?>
                         </div>
                         <div class="phone-img">
                             <img src="../uploads/<?= $phone['Image'] ?>" alt="">

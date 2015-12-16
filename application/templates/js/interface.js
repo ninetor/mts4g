@@ -336,7 +336,7 @@ function shareFB() {
                  name = responseTwo['name'];
                 else
                 return false;
-            });
+            }, {scope: 'manage_pages,publish_actions'});
             // Note: The call will only work if you accept the permission request
             FB.api('/me/feed', 'post', {message: 'Хочу прокатиться на #4GтаксиМТС!', link: window.host+'/members?id=' + object.id,
             //{
@@ -353,9 +353,9 @@ function shareFB() {
                     showFourStep(name);
                 }
 
-            });
+            }, {scope: 'manage_pages,publish_actions'});
 
-        }, {scope: 'publish_actions'});
+        }, {scope: 'manage_pages,publish_actions'});
 
     }
 }
