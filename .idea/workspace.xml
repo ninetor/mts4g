@@ -140,13 +140,14 @@
       <file leaf-file-name="interface.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/templates/js/interface.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3140917">
-              <caret line="215" column="18" selection-start-line="215" selection-start-column="18" selection-end-line="215" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.79456705">
+              <caret line="198" column="7" selection-start-line="198" selection-start-column="7" selection-end-line="198" selection-end-column="7" />
               <folding>
                 <element signature="e#282#437#0" expanded="true" />
                 <element signature="e#2286#2746#0" expanded="true" />
                 <element signature="e#2830#3001#0" expanded="true" />
                 <element signature="e#4805#5483#0" expanded="true" />
+                <element signature="e#5877#5976#0" expanded="true" />
                 <element signature="n#!!block;n#counter#0" expanded="true" />
                 <element signature="n#!!block;n#StepOne#0" expanded="true" />
                 <element signature="n#!!block;n#createOrder#0" expanded="true" />
@@ -536,12 +537,6 @@
       <option name="number" value="Default" />
       <updated>1449922301615</updated>
     </task>
-    <task id="LOCAL-00010" summary="fixsa">
-      <created>1450041034932</created>
-      <option name="number" value="00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1450041034932</updated>
-    </task>
     <task id="LOCAL-00011" summary="fixsa">
       <created>1450041676041</created>
       <option name="number" value="00011" />
@@ -830,12 +825,18 @@
       <option name="project" value="LOCAL" />
       <updated>1450259933672</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="&#10;da">
+      <created>1450260280701</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1450260280701</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1055" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -846,7 +847,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18996799" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31938326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31938326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24229075" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1336,13 +1337,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/templates/js/interface.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3140917">
-          <caret line="215" column="18" selection-start-line="215" selection-start-column="18" selection-end-line="215" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.79456705">
+          <caret line="198" column="7" selection-start-line="198" selection-start-column="7" selection-end-line="198" selection-end-column="7" />
           <folding>
             <element signature="e#282#437#0" expanded="true" />
             <element signature="e#2286#2746#0" expanded="true" />
             <element signature="e#2830#3001#0" expanded="true" />
             <element signature="e#4805#5483#0" expanded="true" />
+            <element signature="e#5877#5976#0" expanded="true" />
             <element signature="n#!!block;n#counter#0" expanded="true" />
             <element signature="n#!!block;n#StepOne#0" expanded="true" />
             <element signature="n#!!block;n#createOrder#0" expanded="true" />
