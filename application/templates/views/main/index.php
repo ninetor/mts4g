@@ -79,10 +79,11 @@
                             <div class="phone-title">
                                 <?= $phone['Title'] ?>
                             </div>
-                            <img src="../uploads/<?= $phone['Image'] ?>" alt="">
-
-                            <div class="phone-img__inner">
-                                <img src="../img/content/phone-icon1.png" alt="">
+                            <div class="slide-img-wrap">
+                                <img src="../uploads/<?= $phone['Image'] ?>" alt="">
+                                <div class="phone-img__inner">
+                                    <img src="../img/content/phone-icon1.png" alt="">
+                                </div>
                             </div>
                         </div>
                         <?php
@@ -315,8 +316,8 @@ LTE позволяет достичь скорости загрузки до 326
     <p>
         Чтобы подтвердить заказ, отправьте его себе на стену в социальную сеть
     </p>
-            <a class="btn vk" href="#" onclick="shareVK()">ВКонтакте</a>
-        <span class="or">или</span>
+    <a class="btn vk" href="#" onclick="shareVK()">ВКонтакте</a>
+    <span class="or">или</span>
 
     <a href="#" onclick="shareFB()"
        class="btn fb">Facebook</a>
@@ -331,7 +332,7 @@ LTE позволяет достичь скорости загрузки до 326
     <p>
         Впишите номер телефона, чтобы мы могли связаться с вами:
     </p>
-    <input type="text" id="phoneOrder" name="phone" placeholder="+375">
+        <div class="input-wrap"><span class="code">+375</span><input type="text" id="phoneOrder" name="phone"></div>
 
     <p class="number-information">
         Указанный номер будет использован только в рамках данной акции для связи с победителями и не будет использован

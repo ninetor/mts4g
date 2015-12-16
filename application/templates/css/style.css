@@ -2376,7 +2376,7 @@ span.pagination__item--next {
 
 .phone-slider__arrows {
   position: absolute;
-  top: 45%;
+  top: 40%;
   width: 500px;
   margin-left: -250px;
 }
@@ -2386,6 +2386,7 @@ span.pagination__item--next {
 
 .btn-wrap{
   text-align: center;
+  padding-bottom: 7px;
 }
 .btn--phone {
   position: static;
@@ -2395,6 +2396,39 @@ span.pagination__item--next {
   z-index: 10;
 }
 
+.slide-img-wrap{
+  position: relative;
+}
+.phone-img__inner {
+  top: 50%;
+  margin-top: -91px;
+}
+
+.cropControls.cropControlsUpload {
+  border: 2px dashed transparent;
+}
+.cropControls.cropControlsUpload:hover{
+  border: 2px dashed #939598 ;
+}
+
+#step4 input[type="text"] {
+  padding-left: 55px;
+}
+#step4 .input-wrap{
+  position: relative;
+  display: inline-block;
+}
+#step4 span.code{
+  color: #7b7b7c ;
+  position: absolute;
+  font-size: 15px;
+  top: 18px;
+  left: 19px;
+}
+
+#step4 input[type="text"]{
+  line-height: 46px;
+}
 
 @media screen and (max-width: 1024px){
   .phone-slider__arrows {
@@ -2439,5 +2473,19 @@ span.pagination__item--next {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+}
+
+
+@media screen and (max-width: 649px){
+  .phone-img {
+    margin-bottom: 220px;
+  }
+  .btn-wrap {
+    text-align: center;
+    position: absolute;
+    bottom: 120px;
+    left: 0;
+    width: 100%;
   }
 }
