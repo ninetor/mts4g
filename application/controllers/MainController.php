@@ -188,10 +188,12 @@ class MainController extends Controller
 
     public function membersAction()
     {
+
         $model = new OrderModel();
+        $winnersWeek= $model->getWinnersWeek();
         $Allmembers = $model->getMembers();
         $countAll = count($Allmembers);
-        $limit = 2;
+        $limit = 10;
 
         $currentPage = isset($_GET['page']) ? (int)$_GET['page'] : 1;
         $currentId = isset($_GET['id']) ? (int)$_GET['id'] : null;
@@ -203,7 +205,7 @@ class MainController extends Controller
         $members = $model->getMembers($addQuery);
         $view = new MainView();
 
-        return $this->_controller->setPage($view->showMembers(['members'=>$members, 'pagination' => $pagination,'id'=>$currentId]));
+        return $this->_controller->setPage($view->showMembers(['members'=>$members, 'pagination' => $pagination,'id'=>$currentId,'winnersWeek'=>$winnersWeek]));
     }
 
     public function winnersAction()

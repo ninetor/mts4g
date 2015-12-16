@@ -21,16 +21,8 @@ class OrderModel extends Model
 
     public function setPhone($id, $phone)
     {
-        $query = $this->_pdo->prepare("Update `order` set Phone = :Phone, Active = 1 where id = :id");
+        $query = $this->_pdo->prepare("Update `order` set Phone = :Phone where id = :id");
         $query->bindParam(':Phone', $phone);
-        $query->bindParam(':id', $id);
-        return $query->execute();
-    }
-
-    public function setName($id, $name)
-    {
-        $query = $this->_pdo->prepare("Update `order` set Social = :name, Active = 1 where id = :id");
-        $query->bindParam(':name', $name);
         $query->bindParam(':id', $id);
         return $query->execute();
     }
@@ -51,12 +43,18 @@ class OrderModel extends Model
         return $result->fetchAll();
     }
 
-    public function getWinners()
+    public function getWinnersWeek()
     {
         $sqlwinnersweek = "SELECT Title,id FROM `winnersweek` WHERE active = 1 ";
         $winnersweekquery = $this->_pdo->prepare($sqlwinnersweek);
         $winnersweekquery->execute();
-        $winnersweek = $winnersweekquery->fetch();
+       return  $winnersweekquery->fetch();
+    }
+
+
+    public function getWinners()
+    {
+        $winnersweek = $this->getWinnersWeek();
 
         if ($winnersweek) {
             $sqlwinners = "SELECT `order`.* FROM winnersweekorder
