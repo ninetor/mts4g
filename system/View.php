@@ -63,7 +63,7 @@ class View
         /**
          * the partials of page HTML
          */
-        $headerFile = $this->_controller->createHTML("{$this->_viewFolder}/{$this->_headerFile}");
+        $headerFile = $this->_controller->createHTML("{$this->_viewFolder}/{$this->_headerFile}",['host'=>$_SERVER['HTTP_HOST']]);
         $footerFile = $this->_controller->createHTML("{$this->_viewFolder}/{$this->_footerFile}");
         /**
          * the partials of page

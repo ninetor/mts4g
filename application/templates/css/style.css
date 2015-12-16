@@ -2461,6 +2461,24 @@ span.pagination__item--next {
   background-position: 0px 0px;
 }
 
+.cropControls.cropControlsCrop i.cropControlZoomOut {
+  background-position: -47px 0px;
+}
+
+.cropControls.cropControlsCrop i.cropControlCrop {
+  background-position: -94px 0px;
+}
+
+.cropControls.cropControlsCrop i.cropControlReset {
+  background-position: -143px 0px;
+}
+
+
+.cropControls i {
+  display: inline-block;
+  float: none;
+}
+
 @media screen and (max-width: 1024px){
   .phone-slider__arrows {
     position: absolute;
