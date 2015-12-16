@@ -331,39 +331,6 @@ function showFourStep() {
         maxWidth: 720,
     }).click();
 }
-//
-//function shareFB() {
-//    if (object) {
-//        $('#loadersoc').css('display', 'block');
-//        FB.login(function () {
-//            FB.api('/me', function (responseTwo) {
-//                if (typeof responseTwo['name'] != 'undefined')
-//                    name = responseTwo['name'];
-//                else
-//                    return false;
-//            }, {scope: 'manage_pages,publish_actions'});
-//            // Note: The call will only work if you accept the permission request
-//            FB.api('/me/feed', 'post', {
-//                message: 'Хочу прокатиться на #4GтаксиМТС!', link: window.host + '/members?id=' + object.id,
-//                //{
-//                name: object.message,
-//                picture: object.image,
-//                caption: '4G-скорость — уже в Минске!',
-//                description: object.message,
-//                //}
-//            }, function (response) {
-//                console.log(response);
-//                $('#loadersoc').css('display', 'none');
-//                if (typeof response['id'] != 'undefined') {
-//                    showFourStep(name);
-//                }
-//
-//            }, {scope: 'manage_pages,publish_actions'});
-//
-//        }, {scope: 'manage_pages,publish_actions'});
-//
-//    }
-//}
 
 function shareVK() {
     if (object) {

@@ -23,6 +23,7 @@ Share = {
             '&name=' + encodeURIComponent(ptitle) +
             '&caption=' + encodeURIComponent(ptitle) +
         '&description=' + encodeURIComponent(text) +
+        '&redirect_uri=' + "http://facebook.com/"  +
         '&display=popup';
 
         //url  = 'http://www.facebook.com/sharer.php?s=100';
