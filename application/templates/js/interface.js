@@ -35,6 +35,8 @@ $(document).ready(function () {
             dots: false,
             prevArrow: $('.phone-slider__prev'),
             nextArrow: $('.phone-slider__next'),
+            adaptiveHeight: true,
+            speed: 500,
         });
 
         //PRELOADER
@@ -205,8 +207,8 @@ $(document).ready(function () {
     //    reader.readAsDataURL(file);
     //}
 
-    $("input[name='type']").change(function(){
-      var val = $(this).val();
+    $("input[name='type']").change(function () {
+        var val = $(this).val();
 
         var text = "";
         switch (parseInt(val)) {
@@ -224,7 +226,7 @@ $(document).ready(function () {
                 break;
         }
 
-        $('#textmessage').attr('placeholder',text);
+        $('#textmessage').attr('placeholder', text);
 
     });
 
@@ -248,11 +250,17 @@ $(document).ready(function () {
 function StepOne() {
 
     var val = $('.textarea-wrap').find('textarea').val();
-    if (val != "") {
+    var valsoc = $('#socialOrder').val();
+    if (val != "" && valsoc != "") {
         $('#step2-info__text').text(val);
     }
     else {
-        $('.textarea-wrap').find('textarea').css({'border-color': 'red'});
+        if (val == "") {
+            $('.textarea-wrap').find('textarea').css({'border-color': 'red'});
+        }
+        else if (valsoc == "") {
+            $('#socialOrder').css({'border-color': 'red'});
+        }
         return;
     }
     $("#tostep2").fancybox({
@@ -273,8 +281,7 @@ function createOrder() {
 
     var croppedImg = $('#cropContainerMinimal').find('.croppedImg');
     var src = croppedImg.attr('src');
-    if (typeof src != 'undefined')
-    {
+    if (typeof src != 'undefined') {
         formData.append('image', src);
     }
 
@@ -305,86 +312,63 @@ function createOrder() {
 
 }
 
-function showFourStep(name) {
-    var id = object.id;
-    $.ajax({
-        url: "/setsocial",
-        type: "POST",
-        data: {id: id, name: name},
-        dataType: 'json',
-        success: function (data) {
-            console.log(data.success);
-            if (data.success == 1) {
-                $("#tostep4").fancybox({
-                    'titlePosition': 'inside',
-                    'transitionIn': 'none',
-                    'transitionOut': 'none',
-                    padding: 60,
-                    maxWidth: 720,
-                }).click();
-            }
-        }
-    });
+function showFourStep() {
+    $("#tostep4").fancybox({
+        'titlePosition': 'inside',
+        'transitionIn': 'none',
+        'transitionOut': 'none',
+        padding: 60,
+        maxWidth: 720,
+    }).click();
 }
-
-function shareFB() {
-    if (object) {
-        $('#loadersoc').css('display','block');
-        FB.login(function(){
-            FB.api('/me', function(responseTwo) {
-                if (typeof responseTwo['name'] != 'undefined')
-                 name = responseTwo['name'];
-                else
-                return false;
-            }, {scope: 'manage_pages,publish_actions'});
-            // Note: The call will only work if you accept the permission request
-            FB.api('/me/feed', 'post', {message: 'Хочу прокатиться на #4GтаксиМТС!', link: window.host+'/members?id=' + object.id,
-            //{
-                        name: object.message,
-                        picture: object.image,
-                        caption: '4G-скорость — уже в Минске!',
-                        description: object.message,
-            //}
-        }, function(response) {
-                console.log(response);
-                $('#loadersoc').css('display','none');
-                if (typeof response['id'] != 'undefined')
-                {
-                    showFourStep(name);
-                }
-
-            }, {scope: 'manage_pages,publish_actions'});
-
-        }, {scope: 'manage_pages,publish_actions'});
-
-    }
-}
+//
+//function shareFB() {
+//    if (object) {
+//        $('#loadersoc').css('display', 'block');
+//        FB.login(function () {
+//            FB.api('/me', function (responseTwo) {
+//                if (typeof responseTwo['name'] != 'undefined')
+//                    name = responseTwo['name'];
+//                else
+//                    return false;
+//            }, {scope: 'manage_pages,publish_actions'});
+//            // Note: The call will only work if you accept the permission request
+//            FB.api('/me/feed', 'post', {
+//                message: 'Хочу прокатиться на #4GтаксиМТС!', link: window.host + '/members?id=' + object.id,
+//                //{
+//                name: object.message,
+//                picture: object.image,
+//                caption: '4G-скорость — уже в Минске!',
+//                description: object.message,
+//                //}
+//            }, function (response) {
+//                console.log(response);
+//                $('#loadersoc').css('display', 'none');
+//                if (typeof response['id'] != 'undefined') {
+//                    showFourStep(name);
+//                }
+//
+//            }, {scope: 'manage_pages,publish_actions'});
+//
+//        }, {scope: 'manage_pages,publish_actions'});
+//
+//    }
+//}
 
 function shareVK() {
     if (object) {
-        VK.api("account.getAppPermissions", {},function(data) {
-            console.log(data);
-            if (data.response){
-                    VK.api('wall.post',{ message: 'Хочу прокатиться на #4GтаксиМТС!',
-                        attachment:"http://"+window.host+"/img/content/stylemap.png,"+"http://"+window.host+'/members/?id=' + object.id,
-                        //link: window.host+'/',
-                        //name: "4GтаксиМТС",
-                        //picture: "http://"+window.host+"/img/content/stylemap.png",
-                        //caption: '4G-скорость — уже в Минске!',
-                        //description: "Придумайте повод и получите шанс прокатиться на #4GтаксиМТС!",
-                    }, function(data) {
-                        console.log(data);
-                        if (data.response) { // если получен ответ
-                            alert('Сообщение отправлено! ID сообщения: ' + data.response.post_id);
-                        } else { // ошибка при отправке сообщения
-                            alert('Ошибка! ' + data.error.error_code + ' ' + data.error.error_msg);
-                        }
-                    });
-            }
-        });
-
-
-
+        Share.vkontakte("http://"+window.host+'/members/?id=' + object.id, 'Хочу прокатиться на #4GтаксиМТС!',
+            object.image,
+            object.message);
+        showFourStep();
+    }
+}
+function shareFB() {
+    if (object) {
+        Share.facebook("http://"+window.host+'/members/?id=' + object.id, 'Хочу прокатиться на #4GтаксиМТС!',
+            object.image,
+            object.message);
+        showFourStep();
     }
 }
 
@@ -409,52 +393,4 @@ function sendPhone() {
             }
         }
     });
-}
-
-//function crearevk() {
-//    var vkapiahser = $('#vkapiahser');
-//    vkapiahser.empty();
-//    console.log(object);
-//    vkapiahser.append(
-//        VK.Share.button({
-//                url: window.host+'/members/' +
-//                object.id + "?title=" +
-//                "4G-скорость — уже в Минске!" + "&description=" +
-//                object.message + "&image=" +
-//                object.image + "&noparse=true",
-//            },
-//            {
-//                type: 'custom',
-//                text: '<span class="btn vk">ВКонтакте</span>'
-//            })
-//    );
-//}
-
-function shareFBMain()
-{
-    FB.login(function(){
-        FB.api('/me/feed', 'post', {
-            message: 'Хочу прокатиться на #4GтаксиМТС!',
-            link: window.host+'/',
-            name: "4GтаксиМТС",
-            picture: "http://"+window.host+"/img/content/stylemap.png",
-            caption: '4G-скорость — уже в Минске!',
-            description: "Придумайте повод и получите шанс прокатиться на #4GтаксиМТС!",
-        }, function(response) {
-            console.log(response)
-        });
-
-    }, {scope: 'publish_actions'});
-}
-function shareVKMain()
-{
-    VK.Share.button({
-            url: window.host+'/'+ "?title=" +
-            "Хочу прокатиться на #4GтаксиМТС!" + "&description=Придумайте повод и получите шанс прокатиться на #4GтаксиМТС!"
-            + "&image=" +"http://"+window.host+"/img/content/stylemap.png" + "&noparse=true",
-        },
-        {
-            type: 'custom',
-            text: '<span class="btn vk">ВКонтакте</span>'
-        })
 }

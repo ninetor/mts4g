@@ -1206,7 +1206,7 @@ mark {
   #step1 .textarea-wrap {
     position: relative;
     display: inline-block;
-    margin-bottom: 40px; }
+    margin-bottom: 15px; }
   #step1 .warning {
     font-size: 15px;
     color: #888888;
@@ -2359,3 +2359,85 @@ span.pagination__item--next {
 }
 
 .page-content { min-height: 700px}
+
+.phone-img{
+  width: auto;
+  max-width: 500px;
+  text-align: center;
+}
+.phone-img img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+.phone-img:after {
+  display: none;
+}
+
+.phone-slider__arrows {
+  position: absolute;
+  top: 45%;
+  width: 500px;
+  margin-left: -250px;
+}
+.phone-title {
+  max-width: inherit;
+}
+
+.btn-wrap{
+  text-align: center;
+}
+.btn--phone {
+  position: static;
+  bottom: 0;
+  left: 0;
+  margin-left: 0;
+  z-index: 10;
+}
+
+
+@media screen and (max-width: 1024px){
+  .phone-slider__arrows {
+    position: absolute;
+    top: 225px;
+    width: 360px;
+    left: 10px;
+    margin-left: 0;
+  }
+  .phone-title {
+    max-width: inherit;
+    margin: 0 0 20px 0;
+    clear: both;
+  }
+  .phone-img{
+    max-width: 225px;
+  }
+}
+
+
+@media screen and (max-width: 649px){
+  .phone-slider__arrows {
+    position: static;
+    top: 0;
+    width: 100%;
+    left: 0;
+    margin-left: 0;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  .phone-title {
+    max-width: 450px;
+    margin: 0 auto;
+    position: absolute;
+    top: -65px;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: #ed1c23 ;
+    padding: 0 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

@@ -75,11 +75,12 @@
             <div class="phone-slider">
                 <?php foreach ($params['phones'] as $phone) : ?>
                     <div class="phone-slider__item">
-                        <div class="phone-title">
-                            <?= $phone['Title'] ?>
-                        </div>
                         <div class="phone-img">
+                            <div class="phone-title">
+                                <?= $phone['Title'] ?>
+                            </div>
                             <img src="../uploads/<?= $phone['Image'] ?>" alt="">
+
                             <div class="phone-img__inner">
                                 <img src="../img/content/phone-icon1.png" alt="">
                             </div>
@@ -118,6 +119,9 @@
                         <div class="phone-message">
                             <?= $phone['FirstPay'] ?>
                         </div>
+                        <div class="btn-wrap"><a href="<?= $phone['UrlShop'] ?>" target="blank" class="btn btn--phone">Купить
+                                в интернет-магазине</a></div>
+
                     </div>
                 <?php endforeach; ?>
             </div>
@@ -128,7 +132,7 @@
             <div id="phone-loader"></div>
         </div>
     </div>
-    <a href="http://shop.mts.by/" target="blank" class="btn btn--phone">Купить в интернет-магазине</a>
+
 </section>
 <section class="questions" id="questions">
     <div class="container">
@@ -252,6 +256,9 @@ LTE позволяет достичь скорости загрузки до 326
                 <span class="warning">Максимум — 70 символов</span>
             </div>
         </div>
+        <div>
+            <input type="text" id="socialOrder" style="width: 500px;" name="social" placeholder="Имя и фамилия">
+        </div>
         <a href="#" class="btn" onclick="StepOne()">Продолжить</a> <!--#step2-->
         <a href="#step2" class="step2" id="tostep2" style="display:none;">Продолжить</a>
 
@@ -273,15 +280,6 @@ LTE позволяет достичь скорости загрузки до 326
 
                     </div>
                 </div>
-                <!--                <div class="dropbox-info">-->
-                <!--                    Используйте стандартное фото для оформления или добавьте своё:-->
-                <!--                    <div class="download-anchor">-->
-                <!--                        <label class="mybutton" for="fileupload">загрузите</label>-->
-                <!--                        <input class="fileupload" name="image" id="fileupload" type="file"/>-->
-                <!--                    </div>-->
-                <!---->
-                <!--                    <p id="fileinfo"><span></span></p>-->
-                <!--                </div>-->
             </div>
 
 
@@ -317,8 +315,8 @@ LTE позволяет достичь скорости загрузки до 326
     <p>
         Чтобы подтвердить заказ, отправьте его себе на стену в социальную сеть
     </p>
-    <!--        <a class="btn vk" href="#" onclick="shareVK()">ВКонтакте</a>-->
-    <!--    <span class="or">или</span>-->
+            <a class="btn vk" href="#" onclick="shareVK()">ВКонтакте</a>
+        <span class="or">или</span>
 
     <a href="#" onclick="shareFB()"
        class="btn fb">Facebook</a>

@@ -1,6 +1,5 @@
 Share = {
     vkontakte: function(purl, ptitle, pimg, text) {
-        console.log(pimg);
         url  = 'http://vkontakte.ru/share.php?';
         url += 'url='          + encodeURIComponent(purl);
         url += '&title='       + encodeURIComponent(ptitle);

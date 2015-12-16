@@ -261,18 +261,6 @@ class MainController extends Controller
 //        ));
 //    }
 
-    public function setsocialAction()
-    {
-        $name = $_POST['name'];
-        $id = $_POST['id'];
-        if ($name && $id)
-        {
-            $model = new OrderModel();
-            $save = $model->setName($id, $name);
-            echo json_encode(['success'=>$save ? 1 : 0]);
-        }
-        die;
-    }
 
     public function createorderAction()
     {
@@ -281,7 +269,7 @@ class MainController extends Controller
         {
             $values['image'] = null;
         }
-        if ($values['message'] && $values['type'])
+        if ($values['message'] && $values['type'] && $values['social'])
         {
             if ($values['image'])
             {
@@ -291,7 +279,7 @@ class MainController extends Controller
 
 
             $model = new OrderModel();
-            $save = $model->addOrder($values['message'],$values['type'], $values['image']);
+            $save = $model->addOrder($values['message'],$values['type'],$values['social'], $values['image']);
             if ($save)
             {
                 $values['id'] = $save;

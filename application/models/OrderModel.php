@@ -5,11 +5,12 @@ if (!defined("USE_HOST"))// условие проверяющее возможн
 class OrderModel extends Model
 {
 
-    public function addOrder($text, $type_id, $image = null)
+    public function addOrder($text, $type_id, $social, $image = null)
     {
-        $query = $this->_pdo->prepare("INSERT INTO `order` (Text, TypeId, Image) VALUES (:Text, :TypeId, :Image)");
+        $query = $this->_pdo->prepare("INSERT INTO `order` (Text, TypeId, Social, Image) VALUES (:Text, :TypeId, :Social, :Image)");
         $query->bindParam(':Text', $text);
         $query->bindParam(':TypeId', $type_id);
+        $query->bindParam(':Social', $social);
         $query->bindParam(':Image', $image);
         $add = $query->execute();
         if ($add) {
