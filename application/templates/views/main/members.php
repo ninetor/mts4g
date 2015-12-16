@@ -5,7 +5,6 @@ if ($members)
 <section class="page-content">
     <div class="container">
         <div class="title-wrap">
-
             <h2 class="title title-winners__left"><a href="/winners"><?php if ($params['winnersWeek']) echo $params['winnersWeek']['Title']; else echo "Победителей пока нет"?></a></h2>
             <h2 class="title title-winners__right"><a href="#" class="active">Все участники</a></h2>
         </div>

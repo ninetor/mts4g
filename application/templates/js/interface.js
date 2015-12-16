@@ -29,14 +29,15 @@ $(document).ready(function () {
     counter();
 
     //PHONE-SLIDER
-    if ($('.phone-slider').length > 0) {
-        $('.phone-slider').slick({
+    var phslider = $('.phone-slider');
+    if (phslider.length>0) {
+        slider = phslider.slick({
             fade: true,
             dots: false,
             prevArrow: $('.phone-slider__prev'),
             nextArrow: $('.phone-slider__next'),
             adaptiveHeight: true,
-            speed: 500,
+            speed: 500
         });
 
         //PRELOADER
@@ -65,31 +66,46 @@ $(document).ready(function () {
         var target = document.getElementById('phone-loader');
         var spinner = new Spinner(opts).spin(target);
 
-        $('#phone-loader').fadeOut(500, function () {
-            $('.phone-slider').animate({'opacity': '1'}, 1000);
+        $('#phone-loader').fadeOut(500, function(){
+            $('.phone-slider').animate({'opacity':'1'},1000);
         });
-    }
-    ;
+
+        // On before slide change
+        slider.on('beforeChange', function(event, slick, currentSlide, nextSlide){
+            var nextSlide = $(slick.$slides[nextSlide]);
+            firstList = nextSlide.find($(".advantages-list__left"));
+            firstListHeight = firstList.innerHeight() + 62;
+
+            secondListHeight = nextSlide.find($(".advantages-list__right"));
+            if ($(window).width() < 633){
+                secondListHeight.css("top",firstListHeight);
+            }
+            else if ($(window).width() > 633){
+                secondListHeight.css("top","102px");
+            }
+        });
+    };
 
 
     if ($(window).width() < 633) {
         var firstListHeight = $(".slick-active .advantages-list__left").innerHeight() + 62;
-        $(".slick-active .advantages-list__right").css("top", firstListHeight);
+        parentList = $(".slick-active .advantages-list__right")
+        $(".slick-active .advantages-list__right").css("top",firstListHeight);
         $(".phone-slider__arrows").prependTo($(".slick-list"));
     }
-    else if ($(window).width() > 633) {
-        $(".slick-active .advantages-list__right").css("top", "102px");
+    else if ($(window).width() > 633){
+        $(".slick-active .advantages-list__right").css("top","102px");
         $(".phone-slider__arrows").insertAfter($(".phone-slider"));
     }
 
-    $(window).resize(function () {
+    $(window).resize(function() {
         var firstListHeight = $(".slick-active .advantages-list__left").innerHeight() + 62;
         if ($(window).width() < 633) {
             $(".phone-slider__arrows").prependTo($(".slick-list"));
-            $(".advantages-list__right").css("top", firstListHeight);
+            $(".slick-active .advantages-list__right").css("top",firstListHeight);
         }
-        else if ($(window).width() > 633) {
-            $(".slick-active .advantages-list__right").css("top", "102px");
+        else if ($(window).width() > 633){
+            $(".slick-active .advantages-list__right").css("top","102px");
             $(".phone-slider__arrows").insertAfter($(".phone-slider"));
         }
     });
