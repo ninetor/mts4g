@@ -58,11 +58,11 @@ class AdminController extends Controller
     public function loginAction()
     {
         if (isset($_POST['submit']) && isset($_POST['login']) && isset($_POST['password'])) {
-            $loginHash = password_hash($_POST['login'],PASSWORD_DEFAULT);
-            $passHash = password_hash($_POST['password'],PASSWORD_DEFAULT);
+            $loginHash = md5(md5($_POST['login']));
+            $passHash = md5(md5($_POST['password']));
             if ($loginHash === $this->hashLogin && $passHash === $this->hashPass) {
                 session_start();
-                $hash = password_hash($this->generateCode(10),PASSWORD_DEFAULT);
+                $hash = md5(md5($this->generateCode(10)));
                 setcookie("hash", $hash);
                 $_SESSION['hash'] = $hash;
                 header('Location: /admin/orders');
