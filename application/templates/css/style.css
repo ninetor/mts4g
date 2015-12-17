@@ -2962,3 +2962,16 @@ text-decoration: underline;
 #click4g:hover {
 text-decoration: none;
 }
+
+
+.download {
+  background: #000 url(../img/content/download-bg.jpg) center no-repeat;
+  background-size: contain;
+}
+
+
+@media screen and (max-width: 400px){
+  .btn--phone span{
+    display: none;
+  }
+}

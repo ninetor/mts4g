@@ -118,8 +118,11 @@
                         <div class="phone-message">
                             <?= $phone['FirstPay'] ?>
                         </div>
-                        <div class="btn-wrap"><a href="<?= $phone['UrlShop'] ?>" target="blank" class="btn btn--phone">Купить
-                                в интернет-магазине</a></div>
+                        <div class="btn-wrap">
+                            <a href="<?= $phone['UrlShop'] ?>" target="blank" class="btn btn--phone">Купить
+                                <span>в интернет-магазине</span></a>
+                        </div>
+
 
                     </div>
                 <?php endforeach; ?>
