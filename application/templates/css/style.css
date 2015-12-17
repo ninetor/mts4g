@@ -2741,3 +2741,77 @@ span.pagination__item--next {
 .fancybox-skin{
   background: transparent;
 }
+
+
+@media screen and (max-width: 1150px){
+  .fancybox-next span{
+    right: 85px;
+  }
+  .fancybox-prev span {
+    left: 85px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .phone-slider__arrows {
+    z-index: 20;
+  }
+}
+
+@media screen and (max-width: 560px){
+  .download{
+    min-height: 200px;
+    height: auto;
+  }
+  #dropBox {
+    top: 0;
+    left: 0;
+    margin-left: 0;
+    position: static;
+    z-index: 10;
+    margin: 0 auto 20px;
+  }
+  .download-anchor{
+    width: 200px;
+  }
+  .download-info{
+    position: static;
+  }
+  .dropbox-info{
+    display: block;
+  }
+}
+@media screen and (max-width: 500px){
+  .member-popup {
+    padding: 60px 20px;
+  }
+}
+@media screen and (max-width: 400px){
+  #step4 .btn{
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 350px){
+  #dropBox{
+    width: 100%;
+    display: block;
+  }
+  .download-anchor{
+    display: block;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 400px){
+  #step4 .btn{
+    padding: 0 15px;
+  }
+  #step5 {
+    padding: 60px 29px;
+  }
+  #step3 {
+    padding: 60px 20px;
+  }
+}
