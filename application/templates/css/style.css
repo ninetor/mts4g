@@ -2815,3 +2815,150 @@ span.pagination__item--next {
     padding: 60px 20px;
   }
 }
+
+
+
+
+
+.download {
+  background: url(../img/content/download-bg.jpg) center 0 no-repeat;
+  background-size: cover;
+}
+.choose label.romantic i {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 14px;
+  background: transparent;
+  width: 22px;
+  height: 19px;
+}
+.choose label.romantic i svg{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  top: -2px;
+  fill: #ed2028 ;
+}
+.choose input[type="radio"]:checked + label.romantic i {
+  background: transparent;
+}
+.choose input[type="radio"]:checked + label.romantic i svg{
+  fill: #fff;
+}
+.choose label.real i {
+  background: transparent;
+}
+.choose label.real i svg{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  top: -1px;
+  fill: #ed2028 ;
+}
+.choose input[type="radio"]:checked + label.real i {
+  background: transparent;
+}
+.choose input[type="radio"]:checked + label.real i svg{
+  fill: #fff;
+}
+.choose label.fantastic i {
+  background: transparent;
+}
+.choose label.fantastic i svg{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  top: -1px;
+  fill: #ed2028 ;
+}
+.choose input[type="radio"]:checked + label.fantastic i {
+  background: transparent;
+}
+.choose input[type="radio"]:checked + label.fantastic i svg{
+  fill: #fff;
+}
+.choose label.solemn i {
+  background: transparent;
+}
+.choose label.solemn i svg{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  top: -3px;
+  fill: #ed2028 ;
+}
+.choose input[type="radio"]:checked + label.solemn i {
+  background: transparent;
+}
+.choose input[type="radio"]:checked + label.solemn i svg{
+  fill: #fff;
+}
+.icon--4g{
+  width: 36px;
+  height: 30px;
+  fill: #ed1c24 ;
+  background: url(../img/svg/4g.svg);
+  background-size: cover;
+}
+.icon--display{
+  width: 28px;
+  height: 34px;
+  fill: #ed1c24 ;
+  background: url(../img/svg/display.svg);
+  background-size: cover;
+}
+.icon--camera{
+  width: 36px;
+  height: 30px;
+  fill: #ed1c24 ;
+  background: url(../img/svg/camera.svg);
+  background-size: cover;
+}
+.icon--accum{
+  width: 30px;
+  height: 35px;
+  fill: #ed1c24 ;
+  background: url(../img/svg/accum.svg);
+  background-size: cover;
+}
+.icon--sim{
+  width: 30px;
+  height: 34px;
+  fill: #ed1c24 ;
+  background: url(../img/svg/sim.svg);
+  background-size: cover;
+}
+
+
+.download {
+  background: url(../img/content/download-bg.jpg) center no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 450px){
+  .member-item--popup {
+    margin-bottom: 75px;
+  }
+  .download {
+    background: url(../img/content/download-bg.jpg) center no-repeat;
+    background-size: contain;
+  }
+}
+
+
+@media screen and (max-width: 400px){
+  #cropContainerMinimal {
+    width: 100%;
+  }
+  #step2 {
+    padding: 50px 20px;;
+  }
+}
+
+#click4g {
+  color: #ed1c24;
+text-decoration: underline;
+}
+#click4g:hover {
+text-decoration: none;
+}

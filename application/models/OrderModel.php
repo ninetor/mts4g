@@ -27,6 +27,29 @@ class OrderModel extends Model
         return $query->execute();
     }
 
+    public function setWinner($id, $active)
+    {
+        $sqlwinnersweek = "SELECT Title,id FROM `winnersweek` WHERE active = 1 ";
+        $winnersweekquery = $this->_pdo->prepare($sqlwinnersweek);
+        $winnersweekquery->execute();
+        $week = $winnersweekquery->fetch();
+
+        if (!$active)
+        {
+                $query = $this->_pdo->prepare("INSERT INTO `winnersweekorder` (IdWinnersWeek, IdOrder) VALUES (:IdWinnersWeek,:IdOrder)");
+                $query->bindParam(':IdWinnersWeek', $week['id']);
+                $query->bindParam(':IdOrder', $id);
+            return $query->execute();
+        }
+        else
+        {
+            $query = $this->_pdo->prepare("Delete from `winnersweekorder` WHERE IdOrder = :id AND IdWinnersWeek = :IdWinnersWeek");
+            $query->bindParam(':id', $id);
+            $query->bindParam(':IdWinnersWeek',  $week['id']);
+            return $query->execute();
+        }
+    }
+
     public function getCount()
     {
         $sql = "SELECT count(*) FROM `order` WHERE active = 1";
@@ -68,10 +91,107 @@ class OrderModel extends Model
 		return ['Title' => null, 'winners' => null];
     }
 
-    public function getOrders()
+    public function getWeekId($id)
+    {
+        $sqlwinnersweek = "SELECT Title,id FROM `winnersweek` WHERE id = :id ";
+        $winnersweekquery = $this->_pdo->prepare($sqlwinnersweek);
+        $winnersweekquery->bindParam(':id', $id);
+        $winnersweekquery->execute();
+       return  $winnersweekquery->fetch();
+    }
+
+
+    public function getWinnersWeekId($id)
+    {
+        $winnersweek = $this->getWeekId($id);
+
+        if ($winnersweek) {
+            $sqlwinners = "SELECT `order`.* FROM winnersweekorder
+                            Left join `order` ON `order`.id = winnersweekorder.IdOrder
+                            WHERE IdWinnersWeek = :IdWinnersWeek";
+            $winners = $this->_pdo->prepare($sqlwinners);
+            $winners->bindParam(':IdWinnersWeek', $winnersweek['id']);
+            $winners->execute();
+            return ['Title' => $winnersweek['Title'], 'winners' => $winners->fetchAll()];
+        }
+		return ['Title' => null, 'winners' => null];
+    }
+
+
+
+
+    public function getWinnersIds()
+    {
+        $winnersweek = $this->getWinnersWeek();
+
+        if ($winnersweek) {
+            $sqlwinners = "SELECT `order`.id FROM winnersweekorder
+                            Left join `order` ON `order`.id = winnersweekorder.IdOrder
+                            WHERE IdWinnersWeek = :IdWinnersWeek";
+            $winners = $this->_pdo->prepare($sqlwinners);
+            $winners->bindParam(':IdWinnersWeek', $winnersweek['id']);
+            $winners->execute();
+            return $winners->fetchAll(PDO::FETCH_GROUP|PDO::FETCH_ASSOC);
+        }
+        return false;
+    }
+
+
+
+
+    public function getOrders($addQueryWhere = "", $addQuery = "")
     {
         try {
-            return $this->_pdo->query('SELECT * from order');
+            $query = $this->_pdo->query('SELECT * from `order` '.$addQueryWhere.' ORDER BY Created desc '.$addQuery);
+            return $query->fetchAll();
+        } catch (PDOException $e) {
+            print "Error!: " . $e->getMessage() . "<br/>";
+            die();
+        }
+    }
+    public function removeOrder($id)
+    {
+        try {
+            $query = $this->_pdo->prepare('Delete from `order` WHERE id = :id');
+            $query->bindParam(':id', $id);
+            return $query->execute();
+        } catch (PDOException $e) {
+            print "Error!: " . $e->getMessage() . "<br/>";
+            die();
+        }
+    }
+
+    public function removeWeek($id)
+    {
+        try {
+            $query = $this->_pdo->prepare('Delete from `winnersweek` WHERE id = :id');
+            $query->bindParam(':id', $id);
+            return $query->execute();
+        } catch (PDOException $e) {
+            print "Error!: " . $e->getMessage() . "<br/>";
+            die();
+        }
+    }
+
+
+    public function getWeeks()
+    {
+        try {
+            $query = $this->_pdo->query('SELECT * from `winnersweek` ORDER BY Active desc, Created desc ');
+            return $query->fetchAll();
+        } catch (PDOException $e) {
+            print "Error!: " . $e->getMessage() . "<br/>";
+            die();
+        }
+    }
+
+
+    public function addWeeks($title)
+    {
+        try {
+            $query = $this->_pdo->prepare("INSERT INTO `winnersweek` (Title) VALUES (:title)");
+            $query->bindParam(':title', $title);
+            return $query->execute();
         } catch (PDOException $e) {
             print "Error!: " . $e->getMessage() . "<br/>";
             die();

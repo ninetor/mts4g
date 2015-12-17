@@ -111,7 +111,7 @@ $(document).ready(function () {
     });
 
     //QUESTIONS ACCORD
-    $('.questions-accord__item').on('click', function () {
+    $('.questions-accord__item').click(function () {
         $(this).toggleClass('visible');
         $(this).find('.answer').slideToggle(100);
         $(this).find('.button').toggleClass('open');
@@ -362,7 +362,7 @@ function shareVK() {
         },3000);
 
         Share.vkontakte("http://"+window.host+'/members/?id=' + object.id, 'Хочу прокатиться на #4GтаксиМТС!',
-            object.image
+            'http://'+window.host+'/application/templates/img/content/stylemap.png'
            , "Придумайте повод и получите шанс прокатиться на #4GтаксиМТС!");
 
     }
@@ -375,7 +375,7 @@ function shareFB() {
             showFourStep();
         },3000);
         Share.facebook("http://"+window.host+'/members/?id=' + object.id, 'Хочу прокатиться на #4GтаксиМТС!',
-            object.image
+         'http://'+window.host+'/application/templates/img/content/stylemap.png'
             , "Придумайте повод и получите шанс прокатиться на #4GтаксиМТС!");
 
     }
@@ -416,3 +416,9 @@ function sendPhone() {
         }
     });
 }
+
+
+$('#click4g').click(function(event){
+    location.href = 'http://www.mts.by/help/network/4g/';
+    event.stopPropagation();
+})

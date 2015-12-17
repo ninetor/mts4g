@@ -4,10 +4,27 @@ if(!defined("USE_HOST"))// условие проверяющее возможн�
 
 class AdminView extends View
 {
-    public function showMain($params)
+    protected $_folderPage = "admin";
+    public function showLogin()
     {
-        $contentFile = $this->_controller->createHTML("/{$this->_viewFolder}/{$this->_folderPage}/index.php",['phones'=>$params['phones']]);
-        $top_info =  $this->_controller->createHTML("{$this->_viewFolder}/{$this->_partialsFolder}/{$this->_topInfoFile}",['count'=>$params['count']]);
-        return $this->createWithTemplate($contentFile,true,$top_info);
+        return  $this->_controller->createHTML("/{$this->_viewAdminFolder}/login.php",[]);
+    }
+
+
+     public function showOrders($params,$action)
+    {
+        $contentFile = $this->_controller->createHTML("/{$this->_viewAdminFolder}/orders.php",$params);
+        return $this->createWithAdminTemplate($contentFile,$action);
+    }
+
+     public function showWeeks($params,$action)
+    {
+        $contentFile = $this->_controller->createHTML("/{$this->_viewAdminFolder}/weeks.php",$params);
+        return $this->createWithAdminTemplate($contentFile, $action);
+    }
+     public function showWeek($params,$action)
+    {
+        $contentFile = $this->_controller->createHTML("/{$this->_viewAdminFolder}/week.php",$params);
+        return $this->createWithAdminTemplate($contentFile, $action);
     }
 }

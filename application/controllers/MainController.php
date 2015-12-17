@@ -190,7 +190,6 @@ class MainController extends Controller
 
     public function membersAction()
     {
-
         $model = new OrderModel();
         $winnersWeek= $model->getWinnersWeek();
         $Allmembers = $model->getMembers();
@@ -199,7 +198,7 @@ class MainController extends Controller
 
         $currentPage = isset($_GET['page']) ? (int)$_GET['page'] : 1;
         $currentId = isset($_GET['id']) ? (int)$_GET['id'] : null;
-        $pagination = pagination($countAll,$currentPage,$limit);
+        $pagination = pagination($countAll,$currentPage,$limit,"/members");
 
         $offset = $limit* ($currentPage -1);
         $addQuery = " LIMIT $limit OFFSET $offset";

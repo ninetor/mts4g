@@ -36,6 +36,7 @@ class View
     protected $_controller = null;
 
     protected $_viewFolder = "views";
+    protected $_viewAdminFolder = "views/admin";
     protected $_partialsFolder = "partials";
 
     protected $_headerFile = "header.html";
@@ -43,6 +44,7 @@ class View
     protected $_topFile = "_top.html";
     protected $_topInfoFile = "_top_info.html";
     protected $_mainFile = "main.php";
+    protected $_mainAdminFile = "main.php";
     protected $_footerFile = "footer.php";
     protected $_additionFile = "_addition.php";
 
@@ -86,6 +88,13 @@ class View
             'footer' => $footerFile,
             'addition' => $additionFile,
             'host' => $_SERVER['HTTP_HOST'],
+        ]);
+    }
+    public function createWithAdminTemplate($contentFile,$action)
+    {
+        return $this->_controller->createHTML("{$this->_viewAdminFolder}/{$this->_mainAdminFile}", [
+            'content' => $contentFile,
+            'action' => $action,
         ]);
     }
 }
