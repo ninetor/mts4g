@@ -77,34 +77,34 @@ $(document).ready(function () {
             firstListHeight = firstList.innerHeight() + 62;
 
             secondListHeight = nextSlide.find($(".advantages-list__right"));
-            if ($(window).width() < 633){
+            if ($(window).width() < 700){
                 secondListHeight.css("top",firstListHeight);
             }
-            else if ($(window).width() > 633){
+            else if ($(window).width() > 700){
                 secondListHeight.css("top","102px");
             }
         });
     };
 
 
-    if ($(window).width() < 633) {
+    if ($(window).width() < 700) {
         var firstListHeight = $(".slick-active .advantages-list__left").innerHeight() + 62;
         parentList = $(".slick-active .advantages-list__right")
         $(".slick-active .advantages-list__right").css("top",firstListHeight);
         $(".phone-slider__arrows").prependTo($(".slick-list"));
     }
-    else if ($(window).width() > 633){
+    else if ($(window).width() > 700){
         $(".slick-active .advantages-list__right").css("top","102px");
         $(".phone-slider__arrows").insertAfter($(".phone-slider"));
     }
 
     $(window).resize(function() {
         var firstListHeight = $(".slick-active .advantages-list__left").innerHeight() + 62;
-        if ($(window).width() < 633) {
+        if ($(window).width() < 700) {
             $(".phone-slider__arrows").prependTo($(".slick-list"));
             $(".slick-active .advantages-list__right").css("top",firstListHeight);
         }
-        else if ($(window).width() > 633){
+        else if ($(window).width() > 700){
             $(".slick-active .advantages-list__right").css("top","102px");
             $(".phone-slider__arrows").insertAfter($(".phone-slider"));
         }
@@ -136,6 +136,7 @@ $(document).ready(function () {
         maxWidth    : 800,
         minHeight: 300,
         autoSize    : false,
+        autoCenter:false,
         helpers: {
             overlay: {
                 locked: true,
@@ -150,6 +151,7 @@ $(document).ready(function () {
         arrows: true,
         minHeight: 300,
         autoSize    : false,
+        autoCenter:false,
         helpers: {
             overlay: {
                 locked: true,
@@ -157,48 +159,6 @@ $(document).ready(function () {
         }
     });
 
-    //FILE UPLOAD
-    //$('#fileupload').on('change', function () {
-    //    $('#fileinfo span').text($(this).val());
-    //});
-    //
-    ////DROP IMAGE
-    //if ($('#dropBox').length > 0) {
-    //    var dropBox;
-    //    window.onload = function () {
-    //        dropBox = document.getElementById("dropBox");
-    //        dropBox.ondragenter = ignoreDrag;
-    //        dropBox.ondragover = ignoreDrag;
-    //        dropBox.ondrop = drop;
-    //    };
-    //}
-    //;
-
-
-
-    //function ignoreDrag(e) {
-    //    e.stopPropagation();
-    //    e.preventDefault();
-    //}
-    //
-    //function drop(e) {
-    //    e.stopPropagation();
-    //    e.preventDefault();
-    //
-    //    var data = e.dataTransfer;
-    //    var files = data.files;
-    //
-    //    processFiles(files);
-    //}
-
-    //function processFiles(files) {
-    //    var file = files[0],
-    //        reader = new FileReader();
-    //    reader.onload = function (e) {
-    //        dropBox.style.backgroundImage = "url('" + e.target.result + "')";
-    //    };
-    //    reader.readAsDataURL(file);
-    //}
 
     $("input[name='type']").change(function () {
         var val = $(this).val();
@@ -319,6 +279,7 @@ function StepOne() {
         padding: 0,
         maxWidth    : 800,
         minHeight: 300,
+        autoCenter:false,
         autoSize    : false,
         helpers: {
             overlay: {
@@ -356,6 +317,7 @@ function createOrder() {
                     'transitionIn'      : 'none',
                     'transitionOut'     : 'none',
                     padding: 0,
+                    autoCenter:false,
                     maxWidth    : 720,
                     helpers: {
                         overlay: {
@@ -381,6 +343,7 @@ function showFourStep() {
         padding: 0,
         maxWidth    : 720,
         minHeight: 300,
+        autoCenter:false,
         autoSize    : false,
         helpers: {
             overlay: {
@@ -435,6 +398,7 @@ function sendPhone() {
                     'transitionOut'     : 'none',
                     padding: 0,
                     maxWidth    : 720,
+                    autoCenter:false,
                     minHeight: 300,
                     autoSize    : false,
                     helpers: {

@@ -2711,3 +2711,33 @@ span.pagination__item--next {
 
 
 #step3 { height: auto!important;}
+
+
+
+.member-item--popup{
+  padding-right: 0;
+}
+
+#step1,
+#step2,
+#step3,
+#step4,
+#step5{
+  margin-bottom: 20px;
+}
+.member {
+  text-align: center;
+  padding-bottom: 7px;
+  background: #fff;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.fancybox-opened .fancybox-skin {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.fancybox-skin{
+  background: transparent;
+}
