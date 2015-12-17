@@ -9,7 +9,8 @@ $escHTMLVariables = true;// переменная, отвечающая за за
 $useDirectRoute = false;// Переменная, отвечающая за возможность прямого доступа к методам контроллеров
  
 $includes = array(// массив с именами файлов, какие будут подключены из папки application/libraries
-	//"example.php",
+	"main.php",
+	"password.php",
 );
 
 $defaultController = "MainController";// имя контроллера, какой устанавливается по умолчанию, если в строке явно не указан
@@ -25,4 +26,14 @@ $routingRules = array(// ассоциативный массив с маршру
     "main/members" => ["action" => "members"],
     "main/createorder" => ["action" => "createorder"],
     "main/setphone" => ["action" => "setphone"],
+    "main/setsocial" => ["action" => "setsocial"],
+    "main/test" => ["action" => "test"],
+    "main/shares" => ["action" => "shares"],
+    "main/uploadimage" => ["action" => "uploadimage"],
+    "main/cropimage" => ["action" => "cropimage"],
+
+
+//    "admin/admin" => ["action" => "/admin"],
+//    "admin/login" => ["action" => "/admin/login"],
+
 );

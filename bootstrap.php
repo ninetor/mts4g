@@ -8,8 +8,11 @@ require_once("system/Controller.php");
 require_once("system/Model.php");
 require_once("system/View.php");
 require_once("application/config.php");
-
 // Функция автоматической загрузки классов.
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+
 function __autoload($className){
 	$filepath = "";
 	if(substr($className,-10)=="Controller")// Действия, если загружается контроллер.
@@ -23,6 +26,7 @@ function __autoload($className){
 	if(file_exists($filepath))
 		require_once($filepath);
 }
+require_once('application/classes/vk.php');
 
 if(method_exists("Events","beforeStart"))// Проверка наличия статического метода.
 	Events::beforeStart();// Вызов статического метода перед выполнением маршрутизации.

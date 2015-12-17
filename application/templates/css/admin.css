@@ -1,0 +1,166 @@
+
+.pagination {
+    text-align: center;
+    margin-bottom: 50px; }
+
+.pagination__item {
+    display: inline-block;
+    margin-right: 4px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #222222;
+    text-align: center;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 18px; }
+
+a.pagination__item {
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+a.pagination__item:hover {
+    text-decoration: underline;
+    color: #e50000; }
+
+span.pagination__item {
+    background: #e60000;
+    color: #fff; }
+
+span.pagination__item--prev {
+    width: auto;
+    background: transparent;
+    color: #888888; }
+
+span.pagination__item--next {
+    width: auto;
+    background: transparent;
+    color: #888888;
+    margin: 0 30px;
+}
+
+.pagination__item--prev {
+    width: auto;
+    background: transparent;
+    color: #222222;
+    margin-right: 30px;
+    font-size: 16px; }
+
+.pagination__item--prev {
+    width: auto;
+    background: transparent;
+    color: #222222;
+    margin-left: 30px;
+    font-size: 16px; }
+
+
+.questions {
+    background: #fff;
+    padding-top: 75px;
+    padding-bottom: 110px;
+    position: relative;
+    text-align: center; }
+.questions:after {
+    content: "";
+    width: 100%;
+    height: 83px;
+    background: url(../img/content/questions-illustration.png) center bottom no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -83px;
+    left: 0; }
+.questions h2 {
+    margin-bottom: 52px; }
+
+.questions-accord {
+    text-align: left;
+    margin-bottom: 48px; }
+
+.questions-accord--short .questions-accord__item {
+    max-width: 770px;
+    font-weight: 600; }
+
+.questions-accord__item {
+    display: block;
+    background: #f3f3f3;
+    border: 3px solid #f3f3f3;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 29px 80px 27px 99px;
+    color: #ed1c24;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 18px;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+.questions-accord__item.visible {
+    border: 3px solid #ed1c24;
+    background: #fff; }
+.questions-accord__item.visible .icon {
+    background: url(../img/content/question-icon.png) center -73px no-repeat; }
+.questions-accord__item .icon {
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid #ed1c24;
+    position: absolute;
+    left: 18px;
+    top: 18px;
+    background: url(../img/content/question-icon.png) center 8px no-repeat; }
+.questions-accord__item .button {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 39px;
+    top: 33px;
+    margin: 0 auto;
+    cursor: pointer; }
+.questions-accord__item .button.open .line.left {
+    left: 15px; }
+.questions-accord__item .button.open .line.right {
+    left: 24px; }
+.questions-accord__item .line {
+    width: 3px;
+    height: 15px;
+    background: #ed2028;
+    border-radius: 3px;
+    display: block;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s cubic-bezier(0.87, 0.39, 0.74, 1.31); }
+.questions-accord__item .line.left {
+    -webkit-transform: rotateZ(-45deg);
+    -moz-transform: rotateZ(-45deg);
+    -o-transform: rotateZ(-45deg);
+    -ms-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+    left: 20px; }
+.questions-accord__item .line.right {
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+    left: 20px; }
+
+.questions-accord__item {
+    padding: 13px 80px 13px 13px;
+    font-size: 14px;
+    line-height: 20px; }
+.questions-accord__item .icon {
+    display: none; }
+.questions-accord__item .button {
+    right: 20px;
+    top: 13px; }
+
+.questions-accord--short .questions-accord__item:hover { text-decoration: none; color:#ed2028;}
