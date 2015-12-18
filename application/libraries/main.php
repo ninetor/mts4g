@@ -9,7 +9,6 @@ function pagination($countAll,$currentPage,$limit,$urlTo){
 	$url = $urlTo.'?page=';
 
 
-	if ($allpages > 1) { // Всё это только если количество страниц больше 1
 		/* Дальше идёт вычисление первой выводимой страницы и последней (чтобы текущая страница была где-то посредине, если это возможно, и чтобы общая сумма выводимых страниц была равна count_show_pages, либо меньше, если количество страниц недостаточно) */
 		$left = $currentPage - 1;
 		$right = $allpages - $currentPage;
@@ -21,7 +20,6 @@ function pagination($countAll,$currentPage,$limit,$urlTo){
 			$end = $allpages;
 			if ($start < 1) $start = 1;
 		}
-	}
 
 	if ($currentPage==1)
 	{

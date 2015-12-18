@@ -2921,6 +2921,13 @@ span.pagination__item--next {
   background: url(../img/svg/accum.svg);
   background-size: cover;
 }
+.icon--scaner{
+  width: 30px;
+  height: 35px;
+  fill: #ed1c24 ;
+  background: url(../img/svg/finger.svg);
+  background-size: cover;
+}
 .icon--sim{
   width: 30px;
   height: 34px;
@@ -3022,4 +3029,17 @@ text-decoration: none;
   .member-item--popup {
     margin-bottom: 90px;
   }
+}
+
+.anchors__container {
+  display: inline-block;
+  position: relative;
+}
+.anchors__container span.warning_step2 {
+  display: none;
+  position: absolute;
+  font-size: 12px;
+  color: red;
+  bottom: -18px;
+  right: 40px;
 }

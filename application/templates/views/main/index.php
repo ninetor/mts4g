@@ -39,7 +39,7 @@
                 console.log('onBeforeImgUpload')
             },
             onAfterImgUpload: function () {
-                console.log('onAfterImgUpload');
+              window.blockstep3 = 1;
             },
             onImgDrag: function () {
                 console.log('onImgDrag')
@@ -51,10 +51,10 @@
                 console.log('onBeforeImgCrop')
             },
             onAfterImgCrop: function () {
-                console.log('onAfterImgCrop')
+                window.blockstep3 = 0;
             },
             onReset: function () {
-                console.log('onReset')
+                window.blockstep3 = 0;
             },
             onError: function (errormessage) {
                 console.log('onError:' + errormessage)
@@ -308,11 +308,14 @@ LTE позволяет достичь скорости загрузки до 326
             </div>
         </div>
 
+        <div class="anchors__container">
         <a href="#step1" class="back step1">Назад</a>
 
         <a href="#" class="btn" onclick="createOrder()">Оформить заказ</a> <!--#step2-->
-        <a href="#step3" class="step3" id="tostep3" style="display:none;">Оформить заказ</a>
+            <span class="warning_step2">Вы не применили кадрирование</span>
 
+        <a href="#step3" class="step3" id="tostep3" style="display:none;">Оформить заказ</a>
+        </div>
         <!--<a href="#step3" class="btn step3">Оформить заказ</a>-->
     </div>
 

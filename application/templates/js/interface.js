@@ -294,6 +294,15 @@ function StepOne() {
  * @return {boolean}
  */
 function createOrder() {
+    if (window.blockstep3==1)
+    {
+        $('.anchors__container span.warning_step2').css('display','block');
+        return false;
+    }
+    else
+    {
+        $('.anchors__container span.warning_step2').css('display','none');
+    }
     var formData = new FormData($('#form_step12')[0]);
 
     var croppedImg = $('#cropContainerMinimal').find('.croppedImg');
@@ -309,7 +318,7 @@ function createOrder() {
         dataType: 'json',
         //async: false,
         success: function (data) {
-            console.log(data.success);
+          //  console.log(data.success);
             if (data.success == 1) {
                 object = data.object;
                 $("#tostep3").fancybox({
@@ -390,7 +399,7 @@ function sendPhone() {
         data: {id: id, phone: phone},
         dataType: 'json',
         success: function (data) {
-            console.log(data.success);
+        //    console.log(data.success);
             if (data.success == 1) {
                 $("#tostep5").fancybox({
                     'titlePosition'     : 'inside',

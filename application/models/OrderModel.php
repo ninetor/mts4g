@@ -123,7 +123,7 @@ class OrderModel extends Model
     public function getWinnersIds()
     {
         $winnersweek = $this->getWinnersWeek();
-
+        $result = ['week'=>$winnersweek, 'winners' =>null];
         if ($winnersweek) {
             $sqlwinners = "SELECT `order`.id FROM winnersweekorder
                             Left join `order` ON `order`.id = winnersweekorder.IdOrder
@@ -131,9 +131,9 @@ class OrderModel extends Model
             $winners = $this->_pdo->prepare($sqlwinners);
             $winners->bindParam(':IdWinnersWeek', $winnersweek['id']);
             $winners->execute();
-            return $winners->fetchAll(PDO::FETCH_GROUP|PDO::FETCH_ASSOC);
+            $result['winners'] = $winners->fetchAll(PDO::FETCH_GROUP|PDO::FETCH_ASSOC);
         }
-        return false;
+        return $result;
     }
 
 

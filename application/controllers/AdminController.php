@@ -87,7 +87,7 @@ class AdminController extends Controller
             {
                 $Allorders = $model->getOrders();
                 $countAll = count($Allorders);
-                $limit = 5;
+                $limit = 100;
                 $currentPage = isset($_GET['page']) ? (int)$_GET['page'] : 1;
                 $pagination = pagination($countAll,$currentPage,$limit, "/admin/orders");
                 $offset = $limit * ($currentPage -1);
@@ -97,7 +97,7 @@ class AdminController extends Controller
 
             $winners = $model->getWinnersIds();
             $view = new AdminView();
-            return $this->_controller->setPage($view->showOrders(['orders'=>$orders, 'pagination' => $pagination,'find_text'=>$find_text,'winners'=>$winners ],'orders'));
+            return $this->_controller->setPage($view->showOrders(['orders'=>$orders, 'pagination' => $pagination,'find_text'=>$find_text,'winnersWeek'=>$winners ],'orders'));
         } else {
             header('Location: /admin/login');
             die;

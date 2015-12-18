@@ -30,7 +30,11 @@
                 <td><?= $order['Text'] ?></td>
                 <td><?= dateLogs($order['Created']) ?></td>
                 <td><img src="<?= $order['Image'] ?>" style="max-width: 50px; max-height: 50px;"></td>
-                <td><input type="checkbox" onchange="checkWinner(this,'<?= $order['id'] ?>')" class="form-control" style="width: 34px;" <?php if (array_key_exists($order['id'],$params['winners'])) echo "checked" ?>></td>
+                <td><?php if ($params['winnersWeek']['week']) {?>
+                    <input type="checkbox" onchange="checkWinner(this,'<?= $order['id'] ?>')" class="form-control" style="width: 34px;"
+                        <?php if (array_key_exists($order['id'],$params['winnersWeek']['winners'])) echo "checked" ?>>
+                    <?php } else echo "Неделя победителей не создана"; ?>
+                </td>
                 <td><a class="glyphicon glyphicon-remove" href="/admin/removeorder?id=<?= $order['id'] ?>"></a></td>
             </tr>
         <?php endforeach; ?>
