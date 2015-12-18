@@ -191,7 +191,7 @@ class MainController extends Controller
     public function membersAction()
     {
         $model = new OrderModel();
-        $winnersWeek= $model->getWinnersWeek();
+        $winnersWeek = $model->getWinnersWeek();
         $Allmembers = $model->getMembers();
         $countAll = count($Allmembers);
         $limit = 10;
@@ -201,8 +201,13 @@ class MainController extends Controller
         $pagination = pagination($countAll,$currentPage,$limit,"/members");
 
         $offset = $limit* ($currentPage -1);
-        $addQuery = " LIMIT $limit OFFSET $offset";
-        if ($currentPage==1 && $currentId) {$addQuery = "order by id = $currentId desc, id desc ".$addQuery;}
+        if ($currentPage==1 && $currentId) {
+            $addQuery = "order by id = $currentId desc, Created desc  LIMIT $limit OFFSET $offset";
+        }
+        else
+        {
+            $addQuery = "order by Created desc  LIMIT $limit OFFSET $offset";
+        }
         $members = $model->getMembers($addQuery);
         $view = new MainView();
 

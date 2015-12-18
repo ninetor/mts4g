@@ -2975,3 +2975,51 @@ text-decoration: none;
     display: none;
   }
 }
+
+.cropImgWrapper {
+  width: 100%!important;
+  height: 100%!important;
+}
+
+
+.member-info {
+  right: -45px;
+  bottom: -50px;
+  z-index: 10;
+}
+.customer__img {
+  top: 45px;
+  left: 25px;
+}
+.member-info__text {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.customer__img {
+  z-index: 5;
+}
+
+.pagination__item--prev {
+  margin-left: 0;
+}
+
+.pagination__item--next{
+  margin-left: 30px;
+}
+
+
+@media screen and (max-width: 1000px){
+  .member .member-info {
+    bottom: -75px;
+  }
+  .member-item--popup {
+    margin: 0 auto 80px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .member-item--popup {
+    margin-bottom: 90px;
+  }
+}
