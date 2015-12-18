@@ -2962,11 +2962,12 @@ span.pagination__item--next {
   }
 }
 
-#click4g {
+#click4g, #clickFriday {
   color: #ed1c24;
 text-decoration: underline;
 }
-#click4g:hover {
+
+#click4g:hover , #clickFriday:hover {
 text-decoration: none;
 }
 

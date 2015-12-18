@@ -35,7 +35,9 @@
                         <?php if (array_key_exists($order['id'],$params['winnersWeek']['winners'])) echo "checked" ?>>
                     <?php } else echo "Неделя победителей не создана"; ?>
                 </td>
-                <td><a class="glyphicon glyphicon-remove" href="/admin/removeorder?id=<?= $order['id'] ?>"></a></td>
+                <td>
+                    <span class="glyphicon glyphicon-remove" onclick="removeOrder('<?= $order['id'] ?>');"></span>
+                </td>
             </tr>
         <?php endforeach; ?>
     </table>

@@ -17,6 +17,23 @@ $(document).ready(function () {
     }
     ;
 
+
+
+    $('#click4g').click(function(event){
+        window.open(
+            'http://www.mts.by/help/network/4g/',
+            '_blank' // <- This is what makes it open in a new window.
+        );
+        event.stopPropagation();
+    });
+    $('#clickFriday').click(function(event){
+        window.open(
+            'http://taxi5.by/',
+            '_blank' // <- This is what makes it open in a new window.
+        );
+        event.stopPropagation();
+    })
+
     //VK.init(function () {
     // API initialization succeeded
     // Your code here
@@ -426,8 +443,3 @@ function sendPhone() {
     });
 }
 
-
-$('#click4g').click(function(event){
-    location.href = 'http://www.mts.by/help/network/4g/';
-    event.stopPropagation();
-})

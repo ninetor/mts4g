@@ -20,6 +20,8 @@ class PhoneModel extends Model
             $idSmart = $param['IdSmartphone'];
             if (array_key_exists($idSmart,$phones))
             {
+                if (array_key_exists('params',$phones[$idSmart]) && !in_array($param,$phones[$idSmart]['params']) ||
+                !array_key_exists('params',$phones[$idSmart]))
                 $phones[$idSmart]['params'][] = $param;
             }
         }

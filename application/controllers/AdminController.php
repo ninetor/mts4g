@@ -107,17 +107,14 @@ class AdminController extends Controller
     public function removeorderAction()
     {
         if ($this->checkLogin()) {
-
-            $id = $_GET['id'];
+            $id = $_POST['id'];
             if ($id)
             {
                 $model = new OrderModel();
                 $orderemove = $model->removeOrder($id);
+                echo json_encode($orderemove);
             }
-            header("Location: /admin/orders");
-            die;
         } else {
-            header('Location: /admin/login');
             die;
         }
     }
@@ -181,12 +178,23 @@ class AdminController extends Controller
     {
         if ($this->checkLogin()) {
             $model = new OrderModel();
-            var_dump(isset($_POST['id']) && ($id = $_POST['id']) && isset($_POST['enable']));
             if (isset($_POST['id']) && ($id = $_POST['id']) && isset($_POST['enable'])){
 
                 $week = $model->setWinner($id,$_POST['enable']);
                 echo json_encode($week);
             }
+        } else {
+            die;
+        }
+    }
+
+
+    public function setutfbaseAction()
+    {
+        if ($this->checkLogin()) {
+            $model = new OrderModel();
+            $model->setUTF();
+            die;
         } else {
             die;
         }

@@ -41,6 +41,7 @@ class Model{
 //		$host = "10.128.193.40";
 
 		$this->_pdo = new PDO("mysql:host=$host;dbname={$this->db}", $this->login, $this->pass,array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+
 	}
 	public function __construct()
 	{

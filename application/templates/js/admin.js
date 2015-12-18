@@ -26,3 +26,16 @@ function checkWinner(element,id) {
     });
 
 }
+
+function removeOrder(id)
+{
+    $.ajax({
+        url: "/admin/removeorder",
+        type: "POST",
+        data: {id:id},
+        dataType: 'json',
+        success: function (data) {
+            location.reload();
+        }
+    });
+}
